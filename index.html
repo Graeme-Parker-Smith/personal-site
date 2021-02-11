@@ -2,7 +2,10 @@
 <html class="no-js" lang="en">
 	<head>
 		<title>Graeme Parker Smith -- Web Developer</title>
-		<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+		<link rel="icon" type="image/png" sizes="32x32" href="pwa/favicon.ico" />
+		<link rel="apple-touch-icon" href="pwa/apple-touch-icon.png" />
+		<link rel="manifest" href="pwa/manifest.json" />
+
 		<link rel="stylesheet" href="./app/scss/style.css" />
 
 		<meta charset="UTF-8" />
@@ -18,23 +21,34 @@
 			name="keywords"
 			keywords="full stack, web, web developer, developer, programmer, website, app, react, aws, html, css, javascript"
 		/>
-        <meta name="robots" content="index,follow" />
+		<meta name="robots" content="index,follow" />
 		<meta name="referrer" content="no-referrer-when-downgrade" />
-        <meta name="format-detection" content="telephone=no" />
+		<meta name="format-detection" content="telephone=no" />
 
-        <script>
+		<script>
 			document.documentElement.classList.remove('no-js');
 		</script>
 		<script src="./app/js/modernizr.js"></script>
+		<!-- <script type="module">
+			import { Workbox } from 'https://storage.googleapis.com/workbox-cdn/releases/6.0.2/workbox-window.prod.mjs';
+
+			if ('serviceWorker' in navigator) {
+				const wb = new Workbox('/sw.js');
+
+				wb.register();
+			}
+		</script> -->
 	</head>
 	<body>
-        HELLO WORLD!!!
+		<noscript>You need to enable JavaScript to run this app.</noscript>
+
+		HELLO WORLD!!!
 		<header class="header"></header>
 		<section class="hero"></section>
 		<section class="about"></section>
 		<section class="tools"></section>
 		<section class="projects"></section>
-        <section class="contact"></section>
+		<section class="contact"></section>
 		<footer class="footer"></footer>
 
 		<script src="./app/js/script.js"></script>
