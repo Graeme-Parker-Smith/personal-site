@@ -1,1 +1,1 @@
-serviceWorker.register();
+
