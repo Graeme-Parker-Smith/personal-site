@@ -52,12 +52,26 @@
 			</nav>
 		</header>
 
-		<section class="hero"></section>
+		<section class="hero">
+			<h1 class="hero__names">
+				<div class="hero__names__name">Graeme</div>
+				<div class="hero__names__name">Parker</div>
+				<div class="hero__names__name">Smith</div>
+			</h1>
+			<picture>
+				<source media="(max-width: 800px)" srcset="images/graeme-mobile.webp" type="image/webp" />
+				<source media="(max-width: 800px)" srcset="images/graeme-mobile.jpg" type="image/jpg" />
+				<source srcset="images/graeme.webp" type="image/webp" />
+				<img src="images/graeme.JPG" class="hero__portrait" height="50" width="50" alt="developer portrait" />
+			</picture>
+			<h2 class="hero__title">Web Developer</h2>
+			<div class="hero__cta container--pall">Contact Me</div>
+		</section>
 		<section class="about"></section>
 		<section class="tools"></section>
 		<section class="projects"></section>
 		<section class="contact"></section>
-		
+
 		<footer class="footer"></footer>
 
 		<script type="text/javascript" src="./app/js/script.js"></script>
