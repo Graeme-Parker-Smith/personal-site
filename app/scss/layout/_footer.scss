@@ -1,0 +1,31 @@
+.footer {
+    background-color: black;
+    color: $white;
+    &__content {
+        margin: 0 auto;
+        padding: 1.5rem;
+        text-align: left;
+        display: flex;
+        justify-content: space-around;
+        max-width: 600px;
+    }
+    &__social {
+        a {
+            display: inline;
+            svg {
+                background-color: transparent;
+                border-radius: 8%;
+                path {
+                    fill: white;
+                    transition: fill 150ms ease-in-out;
+                }
+            }
+            &:hover svg path {
+                fill: $limeGreen;
+            }
+        }
+    }
+    &__copyright {
+        font-size: calc(0.5vw + 0.8125rem);
+    }
+}

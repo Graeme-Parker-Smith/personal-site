@@ -1,0 +1,60 @@
+.contact {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0rem 0px 2.5rem 0px;
+    @include breakpoint-up(medium) {
+        padding: 2.5rem 0px 2.5rem 0px;
+    }
+
+    &__form {
+        padding: 10px;
+        width: 450px;
+        max-width: 80vw;
+        #message {
+            margin-top: 20px;
+        }
+        &__input {
+            width: 100%;
+            margin-top: 45px;
+            margin-bottom: 20px;
+
+            background-color: transparent;
+            border: none;
+            border-bottom: 2px solid rgba(255, 255, 255, 0.25);
+            margin-bottom: 10px;
+            font-size: 1.25rem;
+
+            outline: none;
+            color: white;
+
+            word-wrap: break-word;
+            word-break: break-all;
+        }
+
+        &__submit {
+            font-size: $font-lg;
+            display: inline-block;
+            margin: 0 auto;
+            width: 100%;
+            padding: 1rem;
+            border: none;
+            border-radius: 5px;
+            color: white;
+            font-weight: 300;
+            text-transform: uppercase;
+            letter-spacing: 0.1875rem;
+            &:focus {
+                outline: none;
+            }
+            box-shadow: 12px 12px 16px 0 rgba(255, 255, 255, 0.3) inset, -8px -8px 12px 0 rgba(0, 0, 0, 0.25) inset;
+            cursor: pointer;
+            transition: all 1550ms ease-in-out;
+
+            &:hover {
+                background: linear-gradient(-45deg, rgba(0, 0, 0, 0.12), rgba(255, 255, 255, 0.15));
+            }
+        }
+    }
+}
