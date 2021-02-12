@@ -45,8 +45,19 @@
 	</head>
 	<body>
 		<header class="header">
+			<div class="overlay has-fade"></div>
 			<nav class="container container--pall flex flex-jc-sb -flex-ai-c">
-				<div class="header__links">
+				<a href="/" class="header__logo">
+					<img src="pwa/favicon-32x32.png" alt="brand logo" />
+				</a>
+
+				<a id="btnHamburger" href="#" class="header__toggle hide-for-desktop">
+					<span></span>
+					<span></span>
+					<span></span>
+				</a>
+
+				<div class="header__links hide-for-mobile">
 					<a href="#about">About</a>
 					<a href="#freelance">Freelance</a>
 					<a href="#projects">Projects</a>
@@ -54,6 +65,13 @@
 					<a href="#contact">Contact</a>
 				</div>
 			</nav>
+			<div class="header__menu has-fade">
+				<a href="#">Home</a>
+				<a href="#">About</a>
+				<a href="#">Contact</a>
+				<a href="#">Blog</a>
+				<a href="#">Careers</a>
+			</div>
 		</header>
 
 		<section class="hero">
@@ -101,7 +119,7 @@
 			<p>I've selected a few of my side projects below.</p>
 			<div class="projects__main"></div>
 		</section>
-		
+
 		<section class="skills">
 			<h2 class="skills__header">Technical Skills</h2>
 			<p>

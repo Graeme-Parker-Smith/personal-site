@@ -24,6 +24,9 @@ body {
 	@include breakpoint-up(large) {
 		font-size: $font-lg;
 	}
+	&.noscroll {
+		overflow: hidden;
+	}
 }
 h1,
 h2,
@@ -47,10 +50,10 @@ h3 {
 // 	text-decoration: underline;
 // 	letter-spacing: 5px;
 // 	@include breakpoint-up(large) {
-	// 		font-size: 2.25rem;
-	// 	}
-	// }
-	// 	padding-top: 2.25rem;
+// 		font-size: 2.25rem;
+// 	}
+// }
+// 	padding-top: 2.25rem;
 
 p {
 	line-height: 1.5;
