@@ -1,0 +1,60 @@
+.header {
+    nav {
+        position: relative;
+        background-color: transparent;
+
+        padding-top: 1.0625rem;
+        padding-bottom: 1.0625rem;
+
+        
+    }
+
+    // &__logo {
+    //     img {
+    //         width: 8.8125rem;
+    //         height: 1.1375rem;
+    //     }
+    // }
+
+    &__links {
+        a {
+            position: relative;
+
+            font-size: $font-sm;
+            @include breakpoint-up(medium) {
+                font-size: $font-med;
+            }
+            @include breakpoint-up(large) {
+                font-size: calc(1vw + 16px);
+            }
+            color: white;
+            opacity: 0.75;
+            transition: all 300ms ease-in-out;
+
+            &:not(:last-child) {
+                margin-right: 32px;
+            }
+
+            &::before {
+                content: "";
+                display: block;
+                position: absolute;
+                height: 5px;
+                left: 0;
+                right: 0;
+                bottom: -10px;
+                background: linear-gradient(to right, black, white);
+                opacity: 0;
+                transition: opacity 300ms ease-in-out;
+            }
+
+            &:hover {
+                opacity: 1;
+
+                &::before {
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}
