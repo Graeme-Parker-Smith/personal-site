@@ -225,7 +225,6 @@ button,
   padding: 0.875rem 2.1875rem;
   border: 1px solid white;
   cursor: pointer;
-  color: white;
   font-weight: 400;
   font-size: 1.125rem;
   transition: opacity 300ms ease-in-out;
@@ -239,7 +238,7 @@ button::before,
   right: 0;
   bottom: 0;
   left: 0;
-  background-color: rgba(255, 255, 255, 0.25);
+  background-color: rgba(255, 255, 255, 0.1);
   opacity: 0;
   transition: opacity 150ms ease-in-out;
 }
@@ -288,6 +287,12 @@ button:hover::before,
 }
 .hero__cta {
   color: white;
+  border: 1px solid white;
+  transition: all 250ms ease-in-out;
+}
+.hero__cta:hover {
+  color: yellow;
+  border: 1px solid yellow;
 }
 .webp .hero::before {
   background: url("../../images/server-code-wide-2-mobile.webp") no-repeat 50% 50%;
