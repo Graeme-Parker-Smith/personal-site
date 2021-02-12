@@ -33,32 +33,9 @@ h1,
 h2,
 h3 {
   margin-top: 0;
-  font-weight: 300;
+  font-weight: 800;
   line-height: 1.15;
   color: white;
-}
-
-h1 {
-  font-size: 2.31rem;
-  margin-bottom: 1.5rem;
-}
-@media (min-width: 64em) {
-  h1 {
-    font-size: 3.25rem;
-  }
-}
-
-h2 {
-  font-size: 1.875rem;
-  padding-top: 2.25rem;
-  margin-bottom: 1.5625rem;
-  text-decoration: underline;
-  letter-spacing: 5px;
-}
-@media (min-width: 64em) {
-  h2 {
-    font-size: 2.25rem;
-  }
 }
 
 p {
@@ -275,16 +252,17 @@ button:hover::before,
 
 .hero {
   height: 100%;
+  padding-top: 0.625rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
 }
 .hero__names {
   font-size: calc(min(10vw + 10px, 120px));
   letter-spacing: 0.4rem;
   font-weight: 800;
-  margin-bottom: 10vh;
+  margin-bottom: 5vh;
 }
 .hero__names__name {
   margin-top: 1rem;
@@ -303,8 +281,9 @@ button:hover::before,
   animation: fadeInRight 0.2s ease-out 0.4s 1 forwards;
 }
 .hero__portrait {
-  height: 100px;
-  width: 80px;
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
 }
 .hero__cta {
   color: white;

@@ -29,28 +29,28 @@ h1,
 h2,
 h3 {
 	margin-top: 0;
-	font-weight: 300;
+	font-weight: 800;
 	line-height: 1.15;
 	color: white;
 }
-h1 {
-	font-size: 2.31rem;
-	margin-bottom: 1.5rem;
-	@include breakpoint-up(large) {
-		font-size: $font-xlg;
-	}
-}
-// "locations" and "contact us"
-h2 {
-	font-size: 1.875rem;
-	padding-top: 2.25rem;
-	margin-bottom: 1.5625rem;
-	text-decoration: underline;
-	letter-spacing: 5px;
-	@include breakpoint-up(large) {
-		font-size: 2.25rem;
-	}
-}
+// h1 {
+// 	font-size: 2.31rem;
+// 	margin-bottom: 1.5rem;
+// 	@include breakpoint-up(large) {
+// 		font-size: $font-xlg;
+// 	}
+// }
+// // "locations" and "contact us"
+// h2 {
+// 	font-size: 1.875rem;
+// 	margin-bottom: 1.5625rem;
+// 	text-decoration: underline;
+// 	letter-spacing: 5px;
+// 	@include breakpoint-up(large) {
+	// 		font-size: 2.25rem;
+	// 	}
+	// }
+	// 	padding-top: 2.25rem;
 
 p {
 	line-height: 1.5;

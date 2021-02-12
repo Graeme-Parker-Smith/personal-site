@@ -5,11 +5,12 @@
 
     // makes hero element one full screen size
     height: 100%;
+    padding-top: 0.625rem;
     // centers hero content in vertical line down center of hero
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
 
     // ===============================================================================
     // ======================== First, Middle, and Last name Jumbotron ================================
@@ -19,7 +20,7 @@
         font-size: calc(min(10vw + 10px, 120px));
         letter-spacing: 0.4rem;
         font-weight: 800;
-        margin-bottom: 10vh;
+        margin-bottom: 5vh;
         &__name {
             margin-top: 1rem;
             display: block;
@@ -43,8 +44,9 @@
     // ===============================================================================
 
     &__portrait {
-        height: 100px;
-        width: 80px;
+        width: 170px;
+        height: 170px;
+        border-radius: 50%;
     }
 
     // ===============================================================================
