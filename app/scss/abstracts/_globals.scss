@@ -18,7 +18,7 @@ body {
 	font-size: $font-med;
 	font-weight: 400;
 	color: white;
-	color: $grayishBlue;
+	color: white;
 	line-height: 1.3;
 	overflow-x: hidden;
 	@include breakpoint-up(large) {
@@ -142,7 +142,7 @@ a:hover {
 }
 
 .pad-20 {
-	margin: 20px;
+	padding: 20px;
 }
 
 // Visibility
