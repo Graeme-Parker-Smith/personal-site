@@ -1,6 +1,7 @@
 @import "abstracts/variables";
 @import "abstracts/mixins";
 @import "abstracts/globals";
+@import "abstracts/animations";
 
 @import "layout/grid";
 @import "layout/navigation";
@@ -8,7 +9,6 @@
 @import "layout/footer";
 @import "layout/sidebar";
 @import "layout/forms";
-
 
 @import 'components/buttons';
 

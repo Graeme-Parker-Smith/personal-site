@@ -198,6 +198,36 @@ button:hover::before,
   background: linear-gradient(to bottom, #0A272B, #0A6062);
 }
 
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(200px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(200px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 .header nav {
   position: relative;
   background-color: transparent;
@@ -249,6 +279,28 @@ button:hover::before,
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+.hero__names {
+  font-size: calc(min(10vw + 10px, 120px));
+  letter-spacing: 0.4rem;
+  font-weight: 800;
+  margin-bottom: 10vh;
+}
+.hero__names__name {
+  margin-top: 1rem;
+  display: block;
+  text-align: left;
+  opacity: 0;
+  transform: translateX(-100px);
+}
+.hero__names__name:nth-child(1) {
+  animation: fadeInRight 0.2s ease-out 0s 1 forwards;
+}
+.hero__names__name:nth-child(2) {
+  animation: fadeInRight 0.2s ease-out 0.2s 1 forwards;
+}
+.hero__names__name:nth-child(3) {
+  animation: fadeInRight 0.2s ease-out 0.4s 1 forwards;
 }
 .hero__portrait {
   height: 100px;
