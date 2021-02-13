@@ -219,6 +219,14 @@ a:hover {
   position: relative;
   z-index: 1;
 }
+.header.open .header__links {
+  position: relative;
+  z-index: 4;
+}
+.header.open .header__toggle > span {
+  position: relative;
+  z-index: 4;
+}
 .header.open .header__toggle > span:first-child {
   transform: rotate(45deg);
 }
@@ -247,11 +255,15 @@ a:hover {
   padding-top: 1.0625rem;
   padding-bottom: 1.0625rem;
 }
+.header__logo {
+  position: relative;
+  z-index: 4;
+}
 .header__toggle > span {
   display: block;
   width: 26px;
-  height: 2px;
-  background-color: #2d314d;
+  height: 3px;
+  background-color: white;
   transition: all 300ms ease-in-out;
   transform-origin: 3px 1px;
 }
