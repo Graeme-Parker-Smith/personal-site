@@ -1,6 +1,8 @@
 .header {
     // Hamburger Open Styles
     &.open {
+        position: relative;
+        z-index: 1;
         .header__toggle {
             > span:first-child {
                 transform: rotate(45deg);
@@ -25,7 +27,7 @@
 
         &.fade-in {
             display: block;
-            z-index: 10;
+            z-index: 2;
         }
     }
 
@@ -71,6 +73,10 @@
             padding: 0.625rem;
             color: $darkBlue;
             text-align: center;
+        }
+        &.fade-in {
+            display: block;
+            z-index: 3;
         }
     }
 

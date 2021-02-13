@@ -215,6 +215,10 @@ a:hover {
   animation: fade-out 200ms ease-in-out forwards;
 }
 
+.header.open {
+  position: relative;
+  z-index: 1;
+}
 .header.open .header__toggle > span:first-child {
   transform: rotate(45deg);
 }
@@ -235,7 +239,7 @@ a:hover {
 }
 .header .overlay.fade-in {
   display: block;
-  z-index: 10;
+  z-index: 2;
 }
 .header nav {
   position: relative;
@@ -269,6 +273,10 @@ a:hover {
   padding: 0.625rem;
   color: #2d314d;
   text-align: center;
+}
+.header__menu.fade-in {
+  display: block;
+  z-index: 3;
 }
 .header__links a {
   position: relative;
