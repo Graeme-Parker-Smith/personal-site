@@ -409,7 +409,7 @@ button:hover::before,
 }
 
 .hero {
-  height: 100%;
+  padding-bottom: 6rem;
   padding-top: 0.625rem;
   display: flex;
   flex-direction: column;
@@ -511,6 +511,31 @@ button:hover::before,
 }
 .about__summary > h3 {
   font-size: 1.5rem;
+}
+
+.freelance__card-wrapper__item {
+  background-color: #000;
+  background-color: rgba(150, 75, 0, 0.5);
+  border-radius: 5px;
+  padding: 1rem;
+}
+.freelance__card-wrapper__item__image-wrapper img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+.freelance__card-wrapper__item__text-wrapper {
+  text-align: center;
+}
+.freelance__card-wrapper__item__text-wrapper__title {
+  font-size: 1.5rem;
+  border-bottom: 2px solid #31d35c;
+  max-width: 80%;
+  margin: 2rem auto;
+}
+.freelance__card-wrapper__item__text-wrapper__description {
+  font-size: 1.125rem;
+  margin: 1.5rem auto;
 }
 
 .contact {

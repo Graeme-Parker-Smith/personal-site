@@ -1,0 +1,38 @@
+.freelance {
+
+
+    &__card-wrapper {
+
+
+        &__item {
+            background-color: #000;
+            background-color: rgba(150, 75, 0, 0.5);
+            border-radius: 5px;
+            padding: 1rem;
+
+            &__image-wrapper img {
+                width: 100%;
+                height: auto;
+                border-radius: 5px;
+            }
+
+            &__text-wrapper {
+                text-align: center;
+                
+                &__title {
+                    font-size: $font-lg;
+                    border-bottom: 2px solid $limeGreen;
+                    max-width: 80%;
+                    margin: 2rem auto;
+                }
+
+                &__description {
+                    font-size: $font-med;
+                    // max-width: 80%;
+                    margin: 1.5rem auto;
+                }
+            }
+
+        }
+    }
+}
