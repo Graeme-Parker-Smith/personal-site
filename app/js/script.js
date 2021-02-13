@@ -19,6 +19,15 @@ function closeMobileMenu() {
 	overlay.classList.add('fade-out');
 }
 
+// clicking a link will close mobile menu
+document.querySelectorAll('a').forEach((link) =>
+	link.addEventListener('click', function () {
+		if (header.classList.contains('open')) {
+			closeMobileMenu();
+		}
+	})
+);
+
 btnHamburger.addEventListener('click', function () {
 	console.log('hamburger clicked.');
 	if (header.classList.contains('open')) {

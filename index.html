@@ -44,10 +44,10 @@
 		</script> -->
 	</head>
 	<body>
-		<header class="header">
+		<header class="header" id="header">
 			<div class="overlay has-fade"></div>
 			<nav class="container container--pall flex flex-jc-sb -flex-ai-c">
-				<a href="/" class="header__logo">
+				<a href="#header" class="header__logo">
 					<img src="pwa/favicon-32x32.png" alt="brand logo" />
 				</a>
 
@@ -61,16 +61,16 @@
 					<a href="#about">About</a>
 					<a href="#freelance">Freelance</a>
 					<a href="#projects">Projects</a>
-					<a href="$skills">Skills</a>
+					<a href="#skills">Skills</a>
 					<a href="#contact">Contact</a>
 				</div>
 			</nav>
 			<div class="header__menu has-fade">
-				<a href="#">Home</a>
-				<a href="#">About</a>
-				<a href="#">Contact</a>
-				<a href="#">Blog</a>
-				<a href="#">Careers</a>
+				<a href="#about">About</a>
+				<a href="#freelance">Freelance</a>
+				<a href="#projects">Projects</a>
+				<a href="#skills">Skills</a>
+				<a href="#contact">Contact</a>
 			</div>
 		</header>
 
@@ -90,7 +90,7 @@
 			<div class="hero__cta button container--pall">Contact Me</div>
 		</section>
 
-		<section class="about">
+		<section class="about" id="about">
 			<h2 class="about__header">About Me</h2>
 			<div class="about__description">
 				<h3 class="about__description__preface">Hi, I'm Graeme</h3>
@@ -108,19 +108,19 @@
 			</div>
 		</section>
 
-		<section class="freelance">
+		<section class="freelance" id="freelance">
 			<h2 class="freelance__header">Freelance Projects</h2>
 			<p>A sample of some of my freelance projects below.</p>
 			<div class="freelance__main"></div>
 		</section>
 
-		<section class="projects">
+		<section class="projects" id="projects">
 			<h2 class="projects__header">Fun Projects</h2>
 			<p>I've selected a few of my side projects below.</p>
 			<div class="projects__main"></div>
 		</section>
 
-		<section class="skills">
+		<section class="skills" id="skills">
 			<h2 class="skills__header">Technical Skills</h2>
 			<p>
 				Here are a few technologies I have worked with recently. Please checkout my LinkedIn profile for more
