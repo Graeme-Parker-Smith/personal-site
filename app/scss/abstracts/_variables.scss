@@ -7,12 +7,13 @@ $lightGrayishBlue: hsl(220, 16%, 96%);
 $veryLightGray: hsl(0, 0%, 98%);
 $white: hsl(0, 0%, 100%);
 
-
-$turquoise: #0A6062;
-$darkGreen: #0A272B;
+$turquoise: #0a6062;
+$darkGreen: #0a272b;
 
 // Font Sizes
 $font-sm: 0.875rem; // 14px
 $font-med: 1.125rem; // 18px
-$font-lg: 1.5rem; // 20px
-$font-xlg: 3.25rem; // 52px
+$font-lg: 1.5rem; // 24px
+$font-xlg: 2.5rem; // 40px
+$font-xxlg: 3.25rem; // 52px
+$font-jumbo: calc(min(10vw + 0.625rem, 7.5rem));

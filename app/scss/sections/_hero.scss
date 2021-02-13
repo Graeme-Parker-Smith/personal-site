@@ -17,7 +17,7 @@
     // ===============================================================================
 
     &__names {
-        font-size: calc(min(10vw + 10px, 120px));
+        font-size: $font-jumbo;
         letter-spacing: 0.4rem;
         font-weight: 800;
         margin-bottom: 5vh;

@@ -41,6 +41,18 @@ h3 {
   color: white;
 }
 
+h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1.125rem;
+  text-align: center;
+  color: #31d35c;
+}
+@media (min-width: 64em) {
+  h2 {
+    font-size: 2.25rem;
+  }
+}
+
 p {
   line-height: 1.5;
   margin-bottom: 2.25rem;
@@ -52,6 +64,12 @@ a:hover {
   text-decoration: none;
   color: yellow;
   transition: color 250ms ease-in-out;
+}
+
+.main-content-module {
+  max-width: 69.375rem;
+  margin: 0 auto;
+  padding: 0rem 2rem 2rem 2rem;
 }
 
 .container {
@@ -143,7 +161,7 @@ a:hover {
 }
 
 .page-gradient {
-  background: linear-gradient(to bottom, #0A272B, #0A6062);
+  background: linear-gradient(to bottom, #0a272b, #0a6062);
 }
 
 @keyframes fadeInRight {
@@ -364,7 +382,9 @@ button,
   position: relative;
   display: inline-block;
   padding: 0.875rem 2.1875rem;
+  background-color: transparent;
   border: 1px solid white;
+  color: white;
   cursor: pointer;
   font-weight: 400;
   font-size: 1.125rem;
@@ -397,7 +417,7 @@ button:hover::before,
   justify-content: flex-start;
 }
 .hero__names {
-  font-size: calc(min(10vw + 10px, 120px));
+  font-size: calc(min(10vw + 0.625rem, 7.5rem));
   letter-spacing: 0.4rem;
   font-weight: 800;
   margin-bottom: 5vh;
@@ -479,6 +499,17 @@ button:hover::before,
   max-width: 100vw;
   z-index: -10;
   background: rgba(0, 0, 0, 0.5);
+}
+
+.about__description__preface {
+  text-align: left;
+  margin-left: -1rem;
+}
+.about__summary {
+  text-align: center;
+}
+.about__summary > h3 {
+  font-size: 1.5rem;
 }
 
 .contact {

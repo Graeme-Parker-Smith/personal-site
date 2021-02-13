@@ -90,7 +90,7 @@
 			<div class="hero__cta button container--pall">Contact Me</div>
 		</section>
 
-		<section class="about" id="about">
+		<section class="about main-content-module" id="about">
 			<h2 class="about__header">About Me</h2>
 			<div class="about__description">
 				<h3 class="about__description__preface">Hi, I'm Graeme</h3>
@@ -108,19 +108,45 @@
 			</div>
 		</section>
 
-		<section class="freelance" id="freelance">
+		<section class="freelance main-content-module" id="freelance">
 			<h2 class="freelance__header">Freelance Projects</h2>
 			<p>A sample of some of my freelance projects below.</p>
-			<div class="freelance__main"></div>
+			<div class="freelance__card-wrapper">
+				<div class="freelance__card-wrapper__item">
+					<div class="freelance__card-wrapper__item__image-wrapper">
+						<picture>
+							<source srcset="images/hair-landing.PNG" />
+							<img
+								src="images/hair-landing.PNG"
+								width="200"
+								height="300"
+								alt="freelance project thumbnail"
+							/>
+						</picture>
+					</div>
+					<div class="freelance__card-wrapper__item__text-wrapper">
+						<div class="freelance__card-wrapper__item__text-wrapper__title">Gordiany's Hair Salon Demo</div>
+						<div class="freelance__card-wrapper__item__text-wrapper__description">
+							A demo site I coded for the owner of a local hair salon which was used as a starting point
+							for redesigning his website.
+						</div>
+						<button class="button freelance__card-wrapper__item__text-wrapper__live-site-link">
+							Live Site
+						</button>
+					</div>
+				</div>
+				<div class="freelance__card-wrapper__item"></div>
+				<div class="freelance__card-wrapper__item"></div>
+			</div>
 		</section>
 
-		<section class="projects" id="projects">
+		<section class="projects main-content-module" id="projects">
 			<h2 class="projects__header">Fun Projects</h2>
 			<p>I've selected a few of my side projects below.</p>
 			<div class="projects__main"></div>
 		</section>
 
-		<section class="skills" id="skills">
+		<section class="skills main-content-module" id="skills">
 			<h2 class="skills__header">Technical Skills</h2>
 			<p>
 				Here are a few technologies I have worked with recently. Please checkout my LinkedIn profile for more
@@ -129,7 +155,7 @@
 			<div class="skills__main"></div>
 		</section>
 
-		<section class="contact" id="contact">
+		<section class="contact main-content-module" id="contact">
 			<h2>Contact Me</h2>
 			<form id="contact__form" class="contact__form" action="http://localhost:3000/api/sendemail" method="post">
 				<label for="name">Your Name*</label><br />

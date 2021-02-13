@@ -1,0 +1,18 @@
+.about {
+    // padding-top: 4.375rem;
+    // padding-bottom: 4.375rem;
+    // padding-right: 1.5rem;
+    // padding-left: 1.5rem;
+
+    &__description__preface {
+        text-align: left;
+        margin-left: -1rem;
+    }
+
+    &__summary {
+        text-align: center;
+        > h3 {
+            font-size: $font-lg;
+        }
+    }
+}
