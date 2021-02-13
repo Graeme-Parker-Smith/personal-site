@@ -421,6 +421,7 @@ button:hover::before,
   letter-spacing: 0.4rem;
   font-weight: 800;
   margin-bottom: 5vh;
+  font-family: "bauhaus_93regular";
 }
 .hero__names__name {
   margin-top: 1rem;

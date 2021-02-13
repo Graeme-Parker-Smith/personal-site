@@ -21,6 +21,7 @@
         letter-spacing: 0.4rem;
         font-weight: 800;
         margin-bottom: 5vh;
+        font-family: "bauhaus_93regular";
         &__name {
             margin-top: 1rem;
             display: block;
@@ -68,7 +69,6 @@
         &:hover {
             color: yellow;
             border: 1px solid yellow;
-            
         }
     }
 
