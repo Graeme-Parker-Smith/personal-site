@@ -7,7 +7,7 @@
 		<!-- <link rel="manifest" href="pwa/manifest.json" /> -->
 
 		<link rel="stylesheet" href="./app/scss/style.css" />
-		<link rel="stylesheet" href="./fonts/bauhaus93/stylesheet.css" />
+		<link rel="preload" href="./fonts/bauhaus93/stylesheet.css" as="style" />
 
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -84,8 +84,8 @@
 			<picture>
 				<source media="(max-width: 800px)" srcset="images/graeme-mobile.webp" type="image/webp" />
 				<source media="(max-width: 800px)" srcset="images/graeme-mobile.jpg" type="image/jpg" />
-				<source srcset="images/graeme.webp" type="image/webp" />
-				<img src="images/graeme.JPG" class="hero__portrait" height="50" width="50" alt="developer portrait" />
+				<source loading="lazy" srcset="images/graeme.webp" type="image/webp" />
+				<img loading="lazy" src="images/graeme.JPG" class="hero__portrait" height="50" width="50" alt="developer portrait" />
 			</picture>
 			<h1 class="hero__title">Web Developer</h1>
 			<div class="hero__cta button container--pall">Contact Me</div>
@@ -116,9 +116,9 @@
 				<div id="jaded-client" class="projects__card-wrapper__item">
 					<div class="projects__card-wrapper__item__image-wrapper">
 						<picture>
-							<source srcset="images/jaded-iPhone.PNG" />
+							<source srcset="images/jaded-iPhone--lossy.webp" type="image/webp" />
 							<img
-								src="images/jaded-iPhone.PNG"
+								src="images/jaded-iPhone--lossy.jpg"
 								width="200"
 								height="300"
 								alt="freelance project thumbnail"
@@ -180,7 +180,7 @@
 				<div id="jaded-server" class="projects__card-wrapper__item">
 					<div class="projects__card-wrapper__item__image-wrapper">
 						<picture>
-							<source srcset="images/jaded-server-code-cropped.webp" type="img/webp" />
+							<source srcset="images/jaded-server-code-cropped.webp" type="image/webp" />
 							<img
 								src="images/jaded-server-code-cropped.jpg"
 								width="200"
@@ -208,7 +208,7 @@
 				<div id="blackjack" class="projects__card-wrapper__item">
 					<div class="projects__card-wrapper__item__image-wrapper">
 						<picture>
-							<source srcset="images/blackjack-cropped.webp" type="img/webp" />
+							<source srcset="images/blackjack-cropped.webp" type="image/webp" />
 							<img
 								src="images/blackjack-cropped.png"
 								width="200"
@@ -244,7 +244,7 @@
 					<h3 class="freelance__card-wrapper__item__title">Specialized Fitness</h3>
 					<div class="freelance__card-wrapper__item__image-wrapper">
 						<picture>
-							<source srcset="images/specfit-thumbnail.jpg" />
+							<source srcset="images/specfit-thumbnail.jpg" type="image/webp" />
 							<img
 								src="images/specfit-thumbnail.jpg"
 								width="200"
@@ -270,7 +270,7 @@
 				<div id="hair-salon-main" class="freelance__card-wrapper__item">
 					<div class="freelance__card-wrapper__item__image-wrapper">
 						<picture>
-							<source srcset="images/hair-landing.PNG" />
+							<source srcset="images/hair-landing--lossy.webp" type="image/webp" />
 							<img
 								src="images/hair-landing.PNG"
 								width="200"
@@ -298,9 +298,9 @@
 				<div id="hair-salon-sample" class="freelance__card-wrapper__item">
 					<div class="freelance__card-wrapper__item__image-wrapper">
 						<picture>
-							<source srcset="images/hair-sample.PNG" />
+							<source srcset="images/hair-sample--lossy.webp" type="image/webp" />
 							<img
-								src="images/hair-sample.PNG"
+								src="images/hair-sample--lossy.PNG"
 								width="200"
 								height="300"
 								alt="freelance project thumbnail"
@@ -623,6 +623,9 @@
 			</div>
 		</footer>
 
+		<style>
+			@import 'fonts/bauhaus93/stylesheet.css';
+		</style>
 		<script type="text/javascript" src="./app/js/script.js"></script>
 	</body>
 </html>
