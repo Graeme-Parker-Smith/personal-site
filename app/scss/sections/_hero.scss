@@ -80,7 +80,7 @@
         background: url("../../images/server-code-wide-2-mobile.webp") no-repeat 50% 50%;
         background-size: cover;
         @include breakpoint-up(large) {
-            background: url("../../images/server-code-wide-2.webp") no-repeat 50% 50%;
+            background: url("../../images/server-code-wide-2--1200.webp") no-repeat 50% 50%;
             background-size: cover;
         }
     }
@@ -89,7 +89,7 @@
         background: url("../../images/server-code-wide-2-mobile.jpg") no-repeat 50% 50%;
         background-size: cover;
         @include breakpoint-up(large) {
-            background: url("../../images/server-code-wide-2.jpg") no-repeat 50% 50%;
+            background: url("../../images/server-code-wide-2--1200.jpg") no-repeat 50% 50%;
             background-size: cover;
         }
     }

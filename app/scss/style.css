@@ -474,7 +474,7 @@ button:hover::before,
 }
 @media (min-width: 64em) {
   .webp .hero::before {
-    background: url("../../images/server-code-wide-2.webp") no-repeat 50% 50%;
+    background: url("../../images/server-code-wide-2--1200.webp") no-repeat 50% 50%;
     background-size: cover;
   }
 }
@@ -484,7 +484,7 @@ button:hover::before,
 }
 @media (min-width: 64em) {
   .no-webp .hero::before {
-    background: url("../../images/server-code-wide-2.jpg") no-repeat 50% 50%;
+    background: url("../../images/server-code-wide-2--1200.jpg") no-repeat 50% 50%;
     background-size: cover;
   }
 }
