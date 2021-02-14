@@ -1,16 +1,16 @@
-<h1 align="center">
+<div align="center">
 
-Graeme's Personal Developer Site
+# Graeme's Personal Developer Site
 
-</h1>
-[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
-<p align="center">
+<p>
 
 ![developer page hero snip](./images/personal-site-hero-snip.jpg)
 
 </p>
 
-<h2 align="center"></strong><a href="https://graeme-parker-smith.github.io/personal-site/">Live Demo</a><strong></h2>
+<h2></strong><a href="https://graeme-parker-smith.github.io/personal-site/">Live Demo</a><strong></h2>
+
+</div>
 
 ## Description
 
