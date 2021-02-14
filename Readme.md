@@ -2,7 +2,7 @@
 
 # Graeme's Personal Developer Site #
 
-    ## gman.dev ##
+    <h2><strong>gman.dev</strong></h2>
 
 <p>
 
