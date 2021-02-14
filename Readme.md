@@ -2,12 +2,11 @@
 
 # Graeme's Personal Developer Site
 
-
-## **gman.dev**  ##
+## **gman.dev**
 
 <p>
 
-![developer page hero snip](./images/personal-site-hero-snip.jpg)
+![developer page hero snip](./images/perfect-score.jpg)
 
 </p>
 
