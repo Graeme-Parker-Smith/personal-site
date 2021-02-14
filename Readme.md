@@ -3,7 +3,7 @@
 # Graeme's Personal Developer Site
 
 <p align="center">
-![open source badge](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)
+[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 </p>
 <p>
 
