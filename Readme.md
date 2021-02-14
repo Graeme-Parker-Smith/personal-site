@@ -1,8 +1,10 @@
 <div align="center">
 
 # Graeme's Personal Developer Site
-
+<p align="center">
 ![open source badge](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)
+</p>
+
 ![developer page hero snip](./images/personal-site-hero-snip.jpg)
 
 [Live Demo](https://graeme-parker-smith.github.io/personal-site/)
