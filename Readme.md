@@ -1,8 +1,6 @@
 <div align="center">
 
-# Graeme's Personal Developer Site #
-
-    <h2><strong>gman.dev</strong></h2>
+# Graeme's Personal Developer Site
 
 
 ## **gman.dev**  ##
