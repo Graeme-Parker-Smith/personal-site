@@ -3,15 +3,16 @@
 # Graeme's Personal Developer Site
 
 <p align="center">
-[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
+
 </p>
+[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 <p>
 
 ![developer page hero snip](./images/personal-site-hero-snip.jpg)
 
 </p>
 
-<h2></strong>[Live Demo](https://graeme-parker-smith.github.io/personal-site/)<strong></h2>
+<h2></strong><a href="https://graeme-parker-smith.github.io/personal-site/">Live Demo</a><strong></h2>
 
 </div>
 
