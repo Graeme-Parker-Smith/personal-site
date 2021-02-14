@@ -7,7 +7,8 @@
 		<!-- <link rel="manifest" href="pwa/manifest.json" /> -->
 
 		<link rel="stylesheet" href="./app/scss/style.css" />
-		<link rel="preload" href="./fonts/bauhaus93/stylesheet.css" as="style" />
+		<!-- <link rel="preload" href="./fonts/bauhaus93/stylesheet.css" as="style" /> -->
+		<link rel="preload" href="./fonts/bauhaus93/bauhaus_93-webfont.woff2" as="font" type="font/woff2" crossorigin />
 
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -82,10 +83,9 @@
 				<div class="hero__names__name">Smith</div>
 			</h1>
 			<picture>
-				<source media="(max-width: 800px)" srcset="images/graeme-mobile.webp" type="image/webp" />
-				<source media="(max-width: 800px)" srcset="images/graeme-mobile.jpg" type="image/jpg" />
-				<source loading="lazy" srcset="images/graeme.webp" type="image/webp" />
-				<img loading="lazy" src="images/graeme.JPG" class="hero__portrait" height="50" width="50" alt="developer portrait" />
+			
+				<source loading="lazy" srcset="images/OG-graeme--300.webp" type="image/webp" />
+				<img loading="lazy" src="images/OG-graeme--300.jpg" class="hero__portrait" height="50" width="50" alt="developer portrait" />
 			</picture>
 			<h1 class="hero__title">Web Developer</h1>
 			<div class="hero__cta button container--pall">Contact Me</div>
