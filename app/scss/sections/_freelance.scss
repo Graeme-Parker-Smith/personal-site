@@ -14,7 +14,7 @@
             justify-content: flex-start;
             align-items: center;
             background-color: #000;
-            background: radial-gradient(circle, gray -80%, black);
+            background: radial-gradient(circle, rgb(90,90,90) -80%, black);
             border-radius: 5px;
             padding: 2rem;
             width: 100%;
@@ -22,7 +22,7 @@
             margin: 0 auto;
             margin-bottom: 1rem;
             box-shadow: 0 0rem 0.25rem 0 rgb(0 0 0 / 50%), 0 0rem 0rem #272727 inset,
-                0 0.25rem 0.75rem rgb(110 110 110 / 40%) inset, 0 0.15rem 0.7rem 0 #8e8d8f inset;
+                0 0.25rem 0.75rem rgb(110 210 110 / 40%) inset, 0 0.15rem 0.7rem 0 #8e8d8f inset;
             &__title {
                 text-align: center;
                 font-size: $font-lg;
@@ -49,7 +49,7 @@
                 }
 
                 &__live-site-link {
-                    max-width: 80%;
+                     max-width: 80%;
                     margin: 2rem auto;
                     margin-top: auto;
                     position: relative;
@@ -58,6 +58,8 @@
                     bottom: 0;
                     width: 50%;
                     text-align: center;
+                    // left: -50%;
+                    // transform: translateX(-50%);
                 }
             }
         }
