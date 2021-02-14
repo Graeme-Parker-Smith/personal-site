@@ -1,20 +1,24 @@
 <div align="center">
 
 # Graeme's Personal Developer Site
+
 <p align="center">
 ![open source badge](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)
 </p>
+<p>
 
 ![developer page hero snip](./images/personal-site-hero-snip.jpg)
 
-[Live Demo](https://graeme-parker-smith.github.io/personal-site/)
+</p>
+
+<h2></strong>[Live Demo](https://graeme-parker-smith.github.io/personal-site/)<strong></h2>
 
 </div>
 
 ## Description
 
 <div align="center">
-**This project is in the process of becoming what will hopefully be a pretty slick portfolio site.**
+<strong>This project is in the process of becoming what will hopefully be a pretty slick portfolio site.</strong>
 </div>
 
 <p>
