@@ -10,18 +10,29 @@
         max-width: 600px;
     }
     &__social {
-        a {
-            display: inline;
-            svg {
-                background-color: transparent;
-                border-radius: 8%;
-                path {
-                    fill: white;
-                    transition: fill 150ms ease-in-out;
-                }
+        display: flex;
+        justify-content: center;
+        &__item {
+            &:not(:last-child) {
+                margin-right: 1rem;
             }
-            &:hover svg path {
-                fill: $limeGreen;
+            a {
+                display: inline-block;
+                &:hover {
+                    border: none;
+                }
+                svg {
+                    background-color: transparent;
+                    border-radius: 8%;
+                    path {
+                        fill: white;
+                        transition: fill 150ms ease-in-out;
+                    }
+                }
+                &:hover svg path {
+                    fill: $limeGreen;
+                    border: none;
+                }
             }
         }
     }
