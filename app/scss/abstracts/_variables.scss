@@ -1,6 +1,7 @@
 // Colors
 $darkBlue: hsl(233, 26%, 24%);
-$limeGreen: hsl(136, 65%, 51%);
+// $limeGreen: hsl(136, 65%, 51%);
+$limeGreen: forestGreen;
 $brightCyan: hsl(192, 70%, 51%);
 $grayishBlue: hsl(233, 8%, 62%);
 $lightGrayishBlue: hsl(220, 16%, 96%);
@@ -17,6 +18,5 @@ $font-lg: 1.5rem; // 24px
 $font-xlg: 2.5rem; // 40px
 $font-xxlg: 3.25rem; // 52px
 $font-jumbo: calc(min(10vw + 0.625rem, 7.5rem));
-
 
 // font

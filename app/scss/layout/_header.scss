@@ -50,6 +50,15 @@
     &__logo {
         position: relative;
         z-index: 4;
+        pointer-events: none;
+        &:hover {
+            border: none;
+        }
+        img {
+            height: 2rem;
+            width: 2rem;
+            border-radius: 25%;
+        }
     }
 
     &__toggle {
