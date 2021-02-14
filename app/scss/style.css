@@ -588,9 +588,9 @@ button:hover::before,
 }
 .projects__card-wrapper {
   display: grid;
-  grid-template-columns: repeat(auto-fill, max(32%, min(21.75rem, 100vw)));
+  grid-template-columns: repeat(auto-fill, max(25%, min(21.75rem, 100vw)));
   justify-content: center;
-  grid-gap: 1rem;
+  grid-gap: 2rem;
 }
 .projects__card-wrapper__item {
   position: relative;
