@@ -120,6 +120,9 @@
 			<p>I've selected a few of my personal projects below.</p>
 			<div class="projects__card-wrapper">
 				<div id="jaded-client" class="projects__card-wrapper__item">
+					<h3 class="projects__card-wrapper__item__text-wrapper__title">
+						Jaded Chat App 
+					</h3>
 					<div class="projects__card-wrapper__item__image-wrapper">
 						<picture>
 							<source srcset="images/jaded-iPhone--lossy.webp" type="image/webp" />
@@ -132,58 +135,29 @@
 						</picture>
 					</div>
 					<div class="projects__card-wrapper__item__text-wrapper">
-						<h3 class="projects__card-wrapper__item__text-wrapper__title">
-							Jaded Chat App (available on ios app and google play stores)
-						</h3>
-						<div class="projects__card-wrapper__item__text-wrapper__description">
-							A full-stack social media app with a variety of features: Full CRUD functionality (you can
-							create, search, filter, edit, and delete user accounts, messages, public chatrooms, private
-							chatrooms, and DMs). The app is composed of 5 main screens: Sign-up, Sign-in, Users,
-							Channels, and the Room screen (where text and images can be sent over a low-latency
-							websocket connection). Users can upload an image to use as a custom avatar for their user
-							account or any channel they create, as well as send/receive friend requests, receive
-							push-notifications, mark specific channels as "mature", and set an expiration on messages
-							and/or channels so that they will delete themselves after a chosen amount of time!
+						<div class="freelance__card-wrapper__item__text-wrapper__description">
+							<p>
+								Created using a combination of React-Native, Expo, socket.io, node.js, Express,
+								Nodemailer, and MongoDB.
+							</p>
+							<p>
+								I eventually used Expo to create the ios and android builds which I then submitted to
+								the app stores, where I get occasional downloads and messages from random folks every
+								now and then
+							</p>
+							<p>(available on ios app and google play stores)</p>
 						</div>
-						<p>
-							Additionally, while the user is on the "Channels" screen, they can filter channels by
-							old/new, or the number of messages currently contained
-						</p>
-						<p>
-							Each channel also shows a badge indicating how many users are actively inside that room at
-							any given time
-						</p>
-						<p>
-							When the user is on the "Room" screen, they can see who is also active in that room, view
-							user profiles, upload image and text messages, invite/kick members (if room is private), and
-							block or report inappropriate content.
-						</p>
-						<hr />
-						<p>
-							I originally started making this app as a learning experiment, because I had just started
-							learning React-Native, and wanted to try making my own full-stack, publicly-available app.
-							It eventually grew and expanded much further than I originally anticipated, so I had to
-							spend a lot of time researching and organizing everything.
-						</p>
-						<p>
-							I created this app using a combination of React-Native, Expo, socket.io, node.js, Express,
-							and MongoDB.
-						</p>
-						<p>
-							I eventually used Expo to create the ios and android builds which I then submitted to the
-							app stores, where I get occasional downloads and messages from random folks every now and
-							then
-						</p>
-						<a
-							href="https://play.google.com/store/apps/details?id=com.graeme.jaded"
-							class="button freelance__card-wrapper__item__text-wrapper__live-site-link"
-						>
-							Live Site
-						</a>
 					</div>
+					<a
+						href="https://play.google.com/store/apps/details?id=com.graeme.jaded"
+						class="button freelance__card-wrapper__item__text-wrapper__live-site-link"
+					>
+						Live Site
+					</a>
 				</div>
 
 				<div id="jaded-server" class="projects__card-wrapper__item">
+					<h3 class="projects__card-wrapper__item__text-wrapper__title">Jaded Chat App Server</h3>
 					<div class="projects__card-wrapper__item__image-wrapper">
 						<picture>
 							<source srcset="images/jaded-server-code-cropped.webp" type="image/webp" />
@@ -196,22 +170,22 @@
 						</picture>
 					</div>
 					<div class="projects__card-wrapper__item__text-wrapper">
-						<div class="projects__card-wrapper__item__text-wrapper__title">Jaded Chat App Server</div>
-						<div class="projects__card-wrapper__item__text-wrapper__description">
+						<p class="projects__card-wrapper__item__text-wrapper__description">
 							The server for my chat app, which I decided to build in a separate repository for easier
 							organization. I built it using Node.js, Express, socket.io, bcrypt, jsonwebtoken,
 							Nodemailer, and MongoDB, and currently have it hosted on Heroku Cloud Services.
-						</div>
-						<a
-							href="https://github.com/Graeme-Parker-Smith/Chat-App-Server"
-							class="button projects__card-wrapper__item__text-wrapper__live-site-link"
-						>
-							Live Site
-						</a>
+						</p>
 					</div>
+					<a
+						href="https://github.com/Graeme-Parker-Smith/Chat-App-Server"
+						class="button projects__card-wrapper__item__text-wrapper__live-site-link"
+					>
+						Live Site
+					</a>
 				</div>
 
 				<div id="blackjack" class="projects__card-wrapper__item">
+					<h3 class="projects__card-wrapper__item__text-wrapper__title">Blackjack</h3>
 					<div class="projects__card-wrapper__item__image-wrapper">
 						<picture>
 							<source srcset="images/blackjack-cropped.webp" type="image/webp" />
@@ -224,20 +198,19 @@
 						</picture>
 					</div>
 					<div class="projects__card-wrapper__item__text-wrapper">
-						<div class="projects__card-wrapper__item__text-wrapper__title">Blackjack</div>
-						<div class="projects__card-wrapper__item__text-wrapper__description">
+						<p class="projects__card-wrapper__item__text-wrapper__description">
 							A static site where you can bet chips and play blackjack with all the same rules and logic
 							that you would find in the game at a traditional American casino. Created using HTML5, CSS3,
 							and Javascript, almost all the elements, game logic/mechanics, and animations, are handled
 							using plain ole' vanilla js (with a little css too of course).
-						</div>
-						<a
-							href="https://gamesbyg.com"
-							class="button projects__card-wrapper__item__text-wrapper__live-site-link"
-						>
-							Live Site
-						</a>
+						</p>
 					</div>
+					<a
+						href="https://gamesbyg.com"
+						class="button projects__card-wrapper__item__text-wrapper__live-site-link"
+					>
+						Live Site
+					</a>
 				</div>
 			</div>
 		</section>
@@ -275,6 +248,7 @@
 
 				<div id="hair-salon-main" class="freelance__card-wrapper__item">
 					<div class="freelance__card-wrapper__item__image-wrapper">
+						<h3 class="freelance__card-wrapper__item__title">Gordiany's Hair Salon</h3>
 						<picture>
 							<source srcset="images/hair-landing--lossy.webp" type="image/webp" />
 							<img
@@ -286,7 +260,6 @@
 						</picture>
 					</div>
 					<div class="freelance__card-wrapper__item__text-wrapper">
-						<div class="freelance__card-wrapper__item__text-wrapper__title">Gordiany's Hair Salon</div>
 						<div class="freelance__card-wrapper__item__text-wrapper__description">
 							A multi-page marketing website. The owner was unhappy with his current wordpress site, so I
 							re-created his site as a faster, more efficient single-page React application, and gave the
@@ -302,6 +275,7 @@
 				</div>
 
 				<div id="hair-salon-sample" class="freelance__card-wrapper__item">
+					<h3 class="freelance__card-wrapper__item__title">Hair Demo</h3>
 					<div class="freelance__card-wrapper__item__image-wrapper">
 						<picture>
 							<source srcset="images/hair-sample--lossy.webp" type="image/webp" />
@@ -314,7 +288,6 @@
 						</picture>
 					</div>
 					<div class="freelance__card-wrapper__item__text-wrapper">
-						<div class="freelance__card-wrapper__item__text-wrapper__title">Gordiany's Hair Salon</div>
 						<div class="freelance__card-wrapper__item__text-wrapper__description">
 							A demo site I coded for the owner of a local hair salon which was used to show how his
 							content layout could be redesigned. This was later used as a starting point for future
@@ -331,7 +304,7 @@
 			</div>
 		</section>
 
-		<section class="skills freelance__card-wrapper__item " id="skills">
+		<section class="skills freelance__card-wrapper__item" id="skills">
 			<h2 class="skills__header">Technical Skills</h2>
 			<p>It's not enough to know just what tools will get the job done, but how to use them too!</p>
 			<p>

@@ -8,6 +8,11 @@
         justify-content: center;
         grid-gap: 1rem;
         &__item {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
             background-color: #000;
             background: radial-gradient(circle, gray -80%, black);
             border-radius: 5px;
@@ -20,7 +25,6 @@
                 0 0.25rem 0.75rem rgb(110 110 110 / 40%) inset, 0 0.15rem 0.7rem 0 #8e8d8f inset;
             &__title {
                 text-align: center;
-
                 font-size: $font-lg;
                 border-bottom: 2px solid $limeGreen;
                 max-width: 80%;
@@ -47,6 +51,13 @@
                 &__live-site-link {
                     max-width: 80%;
                     margin: 2rem auto;
+                    margin-top: auto;
+                    position: relative;
+                    display: block;
+                    justify-self: end;
+                    bottom: 0;
+                    width: 50%;
+                    text-align: center;
                 }
             }
         }
