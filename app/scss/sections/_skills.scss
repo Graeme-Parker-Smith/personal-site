@@ -1,0 +1,27 @@
+.skills {
+    &__main {
+        h3 {
+            color: $limeGreen;
+            text-align: center;
+        }
+        &__row {
+            display: flex;
+            justify-content: space-evenly;
+            margin-bottom: 3rem;
+
+            &__item {
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items: center;
+                svg {
+                    width: 2rem;
+                    height: 2rem;
+                }
+                svg path {
+                    fill: white;
+                }
+            }
+        }
+    }
+}

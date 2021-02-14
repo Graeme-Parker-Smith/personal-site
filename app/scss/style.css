@@ -534,8 +534,6 @@ button:hover::before,
   max-width: 22.75rem;
   margin: 0 auto;
   margin-bottom: 1rem;
-  box-shadow: 0 1rem 1.25rem 0 rgba(0, 0, 0, 0.5), 0 -0.25rem 1.5rem #272727 inset, 0 0.75rem 0.5rem rgba(110, 110, 110, 0.4) inset, 0 0.25rem 0.5rem 0 #8e8d8f inset;
-  box-shadow: 0 1rem 1.25rem 0 rgba(0, 0, 0, 0.5), 0 -0.25rem 1.5rem #272727 inset, 0 0.55rem 0.85rem rgba(110, 110, 110, 0.4) inset, 0 0.25rem 0.5rem 0 #8e8d8f inset;
   box-shadow: 0 0rem 0.25rem 0 rgba(0, 0, 0, 0.5), 0 0rem 0rem #272727 inset, 0 0.25rem 0.75rem rgba(110, 110, 110, 0.4) inset, 0 0.15rem 0.7rem 0 #8e8d8f inset;
 }
 .freelance__card-wrapper__item__title {
@@ -574,16 +572,14 @@ button:hover::before,
 }
 .projects__card-wrapper__item {
   background-color: #000;
-  background: radial-gradient(circle, gray -80%, black);
+  background: radial-gradient(circle, #5a5a5a -80%, black);
   border-radius: 5px;
   padding: 2rem;
   width: 100%;
   max-width: 22.75rem;
   margin: 0 auto;
   margin-bottom: 1rem;
-  box-shadow: 0 1rem 1.25rem 0 rgba(0, 0, 0, 0.5), 0 -0.25rem 1.5rem #272727 inset, 0 0.75rem 0.5rem rgba(110, 110, 110, 0.4) inset, 0 0.25rem 0.5rem 0 #8e8d8f inset;
-  box-shadow: 0 1rem 1.25rem 0 rgba(0, 0, 0, 0.5), 0 -0.25rem 1.5rem #272727 inset, 0 0.55rem 0.85rem rgba(110, 110, 110, 0.4) inset, 0 0.25rem 0.5rem 0 #8e8d8f inset;
-  box-shadow: 0 0rem 0.25rem 0 rgba(0, 0, 0, 0.5), 0 0rem 0rem #272727 inset, 0 0.25rem 0.75rem rgba(110, 110, 110, 0.4) inset, 0 0.15rem 0.7rem 0 #8e8d8f inset;
+  box-shadow: 0 0rem 0.25rem 0 rgba(0, 0, 0, 0.5), 0 0rem 0rem #272727 inset, 0 0.25rem 0.75rem rgba(110, 210, 110, 0.4) inset, 0 0.15rem 0.7rem 0 #8e8d8f inset;
 }
 .projects__card-wrapper__item__title {
   text-align: center;
@@ -608,6 +604,29 @@ button:hover::before,
 .projects__card-wrapper__item__text-wrapper__live-site-link {
   max-width: 80%;
   margin: 2rem auto;
+}
+
+.skills__main h3 {
+  color: #31d35c;
+  text-align: center;
+}
+.skills__main__row {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 3rem;
+}
+.skills__main__row__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.skills__main__row__item svg {
+  width: 2rem;
+  height: 2rem;
+}
+.skills__main__row__item svg path {
+  fill: white;
 }
 
 .contact {
