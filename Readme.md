@@ -23,4 +23,4 @@ While studying web development, I started out with some tutorials and code-along
 </p>
 <p><i>In case you are unable to reach the live site, here is a distracting gif which is sure to pull your eyeballs.</i></p>
 
-![personal site scrolling through gif](./images/personal-site-preview.gif)
+![personal site scrolling through gif](./images/personal-preview.gif)
