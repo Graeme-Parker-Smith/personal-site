@@ -661,6 +661,7 @@ button:hover::before,
 }
 .skills__main__row {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
   margin-bottom: 3rem;
 }
@@ -669,6 +670,8 @@ button:hover::before,
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 .skills__main__row__item svg {
   width: 2rem;
