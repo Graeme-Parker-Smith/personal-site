@@ -71,10 +71,39 @@ a {
 	transition: color 250ms ease-in-out;
 }
 
+.layout-module--container {
+	display: flex;
+}
+
+.sidebar-module {
+	&--container {
+		height: 100vh;
+		max-width: 30%;
+		min-width: 30%;
+		position: fixed;
+		z-index: 1;
+		background-color: #121212;
+		border-right: 4px solid forestGreen;
+		@include breakpoint-down(medium) {
+			display: none;
+		}
+	}
+}
+
 .main-content-module {
-	max-width: 69.375rem;
 	margin: 0 auto;
 	padding: 0rem 2rem 2rem 2rem;
+	&--container {
+		max-width: 70%;
+		padding-left: 30%;
+		margin: 0 auto;
+		// padding: 0rem 2rem 2rem 30%;
+
+		@include breakpoint-down(medium) {
+			max-width: 69.375rem;
+			padding-left: 0;
+		}
+	}
 }
 
 // Spacing
