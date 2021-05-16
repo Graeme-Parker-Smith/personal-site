@@ -254,6 +254,7 @@ a {
 }
 
 .header {
+  z-index: 1;
   width: 100%;
   position: fixed;
   background-color: transparent;
@@ -390,6 +391,11 @@ a {
   background-color: black;
   color: white;
 }
+@media (min-width: 64em) {
+  .footer {
+    display: none;
+  }
+}
 .footer__content {
   margin: 0 auto;
   padding: 1.5rem;
@@ -438,6 +444,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 @media (max-width: 63.9375em) {
   .sidebar-module--container {
@@ -466,6 +473,10 @@ a {
 }
 .sidebar-module__names__name:nth-child(3) {
   animation: fadeInRight 0.2s ease-out 0.4s 1 forwards;
+}
+.sidebar-module--footer {
+  position: fixed;
+  bottom: 0;
 }
 
 button,

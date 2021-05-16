@@ -11,6 +11,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
         @include breakpoint-down(medium) {
             display: none;
         }
@@ -37,5 +38,10 @@
                 animation: fadeInRight 0.2s ease-out 0.4s 1 forwards;
             }
         }
+    }
+
+    &--footer {
+        position: fixed;
+        bottom: 0;
     }
 }

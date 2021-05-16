@@ -1,4 +1,7 @@
 .footer {
+    @include breakpoint-up(large) {
+        display: none;
+    }
     background-color: black;
     color: $white;
     &__content {
