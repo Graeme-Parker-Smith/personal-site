@@ -1,41 +1,47 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
-	<head>
-		<title>Graeme Parker Smith -- Web Developer</title>
-		<link rel="icon" type="image/png" sizes="32x32" href="pwa/favicon.ico" />
-		<link rel="apple-touch-icon" href="pwa/apple-touch-icon.png" />
-		<!-- <link rel="manifest" href="pwa/manifest.json" /> -->
+  <head>
+    <title>Graeme Parker Smith -- Web Developer</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="pwa/favicon.ico" />
+    <link rel="apple-touch-icon" href="pwa/apple-touch-icon.png" />
+    <!-- <link rel="manifest" href="pwa/manifest.json" /> -->
 
-		<link rel="stylesheet" href="./app/scss/style.css" />
-		<!-- <link rel="preload" href="./fonts/bauhaus93/stylesheet.css" as="style" /> -->
-		<link rel="preload" href="./fonts/bauhaus93/bauhaus_93-webfont.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="stylesheet" href="./app/scss/style.css" />
+    <!-- <link rel="preload" href="./fonts/bauhaus93/stylesheet.css" as="style" /> -->
+    <link
+      rel="preload"
+      href="./fonts/bauhaus93/bauhaus_93-webfont.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
 
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<meta name="theme-color" content="#000000" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#000000" />
 
-		<meta name="author" content="Graeme Parker Smith" />
-		<meta
-			name="description"
-			content="Full-Stack Web Developer for Hire. I create professional websites and apps. Message me for work with design, frontend/backend development, Domain/DNS configuration, web hosting, or database management"
-		/>
-		<meta
-			name="keywords"
-			keywords="full stack, web, web developer, developer, programmer, website, app, react, aws, html, css, javascript"
-		/>
-		<meta name="robots" content="index,follow" />
-		<meta name="referrer" content="no-referrer-when-downgrade" />
-		<meta name="format-detection" content="telephone=no" />
+    <meta name="author" content="Graeme Parker Smith" />
+    <meta
+      name="description"
+      content="Full-Stack Web Developer for Hire. I create professional websites and apps. Message me for work with design, frontend/backend development, Domain/DNS configuration, web hosting, or database management"
+    />
+    <meta
+      name="keywords"
+      keywords="full stack, web, web developer, developer, programmer, website, app, react, aws, html, css, javascript"
+    />
+    <meta name="robots" content="index,follow" />
+    <meta name="referrer" content="no-referrer-when-downgrade" />
+    <meta name="format-detection" content="telephone=no" />
 
-		<!-- if javascript is enabled, remove "no-js" class from html document -->
-		<script>
-			document.documentElement.classList.remove('no-js');
-		</script>
-		<!-- modernizr script to detect webp support -->
-		<script src="./app/js/modernizr.js"></script>
+    <!-- if javascript is enabled, remove "no-js" class from html document -->
+    <script>
+      document.documentElement.classList.remove("no-js");
+    </script>
+    <!-- modernizr script to detect webp support -->
+    <script src="./app/js/modernizr.js"></script>
 
-		<!-- service worker script -->
-		<!-- <script type="module">
+    <!-- service worker script -->
+    <!-- <script type="module">
 			import { Workbox } from 'https://storage.googleapis.com/workbox-cdn/releases/6.0.2/workbox-window.prod.mjs';
 
 			if ('serviceWorker' in navigator) {
@@ -44,52 +50,56 @@
 				wb.register();
 			}
 		</script> -->
-	</head>
-	<body>
-		<div class="layout-module--container">
-			<div class="sidebar-module--container">
-				<div class="sidebar-module--imgWrapper">
-					<picture>
-						<source loading="lazy" srcset="images/OG-graeme--300.webp" type="image/webp" />
-						<img
-							loading="lazy"
-							src="images/OG-graeme--300.jpg"
-							class="hero__portrait"
-							height="50"
-							width="50"
-							alt="developer portrait"
-						/>
-					</picture>
-				</div>
-				<h2 class="sidebar-module__names">
-					<div class="sidebar-module__names__name">Graeme</div>
-					<div class="sidebar-module__names__name">Parker</div>
-					<div class="sidebar-module__names__name">Smith</div>
-				</h2>
-				<p class="sidebar-module--tagline">Full-Stack Developer</p>
-				<div class="sidebar-module--socialLinks">
-					<div class="footer__social">
-						<span class="footer__social__item">
-							<a
-								href="https://github.com/Graeme-Parker-Smith"
-								rel="nofollow noreferrer"
-								aria-label="github"
-							>
-								<svg
-									role="img"
-									viewBox="0 0 24 24"
-									width="32"
-									height="32"
-									xmlns="http://www.w3.org/2000/svg"
-								>
-									<title>GitHub icon</title>
-									<path
-										d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"
-									/>
-								</svg>
-							</a>
-						</span>
-						<span class="footer__social__item">
+  </head>
+  <body>
+    <div class="layout-module--container">
+      <div class="sidebar-module--container">
+        <div class="sidebar-module--imgWrapper">
+          <picture>
+            <source
+              loading="lazy"
+              srcset="images/OG-graeme--300.webp"
+              type="image/webp"
+            />
+            <img
+              loading="lazy"
+              src="images/OG-graeme--300.jpg"
+              class="hero__portrait"
+              height="50"
+              width="50"
+              alt="developer portrait"
+            />
+          </picture>
+        </div>
+        <h2 class="sidebar-module__names">
+          <div class="sidebar-module__names__name">Graeme</div>
+          <div class="sidebar-module__names__name">Parker</div>
+          <div class="sidebar-module__names__name">Smith</div>
+        </h2>
+        <p class="sidebar-module--tagline">Full-Stack Developer</p>
+        <div class="sidebar-module--socialLinks">
+          <div class="footer__social">
+            <span class="footer__social__item">
+              <a
+                href="https://github.com/Graeme-Parker-Smith"
+                rel="nofollow noreferrer"
+                aria-label="github"
+              >
+                <svg
+                  role="img"
+                  viewBox="0 0 24 24"
+                  width="32"
+                  height="32"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <title>GitHub icon</title>
+                  <path
+                    d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"
+                  />
+                </svg>
+              </a>
+            </span>
+            <!-- <span class="footer__social__item">
 							<a
 								href="https://www.linkedin.com/in/graeme-parker-smith/"
 								rel="nofollow noreferrer"
@@ -108,564 +118,764 @@
 									/>
 								</svg>
 							</a>
-						</span>
-					</div>
-				</div>
-				<div class="sidebar-module--footer">
-					<span class="footer__copyright">©2021 Graeme Parker Smith</span>
-				</div>
-			</div>
+						</span> -->
+          </div>
+        </div>
+        <div class="sidebar-module--footer">
+          <span class="footer__copyright">©2021 Graeme Parker Smith</span>
+        </div>
+      </div>
 
-			<div class="main-content-module--container">
-				<main>
-					<header class="header" id="header">
-						<div class="overlay has-fade"></div>
-						<nav class="container container--pall flex flex-jc-sb -flex-ai-c">
-							<a href="#header" class="header__logo">
-								<img src="pwa/android-chrome-192x192.png" alt="brand logo" />
-							</a>
+      <div class="main-content-module--container">
+        <main>
+          <header class="header" id="header">
+            <div class="overlay has-fade"></div>
+            <nav class="container container--pall flex flex-jc-sb flex-ai-c">
+              <a href="#header" class="header__logo">
+                <img src="pwa/android-chrome-192x192.png" alt="brand logo" />
+              </a>
 
-							<div id="btnHamburger" href="#" class="header__toggle hide-for-desktop">
-								<span></span>
-								<span></span>
-								<span></span>
-							</div>
+              <div
+                id="btnHamburger"
+                href="#"
+                class="header__toggle hide-for-desktop"
+              >
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
 
-							<div class="header__links hide-for-mobile">
-								<a href="#about">About</a>
-								<a href="#projects">Projects</a>
-								<a href="#freelance">Freelance</a>
-								<a href="#skills">Skills</a>
-								<a href="#contact">Contact</a>
-							</div>
-						</nav>
-						<div class="header__menu has-fade">
-							<a href="#about">About</a>
-							<a href="#projects">Projects</a>
-							<a href="#freelance">Freelance</a>
-							<a href="#skills">Skills</a>
-							<a href="#contact">Contact</a>
-						</div>
-					</header>
+              <div class="header__links hide-for-mobile">
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#freelance">Freelance</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+              </div>
+            </nav>
+            <div class="header__menu has-fade">
+              <a href="#about">About</a>
+              <a href="#projects">Projects</a>
+              <a href="#freelance">Freelance</a>
+              <a href="#skills">Skills</a>
+              <a href="#contact">Contact</a>
+            </div>
+          </header>
 
-					<section class="hero" id="hero">
-						<div class="hero--container">
-							<h1 class="hero__names">
-								<div class="hero__names__name">Graeme</div>
-								<div class="hero__names__name">Parker</div>
-								<div class="hero__names__name">Smith</div>
-							</h1>
-							<picture>
-								<source loading="lazy" srcset="images/OG-graeme--300.webp" type="image/webp" />
-								<img
-									loading="lazy"
-									src="images/OG-graeme--300.jpg"
-									class="hero__portrait"
-									height="50"
-									width="50"
-									alt="developer portrait"
-								/>
-							</picture>
-							<h1 class="hero__title">Web Developer</h1>
-						</div>
-					</section>
+          <section class="hero" id="hero">
+            <div class="hero--container">
+              <h1 class="hero__names">
+                <div class="hero__names__name">Graeme</div>
+                <div class="hero__names__name">Parker</div>
+                <div class="hero__names__name">Smith</div>
+              </h1>
+              <picture>
+                <source
+                  loading="lazy"
+                  srcset="images/OG-graeme--300.webp"
+                  type="image/webp"
+                />
+                <img
+                  loading="lazy"
+                  src="images/OG-graeme--300.jpg"
+                  class="hero__portrait"
+                  height="50"
+                  width="50"
+                  alt="developer portrait"
+                />
+              </picture>
+              <h1 class="hero__title">Web Developer</h1>
+            </div>
+          </section>
 
-					<section class="about main-content-module" id="about">
-						<h2 class="about__header">About Me</h2>
-						<div class="about__description">
-							<h3 class="about__description__preface">Hi, I'm Graeme</h3>
-							<p class="about__description__content">
-								I work independently with businesses to create web-based solutions, but I am also
-								interested in collaborating with others for larger projects. I'm
-								especially experienced in building Javascript applications with React, React-Native, and
-								CSS, but I have also worked on projects using Node.js, Express, MongoDB, and socket.io.
-							</p>
-						</div>
-						<div class="about__summary">
-							<h3>TL;DR</h3>
-							<p>I make websites and apps</p>
-						</div>
-					</section>
+          <section class="about main-content-module" id="about">
+            <h2 class="about__header">About Me</h2>
+            <div class="about__description">
+              <h3 class="about__description__preface">Hi, I'm Graeme</h3>
+              <p class="about__description__content">
+                I work independently with businesses to create web-based
+                solutions, but I am also interested in collaborating with others
+                for larger projects. I'm especially experienced in building
+                Javascript applications with React, React-Native, and CSS, but I
+                have also worked on projects using Node.js, Express, MongoDB,
+                and socket.io.
+              </p>
+            </div>
+            <div class="about__summary">
+              <h3>TL;DR</h3>
+              <p>I make websites and apps</p>
+            </div>
+          </section>
 
-					<section class="projects container container--pb" id="projects">
-						<h2 class="projects__header">Personal Projects</h2>
-						<p>I've selected a few of my personal projects below.</p>
-						<div class="projects__card-wrapper">
-							<div id="jaded-client" class="projects__card-wrapper__item">
-								<h3 class="projects__card-wrapper__item__text-wrapper__title">Jaded Chat App</h3>
-								<div class="projects__card-wrapper__item__image-wrapper">
-									<picture>
-										<source srcset="images/jaded-iPhone--lossy.webp" type="image/webp" />
-										<img
-											src="images/jaded-iPhone--lossy.jpg"
-											width="200"
-											height="300"
-											alt="freelance project thumbnail"
-										/>
-									</picture>
-								</div>
-								<div class="projects__card-wrapper__item__text-wrapper">
-									<div class="freelance__card-wrapper__item__text-wrapper__description">
-										<p>
-											Created using a combination of React-Native, Expo, socket.io, node.js,
-											Express, Nodemailer, and MongoDB.
-										</p>
-										<p>
-											I eventually used Expo to create the ios and android builds which I then
-											submitted to the app stores, where I get occasional downloads and messages
-											from random folks every now and then
-										</p>
-										<p>(available on ios app and google play stores)</p>
-									</div>
-								</div>
-								<a
-									href="https://apps.apple.com/us/app/jaded-chat/id1532319708"
-									class="button freelance__card-wrapper__item__text-wrapper__live-site-link"
-								>
-									Live Site
-								</a>
-							</div>
+          <section class="projects container container--pb" id="projects">
+            <h2 class="projects__header">Personal Projects</h2>
+            <p>I've selected a few of my personal projects below.</p>
+            <div class="projects__card-wrapper">
+              <div id="jaded-client" class="projects__card-wrapper__item">
+                <h3 class="projects__card-wrapper__item__text-wrapper__title">
+                  Jaded Chat App
+                </h3>
+                <div class="projects__card-wrapper__item__image-wrapper">
+                  <picture>
+                    <source
+                      srcset="images/jaded-iPhone--lossy.webp"
+                      type="image/webp"
+                    />
+                    <img
+                      src="images/jaded-iPhone--lossy.jpg"
+                      width="200"
+                      height="300"
+                      alt="freelance project thumbnail"
+                    />
+                  </picture>
+                </div>
+                <div class="projects__card-wrapper__item__text-wrapper">
+                  <div
+                    class="
+                      freelance__card-wrapper__item__text-wrapper__description
+                    "
+                  >
+                    <p>
+                      Created using a combination of React-Native, Expo,
+                      socket.io, node.js, Express, Nodemailer, and MongoDB.
+                    </p>
+                    <p>
+                      I eventually used Expo to create the ios and android
+                      builds which I then submitted to the app stores, where I
+                      get occasional downloads and messages from random folks
+                      every now and then
+                    </p>
+                    <p>(available on ios app and google play stores)</p>
+                  </div>
+                </div>
+                <a
+                  href="https://apps.apple.com/us/app/jaded-chat/id1532319708"
+                  class="
+                    button
+                    freelance__card-wrapper__item__text-wrapper__live-site-link
+                  "
+                >
+                  Live Site
+                </a>
+              </div>
 
-							<div id="jaded-server" class="projects__card-wrapper__item">
-								<h3 class="projects__card-wrapper__item__text-wrapper__title">Jaded Chat App Server</h3>
-								<div class="projects__card-wrapper__item__image-wrapper">
-									<picture>
-										<source srcset="images/jaded-server-code-cropped.webp" type="image/webp" />
-										<img
-											src="images/jaded-server-code-cropped.jpg"
-											width="200"
-											height="300"
-											alt="freelance project thumbnail"
-										/>
-									</picture>
-								</div>
-								<div class="projects__card-wrapper__item__text-wrapper">
-									<p class="projects__card-wrapper__item__text-wrapper__description">
-										The server for my chat app, which I decided to build in a separate repository
-										for easier organization. I built it using Node.js, Express, socket.io, bcrypt,
-										jsonwebtoken, Nodemailer, and MongoDB, and currently have it hosted on Heroku
-										Cloud Services.
-									</p>
-								</div>
-								<a
-									href="https://github.com/Graeme-Parker-Smith/Chat-App-Server"
-									class="button projects__card-wrapper__item__text-wrapper__live-site-link"
-								>
-									Live Site
-								</a>
-							</div>
+              <div id="jaded-server" class="projects__card-wrapper__item">
+                <h3 class="projects__card-wrapper__item__text-wrapper__title">
+                  Photosnap multi-page website
+                </h3>
+                <div class="projects__card-wrapper__item__image-wrapper">
+                  <picture>
+                    <!-- <source
+                      srcset="images/jaded-server-code-cropped.webp"
+                      type="image/webp"
+                    /> -->
+                    <img
+                      src="images/photosnap_screenshot.jpg"
+                      width="200"
+                      height="300"
+                      alt="frontendmentor project thumbnail"
+                    />
+                  </picture>
+                </div>
+                <div class="projects__card-wrapper__item__text-wrapper">
+                  <p
+                    class="
+                      projects__card-wrapper__item__text-wrapper__description
+                    "
+                  >
+                    A multi-page marketing site for a photo-sharing app created
+                    as part of a challenge from frontendmentor.io. For this
+                    project I made extensive use of css grid and flexbox, SCSS
+                    syntax for organization, and JavaScript for the mobile menu
+                    and pricing plan toggle
+                  </p>
+                </div>
+                <a
+                  href="https://github.com/Graeme-Parker-Smith/Chat-App-Server"
+                  class="
+                    button
+                    projects__card-wrapper__item__text-wrapper__live-site-link
+                  "
+                >
+                  Live Site
+                </a>
+              </div>
 
-							<div id="blackjack" class="projects__card-wrapper__item">
-								<h3 class="projects__card-wrapper__item__text-wrapper__title">Blackjack</h3>
-								<div class="projects__card-wrapper__item__image-wrapper">
-									<picture>
-										<source srcset="images/blackjack-cropped.webp" type="image/webp" />
-										<img
-											src="images/blackjack-cropped.png"
-											width="200"
-											height="300"
-											alt="freelance project thumbnail"
-										/>
-									</picture>
-								</div>
-								<div class="projects__card-wrapper__item__text-wrapper">
-									<p class="projects__card-wrapper__item__text-wrapper__description">
-										A static site where you can bet chips and play blackjack with all the same rules
-										and logic that you would find in the game at a traditional American casino. HTML
-										elements are all rendered on a "stage" at page load using custom JavaScript
-										functions.
-									</p>
-								</div>
-								<a
-									href="https://gamesbyg.com"
-									class="button projects__card-wrapper__item__text-wrapper__live-site-link"
-								>
-									Live Site
-								</a>
-							</div>
-						</div>
-					</section>
+              <div id="blackjack" class="projects__card-wrapper__item">
+                <h3 class="projects__card-wrapper__item__text-wrapper__title">
+                  Blackjack
+                </h3>
+                <div class="projects__card-wrapper__item__image-wrapper">
+                  <picture>
+                    <source
+                      srcset="images/blackjack-cropped.webp"
+                      type="image/webp"
+                    />
+                    <img
+                      src="images/blackjack-cropped.png"
+                      width="200"
+                      height="300"
+                      alt="freelance project thumbnail"
+                    />
+                  </picture>
+                </div>
+                <div class="projects__card-wrapper__item__text-wrapper">
+                  <p
+                    class="
+                      projects__card-wrapper__item__text-wrapper__description
+                    "
+                  >
+                    A static site where you can bet chips and play blackjack
+                    with all the same rules and logic that you would find in the
+                    game at a traditional American casino. HTML elements are all
+                    rendered on a "stage" at page load using custom JavaScript
+                    functions.
+                  </p>
+                </div>
+                <a
+                  href="https://gamesbyg.com"
+                  class="
+                    button
+                    projects__card-wrapper__item__text-wrapper__live-site-link
+                  "
+                >
+                  Live Site
+                </a>
+              </div>
+            </div>
+          </section>
 
-					<section class="freelance container container--pb" id="freelance">
-						<h2 class="freelance__header">Freelance Projects</h2>
-						<p>A sample of some of my freelance projects below.</p>
-						<div class="freelance__card-wrapper">
-							<div id="specfit" class="freelance__card-wrapper__item">
-								<h3 class="freelance__card-wrapper__item__title">Specialized Fitness</h3>
-								<div class="freelance__card-wrapper__item__image-wrapper">
-									<picture>
-										<source srcset="images/specfit-thumbnail--300x649.webp" type="image/webp" />
-										<img
-											src="images/specfit-thumbnail--300x649.jpg"
-											width="200"
-											height="300"
-											alt="freelance project thumbnail"
-										/>
-									</picture>
-								</div>
-								<div class="freelance__card-wrapper__item__text-wrapper">
-									<div class="freelance__card-wrapper__item__text-wrapper__description">
-										A fast, efficient, minimalist landing page that I created for a local personal
-										trainer business. I initially created a mockup for the site in Adobe XD, and
-										then, upon getting approval for the design from the client, proceeded to develop
-										the page from scratch in accordance with BEM and modern best-practices. The
-										logic for the email contact form was handled using asynchronous API calls to a
-										custom Express server, where nodemailer was then used to compose and send the
-										emails.
-									</div>
-								</div>
-								<a
-									href="https://www.specializedfit.com"
-									class="button freelance__card-wrapper__item__text-wrapper__live-site-link"
-								>
-									Live Site
-								</a>
-							</div>
+          <section class="freelance container container--pb" id="freelance">
+            <h2 class="freelance__header">Freelance Projects</h2>
+            <p>A sample of some of my freelance projects below.</p>
+            <div class="freelance__card-wrapper">
+              <div id="specfit" class="freelance__card-wrapper__item">
+                <h3 class="freelance__card-wrapper__item__title">
+                  Specialized Fitness
+                </h3>
+                <div class="freelance__card-wrapper__item__image-wrapper">
+                  <picture>
+                    <source
+                      srcset="images/specfit-thumbnail--300x649.webp"
+                      type="image/webp"
+                    />
+                    <img
+                      src="images/specfit-thumbnail--300x649.jpg"
+                      width="200"
+                      height="300"
+                      alt="freelance project thumbnail"
+                    />
+                  </picture>
+                </div>
+                <div class="freelance__card-wrapper__item__text-wrapper">
+                  <div
+                    class="
+                      freelance__card-wrapper__item__text-wrapper__description
+                    "
+                  >
+                    A fast, efficient, minimalist landing page that I created
+                    for a local personal trainer business. I initially created a
+                    mockup for the site in Adobe XD, and then, upon getting
+                    approval for the design from the client, proceeded to
+                    develop the page from scratch in accordance with BEM and
+                    modern best-practices. The logic for the email contact form
+                    was handled using asynchronous API calls to a custom Express
+                    server, where nodemailer was then used to compose and send
+                    the emails.
+                  </div>
+                </div>
+                <a
+                  href="https://www.specializedfit.com"
+                  class="
+                    button
+                    freelance__card-wrapper__item__text-wrapper__live-site-link
+                  "
+                >
+                  Live Site
+                </a>
+              </div>
 
-							<div id="hair-salon-main" class="freelance__card-wrapper__item">
-								<div class="freelance__card-wrapper__item__image-wrapper">
-									<h3 class="freelance__card-wrapper__item__title">Gordiany's Hair Salon</h3>
-									<picture>
-										<source srcset="images/hair-landing--lossy.webp" type="image/webp" />
-										<img
-											src="images/hair-landing.PNG"
-											width="200"
-											height="300"
-											alt="freelance project thumbnail"
-										/>
-									</picture>
-								</div>
-								<div class="freelance__card-wrapper__item__text-wrapper">
-									<div class="freelance__card-wrapper__item__text-wrapper__description">
-										A multi-page marketing website. The owner was unhappy with his current wordpress
-										site, so I re-created his site as a faster, more efficient single-page React
-										application. I fixed numerous bugs that were hindering user experience on the
-										original site, added in animations for various DOM elements, and improved mobile
-										navigation using a slide-in sidebar
-									</div>
-									<a
-										href="https://hair-new.herokuapp.com"
-										class="button freelance__card-wrapper__item__text-wrapper__live-site-link"
-									>
-										Live Site
-									</a>
-								</div>
-							</div>
+              <div id="hair-salon-main" class="freelance__card-wrapper__item">
+                <div class="freelance__card-wrapper__item__image-wrapper">
+                  <h3 class="freelance__card-wrapper__item__title">
+                    Gordiany's Hair Salon
+                  </h3>
+                  <picture>
+                    <source
+                      srcset="images/hair-landing--lossy.webp"
+                      type="image/webp"
+                    />
+                    <img
+                      src="images/hair-landing.PNG"
+                      width="200"
+                      height="300"
+                      alt="freelance project thumbnail"
+                    />
+                  </picture>
+                </div>
+                <div class="freelance__card-wrapper__item__text-wrapper">
+                  <div
+                    class="
+                      freelance__card-wrapper__item__text-wrapper__description
+                    "
+                  >
+                    A multi-page marketing website. The owner was unhappy with
+                    his current wordpress site, so I re-created his site as a
+                    faster, more efficient single-page React application. I
+                    fixed numerous bugs that were hindering user experience on
+                    the original site, added in animations for various DOM
+                    elements, and improved mobile navigation using a slide-in
+                    sidebar
+                  </div>
+                  <a
+                    href="https://hair-new.herokuapp.com"
+                    class="
+                      button
+                      freelance__card-wrapper__item__text-wrapper__live-site-link
+                    "
+                  >
+                    Live Site
+                  </a>
+                </div>
+              </div>
 
-							<div id="hair-salon-sample" class="freelance__card-wrapper__item">
-								<h3 class="freelance__card-wrapper__item__title">Hair Demo</h3>
-								<div class="freelance__card-wrapper__item__image-wrapper">
-									<picture>
-										<source srcset="images/hair-sample--lossy.webp" type="image/webp" />
-										<img
-											src="images/hair-sample--lossy.PNG"
-											width="200"
-											height="300"
-											alt="freelance project thumbnail"
-										/>
-									</picture>
-								</div>
-								<div class="freelance__card-wrapper__item__text-wrapper">
-									<div class="freelance__card-wrapper__item__text-wrapper__description">
-										A demo site I coded for the owner of a local hair salon which was used to show
-										how his content layout could be redesigned. This was later used as a starting
-										point for future updates to his site.
-									</div>
-									<a
-										href="https://graeme-parker-smith.github.io/hair-final"
-										class="button freelance__card-wrapper__item__text-wrapper__live-site-link"
-									>
-										Live Site
-									</a>
-								</div>
-							</div>
-						</div>
-					</section>
+              <div id="hair-salon-sample" class="freelance__card-wrapper__item">
+                <h3 class="freelance__card-wrapper__item__title">Hair Demo</h3>
+                <div class="freelance__card-wrapper__item__image-wrapper">
+                  <picture>
+                    <source
+                      srcset="images/hair-sample--lossy.webp"
+                      type="image/webp"
+                    />
+                    <img
+                      src="images/hair-sample--lossy.PNG"
+                      width="200"
+                      height="300"
+                      alt="freelance project thumbnail"
+                    />
+                  </picture>
+                </div>
+                <div class="freelance__card-wrapper__item__text-wrapper">
+                  <div
+                    class="
+                      freelance__card-wrapper__item__text-wrapper__description
+                    "
+                  >
+                    A demo site I coded for the owner of a local hair salon
+                    which was used to show how his content layout could be
+                    redesigned. This was later used as a starting point for
+                    future updates to his site.
+                  </div>
+                  <a
+                    href="https://graeme-parker-smith.github.io/hair-final"
+                    class="
+                      button
+                      freelance__card-wrapper__item__text-wrapper__live-site-link
+                    "
+                  >
+                    Live Site
+                  </a>
+                </div>
+              </div>
+            </div>
+          </section>
 
-					<section class="skills freelance__card-wrapper__item" id="skills">
-						<h2 class="skills__header">Technical Skills</h2>
-						<p>
-							Here are a few of the tools I have worked with recently. Please checkout my LinkedIn profile
-							for more details.
-						</p>
-						<div class="skills__main">
-							<h3>Basics:</h3>
-							<div class="skills__main__row">
-								<div class="skills__main__row__item">
-									<h4>HTML5</h4>
-									<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-										<title>HTML5 icon</title>
-										<path
-											d="M1.5 0h21l-1.91 21.563L11.977 24l-8.564-2.438L1.5 0zm7.031 9.75l-.232-2.718 10.059.003.23-2.622L5.412 4.41l.698 8.01h9.126l-.326 3.426-2.91.804-2.955-.81-.188-2.11H6.248l.33 4.171L12 19.351l5.379-1.443.744-8.157H8.531z"
-										/>
-									</svg>
-								</div>
-								<div class="skills__main__row__item">
-									<h4>CSS3</h4>
-									<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-										<title>CSS3 icon</title>
-										<path
-											d="M1.5 0h21l-1.91 21.563L11.977 24l-8.565-2.438L1.5 0zm17.09 4.413L5.41 4.41l.213 2.622 10.125.002-.255 2.716h-6.64l.24 2.573h6.182l-.366 3.523-2.91.804-2.956-.81-.188-2.11h-2.61l.29 3.855L12 19.288l5.373-1.53L18.59 4.414z"
-										/>
-									</svg>
-								</div>
-								<div class="skills__main__row__item">
-									<h4>Javascript</h4>
-									<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-										<title>JavaScript icon</title>
-										<path
-											d="M0 0h24v24H0V0zm22.034 18.276c-.175-1.095-.888-2.015-3.003-2.873-.736-.345-1.554-.585-1.797-1.14-.091-.33-.105-.51-.046-.705.15-.646.915-.84 1.515-.66.39.12.75.42.976.9 1.034-.676 1.034-.676 1.755-1.125-.27-.42-.404-.601-.586-.78-.63-.705-1.469-1.065-2.834-1.034l-.705.089c-.676.165-1.32.525-1.71 1.005-1.14 1.291-.811 3.541.569 4.471 1.365 1.02 3.361 1.244 3.616 2.205.24 1.17-.87 1.545-1.966 1.41-.811-.18-1.26-.586-1.755-1.336l-1.83 1.051c.21.48.45.689.81 1.109 1.74 1.756 6.09 1.666 6.871-1.004.029-.09.24-.705.074-1.65l.046.067zm-8.983-7.245h-2.248c0 1.938-.009 3.864-.009 5.805 0 1.232.063 2.363-.138 2.711-.33.689-1.18.601-1.566.48-.396-.196-.597-.466-.83-.855-.063-.105-.11-.196-.127-.196l-1.825 1.125c.305.63.75 1.172 1.324 1.517.855.51 2.004.675 3.207.405.783-.226 1.458-.691 1.811-1.411.51-.93.402-2.07.397-3.346.012-2.054 0-4.109 0-6.179l.004-.056z"
-										/>
-									</svg>
-								</div>
-								<div class="skills__main__row__item">
-									<h4>SCSS</h4>
-									<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-										<title>Sass icon</title>
-										<path
-											d="M12 0c6.627 0 12 5.373 12 12s-5.373 12-12 12S0 18.627 0 12 5.373 0 12 0zM9.615 15.998c.175.645.156 1.248-.024 1.792l-.065.18c-.024.061-.052.12-.078.176-.14.29-.326.56-.555.81-.698.759-1.672 1.047-2.09.805-.45-.262-.226-1.335.584-2.19.871-.918 2.12-1.509 2.12-1.509v-.003l.108-.061zm9.911-10.861c-.542-2.133-4.077-2.834-7.422-1.645-1.989.707-4.144 1.818-5.693 3.267C4.568 8.48 4.275 9.98 4.396 10.607c.427 2.211 3.457 3.657 4.703 4.73v.006c-.367.18-3.056 1.529-3.686 2.925-.675 1.47.105 2.521.615 2.655 1.575.436 3.195-.36 4.065-1.649.84-1.261.766-2.881.404-3.676.496-.135 1.08-.195 1.83-.104 2.101.24 2.521 1.56 2.43 2.1-.09.539-.523.854-.674.944-.15.091-.195.12-.181.181.015.09.091.09.21.075.165-.03 1.096-.45 1.141-1.471.045-1.29-1.186-2.729-3.375-2.7-.9.016-1.471.091-1.875.256-.03-.045-.061-.075-.105-.105-1.35-1.455-3.855-2.475-3.75-4.41.03-.705.285-2.564 4.8-4.814 3.705-1.846 6.661-1.335 7.171-.21.733 1.604-1.576 4.59-5.431 5.024-1.47.165-2.235-.404-2.431-.615-.209-.225-.239-.24-.314-.194-.12.06-.045.255 0 .375.12.3.585.825 1.396 1.095.704.225 2.43.359 4.5-.45 2.324-.899 4.139-3.405 3.614-5.505l.073.067z"
-										/>
-									</svg>
-								</div>
-							</div>
-							<h3>Frontend-Libraries:</h3>
-							<div class="skills__main__row">
-								<div class="skills__main__row__item">
-									<h4>socket.io</h4>
-									<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-										<title>Socket.io icon</title>
-										<path
-											d="M11.9362.0137a12.1694 12.1694 0 00-2.9748.378C4.2816 1.5547.5678 5.7944.0918 10.6012c-.59 4.5488 1.7079 9.2856 5.6437 11.6345 3.8608 2.4179 9.0926 2.3199 12.8734-.223 3.3969-2.206 5.5118-6.2277 5.3858-10.2845-.058-4.0159-2.31-7.9167-5.7588-9.9796C16.354.5876 14.1431.0047 11.9362.0137zm-.063 1.696c4.9448-.007 9.7886 3.8137 10.2815 8.9245.945 5.6597-3.7528 11.4125-9.4875 11.5795-5.4538.544-10.7245-4.0798-10.8795-9.5566-.407-4.4338 2.5159-8.8346 6.6977-10.2995a9.1126 9.1126 0 013.3878-.647zm5.0908 3.2248c-2.6869 2.0849-5.2598 4.3078-7.8886 6.4567 1.2029.017 2.4118.016 3.6208.01 1.41-2.165 2.8589-4.3008 4.2678-6.4667zm-5.6647 7.6536c-1.41 2.166-2.86 4.3088-4.2699 6.4737 2.693-2.0799 5.2548-4.3198 7.9017-6.4557a255.4132 255.4132 0 00-3.6318-.018z"
-										/>
-									</svg>
-								</div>
-								<div class="skills__main__row__item">
-									<h4>Bootstrap</h4>
-									<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-										<title>Bootstrap icon</title>
-										<path
-											d="M11.77 11.24H9.956V8.202h2.152c1.17 0 1.834.522 1.834 1.466 0 1.008-.773 1.572-2.174 1.572zm.324 1.206H9.957v3.348h2.231c1.459 0 2.232-.585 2.232-1.685s-.795-1.663-2.326-1.663zM24 11.39v1.218c-1.128.108-1.817.944-2.226 2.268-.407 1.319-.463 2.937-.42 4.186.045 1.3-.968 2.5-2.337 2.5H4.985c-1.37 0-2.383-1.2-2.337-2.5.043-1.249-.013-2.867-.42-4.186-.41-1.324-1.1-2.16-2.228-2.268V11.39c1.128-.108 1.819-.944 2.227-2.268.408-1.319.464-2.937.42-4.186-.045-1.3.968-2.5 2.338-2.5h14.032c1.37 0 2.382 1.2 2.337 2.5-.043 1.249.013 2.867.42 4.186.409 1.324 1.098 2.16 2.226 2.268zm-7.927 2.817c0-1.354-.953-2.333-2.368-2.488v-.057c1.04-.169 1.856-1.135 1.856-2.213 0-1.537-1.213-2.538-3.062-2.538h-4.16v10.172h4.181c2.218 0 3.553-1.086 3.553-2.876z"
-										/>
-									</svg>
-								</div>
-								<div class="skills__main__row__item">
-									<h4>Material-UI</h4>
-									<svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-										<title>Material-UI icon</title>
-										<path
-											d="M0 2.475v10.39l3 1.733V7.67l6 3.465 6-3.465v3.465l-6 3.463v3.464l6 3.463 9-5.195V9.402l-3 1.733v3.463l-6 3.464-3-1.732 6-3.465V2.475L9 7.67 0 2.475zm24 0l-3 1.73V7.67l3-1.732V2.474Z"
-										/>
-									</svg>
-								</div>
-								<div class="skills__main__row__item">
-									<h4>React</h4>
-									<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-										<title>React icon</title>
-										<path
-											d="M14.23 12.004a2.236 2.236 0 0 1-2.235 2.236 2.236 2.236 0 0 1-2.236-2.236 2.236 2.236 0 0 1 2.235-2.236 2.236 2.236 0 0 1 2.236 2.236zm2.648-10.69c-1.346 0-3.107.96-4.888 2.622-1.78-1.653-3.542-2.602-4.887-2.602-.41 0-.783.093-1.106.278-1.375.793-1.683 3.264-.973 6.365C1.98 8.917 0 10.42 0 12.004c0 1.59 1.99 3.097 5.043 4.03-.704 3.113-.39 5.588.988 6.38.32.187.69.275 1.102.275 1.345 0 3.107-.96 4.888-2.624 1.78 1.654 3.542 2.603 4.887 2.603.41 0 .783-.09 1.106-.275 1.374-.792 1.683-3.263.973-6.365C22.02 15.096 24 13.59 24 12.004c0-1.59-1.99-3.097-5.043-4.032.704-3.11.39-5.587-.988-6.38-.318-.184-.688-.277-1.092-.278zm-.005 1.09v.006c.225 0 .406.044.558.127.666.382.955 1.835.73 3.704-.054.46-.142.945-.25 1.44-.96-.236-2.006-.417-3.107-.534-.66-.905-1.345-1.727-2.035-2.447 1.592-1.48 3.087-2.292 4.105-2.295zm-9.77.02c1.012 0 2.514.808 4.11 2.28-.686.72-1.37 1.537-2.02 2.442-1.107.117-2.154.298-3.113.538-.112-.49-.195-.964-.254-1.42-.23-1.868.054-3.32.714-3.707.19-.09.4-.127.563-.132zm4.882 3.05c.455.468.91.992 1.36 1.564-.44-.02-.89-.034-1.345-.034-.46 0-.915.01-1.36.034.44-.572.895-1.096 1.345-1.565zM12 8.1c.74 0 1.477.034 2.202.093.406.582.802 1.203 1.183 1.86.372.64.71 1.29 1.018 1.946-.308.655-.646 1.31-1.013 1.95-.38.66-.773 1.288-1.18 1.87-.728.063-1.466.098-2.21.098-.74 0-1.477-.035-2.202-.093-.406-.582-.802-1.204-1.183-1.86-.372-.64-.71-1.29-1.018-1.946.303-.657.646-1.313 1.013-1.954.38-.66.773-1.286 1.18-1.868.728-.064 1.466-.098 2.21-.098zm-3.635.254c-.24.377-.48.763-.704 1.16-.225.39-.435.782-.635 1.174-.265-.656-.49-1.31-.676-1.947.64-.15 1.315-.283 2.015-.386zm7.26 0c.695.103 1.365.23 2.006.387-.18.632-.405 1.282-.66 1.933-.2-.39-.41-.783-.64-1.174-.225-.392-.465-.774-.705-1.146zm3.063.675c.484.15.944.317 1.375.498 1.732.74 2.852 1.708 2.852 2.476-.005.768-1.125 1.74-2.857 2.475-.42.18-.88.342-1.355.493-.28-.958-.646-1.956-1.1-2.98.45-1.017.81-2.01 1.085-2.964zm-13.395.004c.278.96.645 1.957 1.1 2.98-.45 1.017-.812 2.01-1.086 2.964-.484-.15-.944-.318-1.37-.5-1.732-.737-2.852-1.706-2.852-2.474 0-.768 1.12-1.742 2.852-2.476.42-.18.88-.342 1.356-.494zm11.678 4.28c.265.657.49 1.312.676 1.948-.64.157-1.316.29-2.016.39.24-.375.48-.762.705-1.158.225-.39.435-.788.636-1.18zm-9.945.02c.2.392.41.783.64 1.175.23.39.465.772.705 1.143-.695-.102-1.365-.23-2.006-.386.18-.63.406-1.282.66-1.933zM17.92 16.32c.112.493.2.968.254 1.423.23 1.868-.054 3.32-.714 3.708-.147.09-.338.128-.563.128-1.012 0-2.514-.807-4.11-2.28.686-.72 1.37-1.536 2.02-2.44 1.107-.118 2.154-.3 3.113-.54zm-11.83.01c.96.234 2.006.415 3.107.532.66.905 1.345 1.727 2.035 2.446-1.595 1.483-3.092 2.295-4.11 2.295-.22-.005-.406-.05-.553-.132-.666-.38-.955-1.834-.73-3.703.054-.46.142-.944.25-1.438zm4.56.64c.44.02.89.034 1.345.034.46 0 .915-.01 1.36-.034-.44.572-.895 1.095-1.345 1.565-.455-.47-.91-.993-1.36-1.565z"
-										/>
-									</svg>
-								</div>
+          <section class="skills freelance__card-wrapper__item" id="skills">
+            <h2 class="skills__header">Technical Skills</h2>
+            <p>Here are a few of the tools I have worked with recently</p>
+            <div class="skills__main">
+              <h3>Basics:</h3>
+              <div class="skills__main__row">
+                <div class="skills__main__row__item">
+                  <h4>HTML5</h4>
+                  <svg
+                    role="img"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <title>HTML5 icon</title>
+                    <path
+                      d="M1.5 0h21l-1.91 21.563L11.977 24l-8.564-2.438L1.5 0zm7.031 9.75l-.232-2.718 10.059.003.23-2.622L5.412 4.41l.698 8.01h9.126l-.326 3.426-2.91.804-2.955-.81-.188-2.11H6.248l.33 4.171L12 19.351l5.379-1.443.744-8.157H8.531z"
+                    />
+                  </svg>
+                </div>
+                <div class="skills__main__row__item">
+                  <h4>CSS3</h4>
+                  <svg
+                    role="img"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <title>CSS3 icon</title>
+                    <path
+                      d="M1.5 0h21l-1.91 21.563L11.977 24l-8.565-2.438L1.5 0zm17.09 4.413L5.41 4.41l.213 2.622 10.125.002-.255 2.716h-6.64l.24 2.573h6.182l-.366 3.523-2.91.804-2.956-.81-.188-2.11h-2.61l.29 3.855L12 19.288l5.373-1.53L18.59 4.414z"
+                    />
+                  </svg>
+                </div>
+                <div class="skills__main__row__item">
+                  <h4>Javascript</h4>
+                  <svg
+                    role="img"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <title>JavaScript icon</title>
+                    <path
+                      d="M0 0h24v24H0V0zm22.034 18.276c-.175-1.095-.888-2.015-3.003-2.873-.736-.345-1.554-.585-1.797-1.14-.091-.33-.105-.51-.046-.705.15-.646.915-.84 1.515-.66.39.12.75.42.976.9 1.034-.676 1.034-.676 1.755-1.125-.27-.42-.404-.601-.586-.78-.63-.705-1.469-1.065-2.834-1.034l-.705.089c-.676.165-1.32.525-1.71 1.005-1.14 1.291-.811 3.541.569 4.471 1.365 1.02 3.361 1.244 3.616 2.205.24 1.17-.87 1.545-1.966 1.41-.811-.18-1.26-.586-1.755-1.336l-1.83 1.051c.21.48.45.689.81 1.109 1.74 1.756 6.09 1.666 6.871-1.004.029-.09.24-.705.074-1.65l.046.067zm-8.983-7.245h-2.248c0 1.938-.009 3.864-.009 5.805 0 1.232.063 2.363-.138 2.711-.33.689-1.18.601-1.566.48-.396-.196-.597-.466-.83-.855-.063-.105-.11-.196-.127-.196l-1.825 1.125c.305.63.75 1.172 1.324 1.517.855.51 2.004.675 3.207.405.783-.226 1.458-.691 1.811-1.411.51-.93.402-2.07.397-3.346.012-2.054 0-4.109 0-6.179l.004-.056z"
+                    />
+                  </svg>
+                </div>
+                <div class="skills__main__row__item">
+                  <h4>SCSS</h4>
+                  <svg
+                    role="img"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <title>Sass icon</title>
+                    <path
+                      d="M12 0c6.627 0 12 5.373 12 12s-5.373 12-12 12S0 18.627 0 12 5.373 0 12 0zM9.615 15.998c.175.645.156 1.248-.024 1.792l-.065.18c-.024.061-.052.12-.078.176-.14.29-.326.56-.555.81-.698.759-1.672 1.047-2.09.805-.45-.262-.226-1.335.584-2.19.871-.918 2.12-1.509 2.12-1.509v-.003l.108-.061zm9.911-10.861c-.542-2.133-4.077-2.834-7.422-1.645-1.989.707-4.144 1.818-5.693 3.267C4.568 8.48 4.275 9.98 4.396 10.607c.427 2.211 3.457 3.657 4.703 4.73v.006c-.367.18-3.056 1.529-3.686 2.925-.675 1.47.105 2.521.615 2.655 1.575.436 3.195-.36 4.065-1.649.84-1.261.766-2.881.404-3.676.496-.135 1.08-.195 1.83-.104 2.101.24 2.521 1.56 2.43 2.1-.09.539-.523.854-.674.944-.15.091-.195.12-.181.181.015.09.091.09.21.075.165-.03 1.096-.45 1.141-1.471.045-1.29-1.186-2.729-3.375-2.7-.9.016-1.471.091-1.875.256-.03-.045-.061-.075-.105-.105-1.35-1.455-3.855-2.475-3.75-4.41.03-.705.285-2.564 4.8-4.814 3.705-1.846 6.661-1.335 7.171-.21.733 1.604-1.576 4.59-5.431 5.024-1.47.165-2.235-.404-2.431-.615-.209-.225-.239-.24-.314-.194-.12.06-.045.255 0 .375.12.3.585.825 1.396 1.095.704.225 2.43.359 4.5-.45 2.324-.899 4.139-3.405 3.614-5.505l.073.067z"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <h3>Frontend-Libraries:</h3>
+              <div class="skills__main__row">
+                <div class="skills__main__row__item">
+                  <h4>socket.io</h4>
+                  <svg
+                    role="img"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <title>Socket.io icon</title>
+                    <path
+                      d="M11.9362.0137a12.1694 12.1694 0 00-2.9748.378C4.2816 1.5547.5678 5.7944.0918 10.6012c-.59 4.5488 1.7079 9.2856 5.6437 11.6345 3.8608 2.4179 9.0926 2.3199 12.8734-.223 3.3969-2.206 5.5118-6.2277 5.3858-10.2845-.058-4.0159-2.31-7.9167-5.7588-9.9796C16.354.5876 14.1431.0047 11.9362.0137zm-.063 1.696c4.9448-.007 9.7886 3.8137 10.2815 8.9245.945 5.6597-3.7528 11.4125-9.4875 11.5795-5.4538.544-10.7245-4.0798-10.8795-9.5566-.407-4.4338 2.5159-8.8346 6.6977-10.2995a9.1126 9.1126 0 013.3878-.647zm5.0908 3.2248c-2.6869 2.0849-5.2598 4.3078-7.8886 6.4567 1.2029.017 2.4118.016 3.6208.01 1.41-2.165 2.8589-4.3008 4.2678-6.4667zm-5.6647 7.6536c-1.41 2.166-2.86 4.3088-4.2699 6.4737 2.693-2.0799 5.2548-4.3198 7.9017-6.4557a255.4132 255.4132 0 00-3.6318-.018z"
+                    />
+                  </svg>
+                </div>
+                <div class="skills__main__row__item">
+                  <h4>Bootstrap</h4>
+                  <svg
+                    role="img"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <title>Bootstrap icon</title>
+                    <path
+                      d="M11.77 11.24H9.956V8.202h2.152c1.17 0 1.834.522 1.834 1.466 0 1.008-.773 1.572-2.174 1.572zm.324 1.206H9.957v3.348h2.231c1.459 0 2.232-.585 2.232-1.685s-.795-1.663-2.326-1.663zM24 11.39v1.218c-1.128.108-1.817.944-2.226 2.268-.407 1.319-.463 2.937-.42 4.186.045 1.3-.968 2.5-2.337 2.5H4.985c-1.37 0-2.383-1.2-2.337-2.5.043-1.249-.013-2.867-.42-4.186-.41-1.324-1.1-2.16-2.228-2.268V11.39c1.128-.108 1.819-.944 2.227-2.268.408-1.319.464-2.937.42-4.186-.045-1.3.968-2.5 2.338-2.5h14.032c1.37 0 2.382 1.2 2.337 2.5-.043 1.249.013 2.867.42 4.186.409 1.324 1.098 2.16 2.226 2.268zm-7.927 2.817c0-1.354-.953-2.333-2.368-2.488v-.057c1.04-.169 1.856-1.135 1.856-2.213 0-1.537-1.213-2.538-3.062-2.538h-4.16v10.172h4.181c2.218 0 3.553-1.086 3.553-2.876z"
+                    />
+                  </svg>
+                </div>
+                <div class="skills__main__row__item">
+                  <h4>Material-UI</h4>
+                  <svg
+                    role="img"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <title>Material-UI icon</title>
+                    <path
+                      d="M0 2.475v10.39l3 1.733V7.67l6 3.465 6-3.465v3.465l-6 3.463v3.464l6 3.463 9-5.195V9.402l-3 1.733v3.463l-6 3.464-3-1.732 6-3.465V2.475L9 7.67 0 2.475zm24 0l-3 1.73V7.67l3-1.732V2.474Z"
+                    />
+                  </svg>
+                </div>
+                <div class="skills__main__row__item">
+                  <h4>React</h4>
+                  <svg
+                    role="img"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <title>React icon</title>
+                    <path
+                      d="M14.23 12.004a2.236 2.236 0 0 1-2.235 2.236 2.236 2.236 0 0 1-2.236-2.236 2.236 2.236 0 0 1 2.235-2.236 2.236 2.236 0 0 1 2.236 2.236zm2.648-10.69c-1.346 0-3.107.96-4.888 2.622-1.78-1.653-3.542-2.602-4.887-2.602-.41 0-.783.093-1.106.278-1.375.793-1.683 3.264-.973 6.365C1.98 8.917 0 10.42 0 12.004c0 1.59 1.99 3.097 5.043 4.03-.704 3.113-.39 5.588.988 6.38.32.187.69.275 1.102.275 1.345 0 3.107-.96 4.888-2.624 1.78 1.654 3.542 2.603 4.887 2.603.41 0 .783-.09 1.106-.275 1.374-.792 1.683-3.263.973-6.365C22.02 15.096 24 13.59 24 12.004c0-1.59-1.99-3.097-5.043-4.032.704-3.11.39-5.587-.988-6.38-.318-.184-.688-.277-1.092-.278zm-.005 1.09v.006c.225 0 .406.044.558.127.666.382.955 1.835.73 3.704-.054.46-.142.945-.25 1.44-.96-.236-2.006-.417-3.107-.534-.66-.905-1.345-1.727-2.035-2.447 1.592-1.48 3.087-2.292 4.105-2.295zm-9.77.02c1.012 0 2.514.808 4.11 2.28-.686.72-1.37 1.537-2.02 2.442-1.107.117-2.154.298-3.113.538-.112-.49-.195-.964-.254-1.42-.23-1.868.054-3.32.714-3.707.19-.09.4-.127.563-.132zm4.882 3.05c.455.468.91.992 1.36 1.564-.44-.02-.89-.034-1.345-.034-.46 0-.915.01-1.36.034.44-.572.895-1.096 1.345-1.565zM12 8.1c.74 0 1.477.034 2.202.093.406.582.802 1.203 1.183 1.86.372.64.71 1.29 1.018 1.946-.308.655-.646 1.31-1.013 1.95-.38.66-.773 1.288-1.18 1.87-.728.063-1.466.098-2.21.098-.74 0-1.477-.035-2.202-.093-.406-.582-.802-1.204-1.183-1.86-.372-.64-.71-1.29-1.018-1.946.303-.657.646-1.313 1.013-1.954.38-.66.773-1.286 1.18-1.868.728-.064 1.466-.098 2.21-.098zm-3.635.254c-.24.377-.48.763-.704 1.16-.225.39-.435.782-.635 1.174-.265-.656-.49-1.31-.676-1.947.64-.15 1.315-.283 2.015-.386zm7.26 0c.695.103 1.365.23 2.006.387-.18.632-.405 1.282-.66 1.933-.2-.39-.41-.783-.64-1.174-.225-.392-.465-.774-.705-1.146zm3.063.675c.484.15.944.317 1.375.498 1.732.74 2.852 1.708 2.852 2.476-.005.768-1.125 1.74-2.857 2.475-.42.18-.88.342-1.355.493-.28-.958-.646-1.956-1.1-2.98.45-1.017.81-2.01 1.085-2.964zm-13.395.004c.278.96.645 1.957 1.1 2.98-.45 1.017-.812 2.01-1.086 2.964-.484-.15-.944-.318-1.37-.5-1.732-.737-2.852-1.706-2.852-2.474 0-.768 1.12-1.742 2.852-2.476.42-.18.88-.342 1.356-.494zm11.678 4.28c.265.657.49 1.312.676 1.948-.64.157-1.316.29-2.016.39.24-.375.48-.762.705-1.158.225-.39.435-.788.636-1.18zm-9.945.02c.2.392.41.783.64 1.175.23.39.465.772.705 1.143-.695-.102-1.365-.23-2.006-.386.18-.63.406-1.282.66-1.933zM17.92 16.32c.112.493.2.968.254 1.423.23 1.868-.054 3.32-.714 3.708-.147.09-.338.128-.563.128-1.012 0-2.514-.807-4.11-2.28.686-.72 1.37-1.536 2.02-2.44 1.107-.118 2.154-.3 3.113-.54zm-11.83.01c.96.234 2.006.415 3.107.532.66.905 1.345 1.727 2.035 2.446-1.595 1.483-3.092 2.295-4.11 2.295-.22-.005-.406-.05-.553-.132-.666-.38-.955-1.834-.73-3.703.054-.46.142-.944.25-1.438zm4.56.64c.44.02.89.034 1.345.034.46 0 .915-.01 1.36-.034-.44.572-.895 1.095-1.345 1.565-.455-.47-.91-.993-1.36-1.565z"
+                    />
+                  </svg>
+                </div>
 
-								<div class="skills__main__row__item">
-									<h4>Next.js</h4>
-									<svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-										<title>Next.js icon</title>
-										<path
-											d="M11.5725 0c-.1763 0-.3098.0013-.3584.0067-.0516.0053-.2159.021-.3636.0328-3.4088.3073-6.6017 2.1463-8.624 4.9728C1.1004 6.584.3802 8.3666.1082 10.255c-.0962.659-.108.8537-.108 1.7474s.012 1.0884.108 1.7476c.652 4.506 3.8591 8.2919 8.2087 9.6945.7789.2511 1.6.4223 2.5337.5255.3636.04 1.9354.04 2.299 0 1.6117-.1783 2.9772-.577 4.3237-1.2643.2065-.1056.2464-.1337.2183-.1573-.0188-.0139-.8987-1.1938-1.9543-2.62l-1.919-2.592-2.4047-3.5583c-1.3231-1.9564-2.4117-3.556-2.4211-3.556-.0094-.0026-.0187 1.5787-.0235 3.509-.0067 3.3802-.0093 3.5162-.0516 3.596-.061.115-.108.1618-.2064.2134-.075.0374-.1408.0445-.495.0445h-.406l-.1078-.068a.4383.4383 0 01-.1572-.1712l-.0493-.1056.0053-4.703.0067-4.7054.0726-.0915c.0376-.0493.1174-.1125.1736-.143.0962-.047.1338-.0517.5396-.0517.4787 0 .5584.0187.6827.1547.0353.0377 1.3373 1.9987 2.895 4.3608a10760.433 10760.433 0 004.7344 7.1706l1.9002 2.8782.096-.0633c.8518-.5536 1.7525-1.3418 2.4657-2.1627 1.5179-1.7429 2.4963-3.868 2.8247-6.134.0961-.6591.1078-.854.1078-1.7475 0-.8937-.012-1.0884-.1078-1.7476-.6522-4.506-3.8592-8.2919-8.2087-9.6945-.7672-.2487-1.5836-.42-2.4985-.5232-.169-.0176-1.0835-.0366-1.6123-.037zm4.0685 7.217c.3473 0 .4082.0053.4857.047.1127.0562.204.1642.237.2767.0186.061.0234 1.3653.0186 4.3044l-.0067 4.2175-.7436-1.14-.7461-1.14v-3.066c0-1.982.0093-3.0963.0234-3.1502.0375-.1313.1196-.2346.2323-.2955.0961-.0494.1313-.054.4997-.054z"
-										/>
-									</svg>
-								</div>
+                <div class="skills__main__row__item">
+                  <h4>Next.js</h4>
+                  <svg
+                    role="img"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <title>Next.js icon</title>
+                    <path
+                      d="M11.5725 0c-.1763 0-.3098.0013-.3584.0067-.0516.0053-.2159.021-.3636.0328-3.4088.3073-6.6017 2.1463-8.624 4.9728C1.1004 6.584.3802 8.3666.1082 10.255c-.0962.659-.108.8537-.108 1.7474s.012 1.0884.108 1.7476c.652 4.506 3.8591 8.2919 8.2087 9.6945.7789.2511 1.6.4223 2.5337.5255.3636.04 1.9354.04 2.299 0 1.6117-.1783 2.9772-.577 4.3237-1.2643.2065-.1056.2464-.1337.2183-.1573-.0188-.0139-.8987-1.1938-1.9543-2.62l-1.919-2.592-2.4047-3.5583c-1.3231-1.9564-2.4117-3.556-2.4211-3.556-.0094-.0026-.0187 1.5787-.0235 3.509-.0067 3.3802-.0093 3.5162-.0516 3.596-.061.115-.108.1618-.2064.2134-.075.0374-.1408.0445-.495.0445h-.406l-.1078-.068a.4383.4383 0 01-.1572-.1712l-.0493-.1056.0053-4.703.0067-4.7054.0726-.0915c.0376-.0493.1174-.1125.1736-.143.0962-.047.1338-.0517.5396-.0517.4787 0 .5584.0187.6827.1547.0353.0377 1.3373 1.9987 2.895 4.3608a10760.433 10760.433 0 004.7344 7.1706l1.9002 2.8782.096-.0633c.8518-.5536 1.7525-1.3418 2.4657-2.1627 1.5179-1.7429 2.4963-3.868 2.8247-6.134.0961-.6591.1078-.854.1078-1.7475 0-.8937-.012-1.0884-.1078-1.7476-.6522-4.506-3.8592-8.2919-8.2087-9.6945-.7672-.2487-1.5836-.42-2.4985-.5232-.169-.0176-1.0835-.0366-1.6123-.037zm4.0685 7.217c.3473 0 .4082.0053.4857.047.1127.0562.204.1642.237.2767.0186.061.0234 1.3653.0186 4.3044l-.0067 4.2175-.7436-1.14-.7461-1.14v-3.066c0-1.982.0093-3.0963.0234-3.1502.0375-.1313.1196-.2346.2323-.2955.0961-.0494.1313-.054.4997-.054z"
+                    />
+                  </svg>
+                </div>
 
-								<div class="skills__main__row__item">
-									<h4>Expo</h4>
-									<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-										<title>Expo icon</title>
-										<path
-											d="M0 20.084c.043.53.23 1.063.718 1.778.58.849 1.576 1.315 2.303.567.49-.505 5.794-9.776 8.35-13.29a.761.761 0 011.248 0c2.556 3.514 7.86 12.785 8.35 13.29.727.748 1.723.282 2.303-.567.57-.835.728-1.42.728-2.046 0-.426-8.26-15.798-9.092-17.078-.8-1.23-1.044-1.498-2.397-1.542h-1.032c-1.353.044-1.597.311-2.398 1.542C8.267 3.991.33 18.758 0 19.77Z"
-										/>
-									</svg>
-								</div>
-							</div>
-							<h3>Backend/Database:</h3>
-							<div class="skills__main__row">
-								<div class="skills__main__row__item">
-									<h4>Node.js</h4>
-									<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-										<title>Node.js icon</title>
-										<path
-											d="M11.998,24c-0.321,0-0.641-0.084-0.922-0.247l-2.936-1.737c-0.438-0.245-0.224-0.332-0.08-0.383 c0.585-0.203,0.703-0.25,1.328-0.604c0.065-0.037,0.151-0.023,0.218,0.017l2.256,1.339c0.082,0.045,0.197,0.045,0.272,0l8.795-5.076 c0.082-0.047,0.134-0.141,0.134-0.238V6.921c0-0.099-0.053-0.192-0.137-0.242l-8.791-5.072c-0.081-0.047-0.189-0.047-0.271,0 L3.075,6.68C2.99,6.729,2.936,6.825,2.936,6.921v10.15c0,0.097,0.054,0.189,0.139,0.235l2.409,1.392 c1.307,0.654,2.108-0.116,2.108-0.89V7.787c0-0.142,0.114-0.253,0.256-0.253h1.115c0.139,0,0.255,0.112,0.255,0.253v10.021 c0,1.745-0.95,2.745-2.604,2.745c-0.508,0-0.909,0-2.026-0.551L2.28,18.675c-0.57-0.329-0.922-0.945-0.922-1.604V6.921 c0-0.659,0.353-1.275,0.922-1.603l8.795-5.082c0.557-0.315,1.296-0.315,1.848,0l8.794,5.082c0.57,0.329,0.924,0.944,0.924,1.603 v10.15c0,0.659-0.354,1.273-0.924,1.604l-8.794,5.078C12.643,23.916,12.324,24,11.998,24z M19.099,13.993 c0-1.9-1.284-2.406-3.987-2.763c-2.731-0.361-3.009-0.548-3.009-1.187c0-0.528,0.235-1.233,2.258-1.233 c1.807,0,2.473,0.389,2.747,1.607c0.024,0.115,0.129,0.199,0.247,0.199h1.141c0.071,0,0.138-0.031,0.186-0.081 c0.048-0.054,0.074-0.123,0.067-0.196c-0.177-2.098-1.571-3.076-4.388-3.076c-2.508,0-4.004,1.058-4.004,2.833 c0,1.925,1.488,2.457,3.895,2.695c2.88,0.282,3.103,0.703,3.103,1.269c0,0.983-0.789,1.402-2.642,1.402 c-2.327,0-2.839-0.584-3.011-1.742c-0.02-0.124-0.126-0.215-0.253-0.215h-1.137c-0.141,0-0.254,0.112-0.254,0.253 c0,1.482,0.806,3.248,4.655,3.248C17.501,17.007,19.099,15.91,19.099,13.993z"
-										/>
-									</svg>
-								</div>
-								<div class="skills__main__row__item">
-									<h4>Express</h4>
-									<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-										<title>Express icon</title>
-										<path
-											d="M24 18.588a1.529 1.529 0 01-1.895-.72l-3.45-4.771-.5-.667-4.003 5.444a1.466 1.466 0 01-1.802.708l5.158-6.92-4.798-6.251a1.595 1.595 0 011.9.666l3.576 4.83 3.596-4.81a1.435 1.435 0 011.788-.668L21.708 7.9l-2.522 3.283a.666.666 0 000 .994l4.804 6.412zM.002 11.576l.42-2.075c1.154-4.103 5.858-5.81 9.094-3.27 1.895 1.489 2.368 3.597 2.275 5.973H1.116C.943 16.447 4.005 19.009 7.92 17.7a4.078 4.078 0 002.582-2.876c.207-.666.548-.78 1.174-.588a5.417 5.417 0 01-2.589 3.957 6.272 6.272 0 01-7.306-.933 6.575 6.575 0 01-1.64-3.858c0-.235-.08-.455-.134-.666A88.33 88.33 0 010 11.577zm1.127-.286h9.654c-.06-3.076-2.001-5.258-4.59-5.278-2.882-.04-4.944 2.094-5.071 5.264z"
-										/>
-									</svg>
-								</div>
-								<div class="skills__main__row__item">
-									<h4>MongoDB</h4>
-									<svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-										<title>MongoDB icon</title>
-										<path
-											d="M17.182 9.518c-1.263-5.56-4.242-7.387-4.562-8.086C12.268.939 11.887 0 11.887 0l-.005.049v.013h-.001a.574.574 0 00-.004.039v.015h-.002l-.002.026v.026h-.003c-.001.008-.001.018-.003.025v.021h-.002c0 .007 0 .015-.002.021v.02h-.002l-.002.032v.002l-.01.05v.008h-.001l-.003.012v.017h-.003v.022h-.005v.018h-.005v.021h-.004v.019h-.004v.017h-.006v.014h-.004v.018h-.004v.014h-.005v.013h-.003v.015h-.004l-.001.004v.01h-.003l-.001.006v.006h-.002a.044.044 0 00-.002.01l-.01.021v.002a.03.03 0 00-.005.007v.008h-.004v.008h-.005v.008h-.003v.01h-.006v.014h-.004v.004h-.004v.008h-.004v.011h-.004v.008h-.006v.011h-.004v.008h-.005v.008h-.003v.01h-.005v.008h-.004v.006h-.004v.008h-.006V.76h-.004v.006h-.005v.008h-.004v.011h-.005v.004h-.003v.008h-.006v.004h-.004v.01h-.004v.004h-.004v.008h-.005v.006h-.003l-.002.004v.004h-.002l-.002.004v.001h-.001a.016.016 0 01-.004.007v.003h-.001l-.012.018v.001l-.01.01v.002l-.003.003v.003h-.002l-.003.003v.001h-.001l-.003.004v.004h-.003l-.002.002v.002h-.002c0 .002-.002.002-.002.003v.003h-.004l-.002.003V.92h-.003v.004h-.004V.93h-.004v.008h-.005V.93h-.005v.004h-.004V.94h-.005v.008h-.005v.004h-.004v.006h-.004v.004h-.004V.97h-.006v.004h-.004V.98h-.005v.004h-.004v.005h-.005v.01h-.002v.004h-.006v.005h-.004v.002h-.004v.004h-.005v.01h-.004v.004h-.005v.004h-.004v.006h-.005v.004h-.005v.004h-.004v.004h-.004v.01h-.004v.005h-.006v.004h-.004v.004h-.005v.006h-.004v.004h-.005v.007h-.004v.004h-.006V1.1h-.002v.004h-.004v.004h-.005v.004h-.004v.006h-.005v.004h-.003l-.001.002v.002h-.002l-.004.004-.004.003v.006h-.004v.005h-.004v.004h-.004v.004h-.003l-.003.003v.003h-.002l-.002.002v.003h-.002c-.005.006-.007.01-.014.016a.366.366 0 00-.051.042l-.022.017v.001h-.001a2.821 2.821 0 01-.05.039v.001l-.073.062V1.34h-.002c-.057.047-.117.1-.186.159V1.5h-.001c-.17.148-.37.338-.595.568l-.015.015-.004.004c-1.36 1.407-3.503 4.339-3.73 9.077-.02.392-.015.773.007 1.144v.009c.109 1.867.695 3.461 1.428 4.756v.001c.292.516.607.985.926 1.405v.001c1.102 1.455 2.227 2.317 2.514 2.526.44 1.023.4 2.779.4 2.779l.644.215s-.131-1.701.053-2.522c.057-.257.192-.476.349-.662a8.38 8.38 0 00.797-.645c.018-.019.028-.036.044-.054 1.52-1.418 4.362-4.91 3.388-10.599z"
-										/>
-									</svg>
-								</div>
-							</div>
-							<h3>Hosting/Deployment:</h3>
-							<div class="skills__main__row">
-								<div class="skills__main__row__item">
-									<h4>AWS</h4>
-									<svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24">
-										<title>Amazon AWS icon</title>
-										<path
-											d="M6.763 10.036c0 .296.032.535.088.71.064.176.144.368.256.576.04.063.056.127.056.183 0 .08-.048.16-.152.24l-.503.335a.383.383 0 0 1-.208.072c-.08 0-.16-.04-.239-.112a2.47 2.47 0 0 1-.287-.375 6.18 6.18 0 0 1-.248-.471c-.622.734-1.405 1.101-2.347 1.101-.67 0-1.205-.191-1.596-.574-.391-.384-.59-.894-.59-1.533 0-.678.239-1.23.726-1.644.487-.415 1.133-.623 1.955-.623.272 0 .551.024.846.064.296.04.6.104.918.176v-.583c0-.607-.127-1.03-.375-1.277-.255-.248-.686-.367-1.3-.367-.28 0-.568.031-.863.103-.295.072-.583.16-.862.272a2.287 2.287 0 0 1-.28.104.488.488 0 0 1-.127.023c-.112 0-.168-.08-.168-.247v-.391c0-.128.016-.224.056-.28a.597.597 0 0 1 .224-.167c.279-.144.614-.264 1.005-.36a4.84 4.84 0 0 1 1.246-.151c.95 0 1.644.216 2.091.647.439.43.662 1.085.662 1.963v2.586zm-3.24 1.214c.263 0 .534-.048.822-.144.287-.096.543-.271.758-.51.128-.152.224-.32.272-.512.047-.191.08-.423.08-.694v-.335a6.66 6.66 0 0 0-.735-.136 6.02 6.02 0 0 0-.75-.048c-.535 0-.926.104-1.19.32-.263.215-.39.518-.39.917 0 .375.095.655.295.846.191.2.47.296.838.296zm6.41.862c-.144 0-.24-.024-.304-.08-.064-.048-.12-.16-.168-.311L7.586 5.55a1.398 1.398 0 0 1-.072-.32c0-.128.064-.2.191-.2h.783c.151 0 .255.025.31.08.065.048.113.16.16.312l1.342 5.284 1.245-5.284c.04-.16.088-.264.151-.312a.549.549 0 0 1 .32-.08h.638c.152 0 .256.025.32.08.063.048.12.16.151.312l1.261 5.348 1.381-5.348c.048-.16.104-.264.16-.312a.52.52 0 0 1 .311-.08h.743c.127 0 .2.065.2.2 0 .04-.009.08-.017.128a1.137 1.137 0 0 1-.056.2l-1.923 6.17c-.048.16-.104.263-.168.311a.51.51 0 0 1-.303.08h-.687c-.151 0-.255-.024-.32-.08-.063-.056-.119-.16-.15-.32l-1.238-5.148-1.23 5.14c-.04.16-.087.264-.15.32-.065.056-.177.08-.32.08zm10.256.215c-.415 0-.83-.048-1.229-.143-.399-.096-.71-.2-.918-.32-.128-.071-.215-.151-.247-.223a.563.563 0 0 1-.048-.224v-.407c0-.167.064-.247.183-.247.048 0 .096.008.144.024.048.016.12.048.2.08.271.12.566.215.878.279.319.064.63.096.95.096.502 0 .894-.088 1.165-.264a.86.86 0 0 0 .415-.758.777.777 0 0 0-.215-.559c-.144-.151-.416-.287-.807-.415l-1.157-.36c-.583-.183-1.014-.454-1.277-.813a1.902 1.902 0 0 1-.4-1.158c0-.335.073-.63.216-.886.144-.255.335-.479.575-.654.24-.184.51-.32.83-.415.32-.096.655-.136 1.006-.136.175 0 .359.008.535.032.183.024.35.056.518.088.16.04.312.08.455.127.144.048.256.096.336.144a.69.69 0 0 1 .24.2.43.43 0 0 1 .071.263v.375c0 .168-.064.256-.184.256a.83.83 0 0 1-.303-.096 3.652 3.652 0 0 0-1.532-.311c-.455 0-.815.071-1.062.223-.248.152-.375.383-.375.71 0 .224.08.416.24.567.159.152.454.304.877.44l1.134.358c.574.184.99.44 1.237.767.247.327.367.702.367 1.117 0 .343-.072.655-.207.926-.144.272-.336.511-.583.703-.248.2-.543.343-.886.447-.36.111-.734.167-1.142.167zM21.698 16.207c-2.626 1.94-6.442 2.969-9.722 2.969-4.598 0-8.74-1.7-11.87-4.526-.247-.223-.024-.527.272-.351 3.384 1.963 7.559 3.153 11.877 3.153 2.914 0 6.114-.607 9.06-1.852.439-.2.814.287.383.607zM22.792 14.961c-.336-.43-2.22-.207-3.074-.103-.255.032-.295-.192-.063-.36 1.5-1.053 3.967-.75 4.254-.399.287.36-.08 2.826-1.485 4.007-.215.184-.423.088-.327-.151.32-.79 1.03-2.57.695-2.994z"
-										/>
-									</svg>
-								</div>
-								<div class="skills__main__row__item">
-									<h4>github-pages</h4>
-									<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-										<title>GitHub icon</title>
-										<path
-											d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"
-										/>
-									</svg>
-								</div>
-								<div class="skills__main__row__item">
-									<h4>Heroku</h4>
-									<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-										<title>Heroku icon</title>
-										<path
-											d="M20.61 0H3.39C2.189 0 1.23.96 1.23 2.16v19.681c0 1.198.959 2.159 2.16 2.159h17.22c1.2 0 2.159-.961 2.159-2.159V2.16C22.77.96 21.811 0 20.61 0zm.96 21.841c0 .539-.421.96-.96.96H3.39c-.54 0-.96-.421-.96-.96V2.16c0-.54.42-.961.96-.961h17.22c.539 0 .96.421.96.961v19.681zM6.63 20.399L9.33 18l-2.7-2.4v4.799zm9.72-9.719c-.479-.48-1.379-1.08-2.879-1.08-1.621 0-3.301.421-4.5.84V3.6h-2.4v10.38l1.68-.78s2.76-1.26 5.16-1.26c1.2 0 1.5.66 1.5 1.26v7.2h2.4v-7.2c.059-.179.059-1.501-.961-2.52zM13.17 7.5h2.4c1.08-1.26 1.62-2.521 1.8-3.9h-2.399c-.241 1.379-.841 2.64-1.801 3.9z"
-										/>
-									</svg>
-								</div>
-								<div class="skills__main__row__item">
-									<h4>Netlify</h4>
-									<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-										<title>Netlify icon</title>
-										<path
-											d="M17.3877 8.3286l-.0088-.0037c-.005-.002-.01-.0038-.0144-.0082a.0689.0689 0 0 1-.0176-.0582l.4839-2.9581 2.269 2.2696L17.74 8.574a.052.052 0 0 1-.0206.0037H17.71a.0647.0647 0 0 1-.0126-.0106 1.074 1.074 0 0 0-.3097-.2385zm3.291-.1802l2.4262 2.426c.5039.5045.7561.7562.8481 1.0479.0138.0431.025.0863.0338.1308l-5.798-2.4555a.4557.4557 0 0 0-.0093-.0038c-.0232-.0094-.0501-.02-.0501-.0439 0-.0237.0275-.035.0507-.0444l.0075-.0031zm3.2092 4.3833c-.1252.2354-.3693.4795-.7824.8932l-2.7353 2.7347-3.5377-.7367-.0188-.0038c-.0313-.005-.0645-.0107-.0645-.0388a1.0678 1.0678 0 0 0-.41-.7467c-.0144-.0144-.0106-.037-.0063-.0576 0-.003 0-.0063.0013-.0088l.6654-4.0848.0025-.0138c.0038-.0313.0094-.0676.0376-.0676a1.0829 1.0829 0 0 0 .726-.4162c.0056-.0063.0094-.0131.017-.0169.02-.0094.0437 0 .0644.0088l6.0402 2.555zm-4.1467 4.257l-4.498 4.4979.77-4.732.0012-.0063a.083.083 0 0 1 .0038-.0182c.0063-.015.0226-.0213.0382-.0275l.0075-.0031a1.158 1.158 0 0 0 .435-.3236c.015-.0176.0332-.0345.0564-.0376a.0563.0563 0 0 1 .0181 0l3.1672.651zm-5.45 5.4499l-.507.507-5.6052-8.1007a.2654.2654 0 0 0-.0062-.0088c-.0088-.012-.0182-.0238-.0163-.0376.0006-.01.0069-.0188.0138-.0263l.0062-.0081c.017-.025.0313-.05.047-.077l.0125-.0219.0019-.0019c.0087-.015.0169-.0294.0319-.0376.0131-.0063.0313-.0038.0457-.0006l6.2098 1.2807a.1027.1027 0 0 1 .0476.0206c.008.0081.01.017.0119.027a1.0998 1.0998 0 0 0 .6434.7354c.0175.0088.01.0282.002.0488a.149.149 0 0 0-.0095.0282c-.0782.4757-.7492 4.568-.9295 5.6728zm-1.059 1.0584c-.3737.37-.594.5659-.8432.6447a1.2519 1.2519 0 0 1-.7549 0c-.2916-.0926-.5439-.3442-1.0478-.8487l-5.629-5.629 1.4704-2.2802a.0938.0938 0 0 1 .025-.0294c.0157-.0113.0382-.0063.057 0a1.5235 1.5235 0 0 0 1.0253-.052c.0169-.0063.0338-.0106.0469.0013a.119.119 0 0 1 .0175.02l5.6327 8.174zm-8.8175-6.3756L3.1234 15.63l2.55-1.0879a.0526.0526 0 0 1 .0207-.0044c.0213 0 .0338.0213.045.0407a1.8214 1.8214 0 0 0 .0814.1152l.0082.01c.0075.0106.0025.0213-.005.0313l-1.4084 2.1864zm-1.8628-1.8628L.9183 13.4249c-.278-.2779-.4795-.4794-.6197-.6528l4.9674 1.0303a.5258.5258 0 0 0 .0187.003c.0307.005.0645.0107.0645.0395 0 .0313-.037.0457-.0682.0576l-.0144.0063zM.0132 11.932a1.2519 1.2519 0 0 1 .0563-.3098c.0927-.2917.3443-.5434.8488-1.0478l2.0906-2.0906a1361.7196 1361.7196 0 0 0 2.8955 4.1855c.017.0226.0357.0476.0163.0664-.0914.1008-.1828.211-.2473.3305a.1001.1001 0 0 1-.0313.0388c-.008.005-.0169.003-.0262.0013h-.0013l-5.6014-1.175zm3.5553-4.0078l2.811-2.811c.2641.1157 1.2256.522 2.0856.885.651.2754 1.2443.5258 1.4308.6071.0188.0076.0357.015.0439.0338.005.0113.0025.0257 0 .0376a1.2537 1.2537 0 0 0 .3273 1.1442c.0188.0188 0 .0457-.0163.0689l-.0088.0131-2.8542 4.421c-.0075.0124-.0144.023-.0269.0312-.015.0094-.0363.005-.0538.0006a1.4234 1.4234 0 0 0-.34-.0463c-.1026 0-.214.0188-.3266.0395h-.0007c-.0125.0019-.0238.0044-.0338-.0031a.1314.1314 0 0 1-.0281-.032zm3.3787-3.3788l3.6391-3.639c.504-.5039.7562-.7561 1.0478-.8481a1.2519 1.2519 0 0 1 .755 0c.2916.092.5438.3442 1.0477.848l.7887.7888-2.5882 4.0084a.097.097 0 0 1-.0257.03c-.0156.0107-.0375.0063-.0563 0a1.3126 1.3126 0 0 0-1.2018.2316c-.0169.0176-.042.0075-.0632-.0019-.338-.147-2.967-1.258-3.343-1.4177zm7.8278-2.3009l2.3898 2.3898-.5758 3.5665v.0094a.0845.0845 0 0 1-.005.0238c-.0063.0125-.0188.015-.0313.0188a1.1454 1.1454 0 0 0-.343.1709.0964.0964 0 0 0-.0125.0106c-.007.0075-.0138.0144-.025.0157a.0714.0714 0 0 1-.027-.0044l-3.6416-1.5473-.007-.0031c-.0231-.0094-.0506-.0207-.0506-.0445a1.3758 1.3758 0 0 0-.194-.5727c-.0176-.0288-.037-.0588-.022-.0883zm-2.461 5.3868l3.4138 1.446c.0188.0087.0394.0168.0476.0362a.0663.0663 0 0 1 0 .0357.848.848 0 0 0-.0188.1646v.0958c0 .0238-.0244.0338-.047.0432l-.0069.0025c-.5408.231-7.5924 3.238-7.603 3.238-.0107 0-.022 0-.0326-.0107-.0188-.0188 0-.0451.0169-.0689a.4757.4757 0 0 0 .0087-.0125l2.8054-4.344.005-.0074c.0163-.0263.035-.0557.0651-.0557l.0282.0043c.0638.0088.1202.017.1771.017.4257 0 .82-.2072 1.0579-.5615a.1001.1001 0 0 1 .0212-.025c.017-.0126.042-.0063.0614.0024zm-3.9095 5.7492l7.6863-3.278s.0113 0 .022.0106c.0419.042.0776.0701.112.0964l.0169.0107c.0156.0088.0313.0188.0325.035 0 .0063 0 .01-.0013.0157l-.6584 4.0447-.0025.0163c-.0044.0313-.0088.067-.0382.067a1.0822 1.0822 0 0 0-.8594.5301l-.0031.005c-.0088.0144-.017.0282-.0313.0357-.0131.0063-.03.0038-.0438.0006L8.5064 13.706c-.0063-.0013-.0952-.3249-.102-.3255z"
-										/>
-									</svg>
-								</div>
-							</div>
-							<h3>Version-Control:</h3>
-							<div class="skills__main__row">
-								<div class="skills__main__row__item">
-									<h4>Git</h4>
-									<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-										<title>Git icon</title>
-										<path
-											d="M23.546 10.93L13.067.452c-.604-.603-1.582-.603-2.188 0L8.708 2.627l2.76 2.76c.645-.215 1.379-.07 1.889.441.516.515.658 1.258.438 1.9l2.658 2.66c.645-.223 1.387-.078 1.9.435.721.72.721 1.884 0 2.604-.719.719-1.881.719-2.6 0-.539-.541-.674-1.337-.404-1.996L12.86 8.955v6.525c.176.086.342.203.488.348.713.721.713 1.883 0 2.6-.719.721-1.889.721-2.609 0-.719-.719-.719-1.879 0-2.598.182-.18.387-.316.605-.406V8.835c-.217-.091-.424-.222-.6-.401-.545-.545-.676-1.342-.396-2.009L7.636 3.7.45 10.881c-.6.605-.6 1.584 0 2.189l10.48 10.477c.604.604 1.582.604 2.186 0l10.43-10.43c.605-.603.605-1.582 0-2.187"
-										/>
-									</svg>
-								</div>
-								<div class="skills__main__row__item">
-									<h4>GitLab</h4>
-									<svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-										<title>GitLab icon</title>
-										<path
-											d="M4.845.904c-.435 0-.82.28-.955.692C2.639 5.449 1.246 9.728.07 13.335a1.437 1.437 0 00.522 1.607l11.071 8.045c.2.145.472.144.67-.004l11.073-8.04a1.436 1.436 0 00.522-1.61c-1.285-3.942-2.683-8.256-3.817-11.746a1.004 1.004 0 00-.957-.684.987.987 0 00-.949.69l-2.405 7.408H8.203l-2.41-7.408a.987.987 0 00-.942-.69h-.006zm-.006 1.42l2.173 6.678H2.675zm14.326 0l2.168 6.678h-4.341zm-10.593 7.81h6.862c-1.142 3.52-2.288 7.04-3.434 10.559L8.572 10.135zm-5.514.005h4.321l3.086 9.5zm13.567 0h4.325c-2.467 3.17-4.95 6.328-7.411 9.502 1.028-3.167 2.059-6.334 3.086-9.502zM2.1 10.762l6.977 8.947-7.817-5.682a.305.305 0 01-.112-.341zm19.798 0l.952 2.922a.305.305 0 01-.11.341v.002l-7.82 5.68.026-.035z"
-										/>
-									</svg>
-								</div>
-							</div>
-							<h3>Unit/Integration Testing:</h3>
-							<div class="skills__main__row">
-								<div class="skills__main__row__item">
-									<h4>Jasmine</h4>
-									<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-										<title>Jasmine icon</title>
-										<path
-											d="M11.591 19.649h.771v-3.786h-.77zm-6.874-5.03l-.238-.733 3.6-1.17.238.735-3.6 1.17m4.645-5.762L7.138 5.796l.624-.453 2.224 3.062-.624.454m5.315.028l-.624-.454 2.225-3.062.624.453-2.225 3.063m4.592 5.78l-3.6-1.17.238-.734 3.6 1.17-.238.733M12 .001C5.383.001 0 5.384 0 11.998 0 18.617 5.383 24 12 24s12-5.382 12-12c0-6.617-5.383-12-12-12zm0 2.43c5.284 0 9.569 4.283 9.569 9.567 0 5.287-4.285 9.573-9.569 9.573-5.286 0-9.57-4.286-9.57-9.573 0-5.284 4.285-9.567 9.57-9.567m1.552 7.96l.575 1.768.747.242 4.736-1.538-.86-2.645-4.736 1.539-.462.635m.337 2.5l-1.504 1.093v.785l2.927 4.03 2.25-1.636-2.927-4.029-.746-.243m-2.275 1.093l-1.504-1.093-.747.243-2.927 4.029 2.25 1.635 2.928-4.029v-.785M9.873 12.16l.574-1.767-.462-.635-4.736-1.54-.86 2.646 4.737 1.54.747-.244m1.198-2.22h1.859l.462-.636v-4.98H10.61v4.98l.461.636"
-										/>
-									</svg>
-								</div>
-							</div>
-							<h3>Design:</h3>
-							<div class="skills__main__row">
-								<div class="skills__main__row__item">
-									<h4>Adobe XD</h4>
-									<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-										<title>Adobe XD icon</title>
-										<path
-											d="M18.835.3H5.165A5.165 5.165 0 0 0 0 5.465v13.07A5.165 5.165 0 0 0 5.165 23.7h13.67A5.165 5.165 0 0 0 24 18.535V5.465A5.165 5.165 0 0 0 18.835.3zm-6.106 16.491h-2.287c-.16 0-.274-.006-.338-.113-.215-.419-.43-.835-.644-1.248a45.137 45.137 0 0 0-.684-1.264 66.961 66.961 0 0 1-.717-1.305h-.016a52.7 52.7 0 0 1-.668 1.288c-.23.429-.459.856-.684 1.28A54.85 54.85 0 0 1 6 16.693c-.044.097-.119.107-.227.107H3.568c-.043 0-.067.017-.072-.026a.166.166 0 0 1 .024-.113l3.107-5.105L3.6 6.438c-.033-.043-.038-.078-.016-.107a.115.115 0 0 1 .097-.04h2.27a.36.36 0 0 1 .145.024.292.292 0 0 1 .096.089c.193.43.408.859.644 1.288.236.429.475.853.716 1.272.241.419.464.843.668 1.272h.016c.213-.44.43-.869.652-1.288.222-.419.447-.84.676-1.264.231-.425.453-.847.668-1.264a.246.246 0 0 1 .064-.106.239.239 0 0 1 .129-.024h2.109a.093.093 0 0 1 .112.067.093.093 0 0 1-.031.094l.001.004-2.995 4.943 3.204 5.249c.021.037.026.08.016.121-.01.036-.047.012-.112.023zm7.681-.42a8.02 8.02 0 0 1-1.626.483 8.63 8.63 0 0 1-1.547.145 5.006 5.006 0 0 1-2.149-.45 3.421 3.421 0 0 1-1.506-1.361 4.348 4.348 0 0 1-.548-2.278 4.202 4.202 0 0 1 .548-2.109 4.018 4.018 0 0 1 1.595-1.545 5.139 5.139 0 0 1 2.737-.572c.086.005.188.013.306.024V5.536c0-.075.032-.113.097-.113h2.028a.086.086 0 0 1 .097.073.096.096 0 0 1 0 .024v9.517c0 .183.008.381.024.596.016.214.03.407.04.579a.163.163 0 0 1-.096.159zm-2.457-5.812c.09.009.179.025.266.048v4.395a1.634 1.634 0 0 1-.354.064 4.965 4.965 0 0 1-.419.016 2.656 2.656 0 0 1-.83-.129 1.714 1.714 0 0 1-.676-.402 1.973 1.973 0 0 1-.451-.708 2.83 2.83 0 0 1-.169-1.031 2.217 2.217 0 0 1 .33-1.272c.213-.316.504-.571.845-.741.35-.173.736-.262 1.127-.258.111.002.221.007.331.018z"
-										/>
-									</svg>
-								</div>
-								<div class="skills__main__row__item">
-									<h4>Adobe Photoshop</h4>
-									<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-										<title>Adobe Photoshop icon</title>
-										<path
-											d="M9.85 8.42c-.37-.15-.77-.21-1.18-.2-.26 0-.49 0-.68.01-.2-.01-.34 0-.41.01v3.36c.14.01.27.02.39.02h.53c.39 0 .78-.06 1.15-.18.32-.09.6-.28.82-.53.21-.25.31-.59.31-1.03.01-.31-.07-.62-.23-.89-.17-.26-.41-.46-.7-.57zM19.75.3H4.25C1.9.3 0 2.2 0 4.55v14.899c0 2.35 1.9 4.25 4.25 4.25h15.5c2.35 0 4.25-1.9 4.25-4.25V4.55C24 2.2 22.1.3 19.75.3zm-7.391 11.65c-.399.56-.959.98-1.609 1.22-.68.25-1.43.34-2.25.34-.24 0-.4 0-.5-.01s-.24-.01-.43-.01v3.209c.01.07-.04.131-.11.141H5.52c-.08 0-.12-.041-.12-.131V6.42c0-.07.03-.11.1-.11.17 0 .33 0 .56-.01.24-.01.49-.01.76-.02s.56-.01.87-.02c.31-.01.61-.01.91-.01.82 0 1.5.1 2.06.31.5.17.96.45 1.34.82.32.32.57.71.73 1.14.149.42.229.85.229 1.3.001.86-.199 1.57-.6 2.13zm7.091 3.89c-.28.4-.671.709-1.12.891-.49.209-1.09.318-1.811.318-.459 0-.91-.039-1.359-.129-.35-.061-.7-.17-1.02-.32-.07-.039-.121-.109-.111-.189v-1.74c0-.029.011-.07.041-.09.029-.02.06-.01.09.01.39.23.8.391 1.24.49.379.1.779.15 1.18.15.38 0 .65-.051.83-.141.16-.07.27-.24.27-.42 0-.141-.08-.27-.24-.4-.16-.129-.489-.279-.979-.471-.51-.18-.979-.42-1.42-.719-.31-.221-.569-.51-.761-.85-.159-.32-.239-.67-.229-1.021 0-.43.12-.84.341-1.21.25-.4.619-.72 1.049-.92.469-.239 1.059-.349 1.769-.349.41 0 .83.03 1.24.09.3.04.59.12.86.23.039.01.08.05.1.09.01.04.02.08.02.12v1.63c0 .04-.02.08-.05.1-.09.02-.14.02-.18 0-.3-.16-.62-.27-.96-.34-.37-.08-.74-.13-1.12-.13-.2-.01-.41.02-.601.07-.129.03-.24.1-.31.2-.05.08-.08.18-.08.27s.04.18.101.26c.09.11.209.2.34.27.229.12.47.23.709.33.541.18 1.061.43 1.541.73.33.209.6.49.789.83.16.318.24.67.23 1.029.011.471-.129.94-.389 1.331z"
-										/>
-									</svg>
-								</div>
-								<div class="skills__main__row__item">
-									<h4>Figma</h4>
-									<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-										<title>Figma icon</title>
-										<path
-											d="M15.852 8.981h-4.588V0h4.588c2.476 0 4.49 2.014 4.49 4.49s-2.014 4.491-4.49 4.491zM12.735 7.51h3.117c1.665 0 3.019-1.355 3.019-3.019s-1.355-3.019-3.019-3.019h-3.117V7.51zm0 1.471H8.148c-2.476 0-4.49-2.014-4.49-4.49S5.672 0 8.148 0h4.588v8.981zm-4.587-7.51c-1.665 0-3.019 1.355-3.019 3.019s1.354 3.02 3.019 3.02h3.117V1.471H8.148zm4.587 15.019H8.148c-2.476 0-4.49-2.014-4.49-4.49s2.014-4.49 4.49-4.49h4.588v8.98zM8.148 8.981c-1.665 0-3.019 1.355-3.019 3.019s1.355 3.019 3.019 3.019h3.117V8.981H8.148zM8.172 24c-2.489 0-4.515-2.014-4.515-4.49s2.014-4.49 4.49-4.49h4.588v4.441c0 2.503-2.047 4.539-4.563 4.539zm-.024-7.51a3.023 3.023 0 0 0-3.019 3.019c0 1.665 1.365 3.019 3.044 3.019 1.705 0 3.093-1.376 3.093-3.068v-2.97H8.148zm7.704 0h-.098c-2.476 0-4.49-2.014-4.49-4.49s2.014-4.49 4.49-4.49h.098c2.476 0 4.49 2.014 4.49 4.49s-2.014 4.49-4.49 4.49zm-.097-7.509c-1.665 0-3.019 1.355-3.019 3.019s1.355 3.019 3.019 3.019h.098c1.665 0 3.019-1.355 3.019-3.019s-1.355-3.019-3.019-3.019h-.098z"
-										/>
-									</svg>
-								</div>
-							</div>
-						</div>
-					</section>
+                <div class="skills__main__row__item">
+                  <h4>Expo</h4>
+                  <svg
+                    role="img"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <title>Expo icon</title>
+                    <path
+                      d="M0 20.084c.043.53.23 1.063.718 1.778.58.849 1.576 1.315 2.303.567.49-.505 5.794-9.776 8.35-13.29a.761.761 0 011.248 0c2.556 3.514 7.86 12.785 8.35 13.29.727.748 1.723.282 2.303-.567.57-.835.728-1.42.728-2.046 0-.426-8.26-15.798-9.092-17.078-.8-1.23-1.044-1.498-2.397-1.542h-1.032c-1.353.044-1.597.311-2.398 1.542C8.267 3.991.33 18.758 0 19.77Z"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <h3>Backend/Database:</h3>
+              <div class="skills__main__row">
+                <div class="skills__main__row__item">
+                  <h4>Node.js</h4>
+                  <svg
+                    role="img"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <title>Node.js icon</title>
+                    <path
+                      d="M11.998,24c-0.321,0-0.641-0.084-0.922-0.247l-2.936-1.737c-0.438-0.245-0.224-0.332-0.08-0.383 c0.585-0.203,0.703-0.25,1.328-0.604c0.065-0.037,0.151-0.023,0.218,0.017l2.256,1.339c0.082,0.045,0.197,0.045,0.272,0l8.795-5.076 c0.082-0.047,0.134-0.141,0.134-0.238V6.921c0-0.099-0.053-0.192-0.137-0.242l-8.791-5.072c-0.081-0.047-0.189-0.047-0.271,0 L3.075,6.68C2.99,6.729,2.936,6.825,2.936,6.921v10.15c0,0.097,0.054,0.189,0.139,0.235l2.409,1.392 c1.307,0.654,2.108-0.116,2.108-0.89V7.787c0-0.142,0.114-0.253,0.256-0.253h1.115c0.139,0,0.255,0.112,0.255,0.253v10.021 c0,1.745-0.95,2.745-2.604,2.745c-0.508,0-0.909,0-2.026-0.551L2.28,18.675c-0.57-0.329-0.922-0.945-0.922-1.604V6.921 c0-0.659,0.353-1.275,0.922-1.603l8.795-5.082c0.557-0.315,1.296-0.315,1.848,0l8.794,5.082c0.57,0.329,0.924,0.944,0.924,1.603 v10.15c0,0.659-0.354,1.273-0.924,1.604l-8.794,5.078C12.643,23.916,12.324,24,11.998,24z M19.099,13.993 c0-1.9-1.284-2.406-3.987-2.763c-2.731-0.361-3.009-0.548-3.009-1.187c0-0.528,0.235-1.233,2.258-1.233 c1.807,0,2.473,0.389,2.747,1.607c0.024,0.115,0.129,0.199,0.247,0.199h1.141c0.071,0,0.138-0.031,0.186-0.081 c0.048-0.054,0.074-0.123,0.067-0.196c-0.177-2.098-1.571-3.076-4.388-3.076c-2.508,0-4.004,1.058-4.004,2.833 c0,1.925,1.488,2.457,3.895,2.695c2.88,0.282,3.103,0.703,3.103,1.269c0,0.983-0.789,1.402-2.642,1.402 c-2.327,0-2.839-0.584-3.011-1.742c-0.02-0.124-0.126-0.215-0.253-0.215h-1.137c-0.141,0-0.254,0.112-0.254,0.253 c0,1.482,0.806,3.248,4.655,3.248C17.501,17.007,19.099,15.91,19.099,13.993z"
+                    />
+                  </svg>
+                </div>
+                <div class="skills__main__row__item">
+                  <h4>Express</h4>
+                  <svg
+                    role="img"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <title>Express icon</title>
+                    <path
+                      d="M24 18.588a1.529 1.529 0 01-1.895-.72l-3.45-4.771-.5-.667-4.003 5.444a1.466 1.466 0 01-1.802.708l5.158-6.92-4.798-6.251a1.595 1.595 0 011.9.666l3.576 4.83 3.596-4.81a1.435 1.435 0 011.788-.668L21.708 7.9l-2.522 3.283a.666.666 0 000 .994l4.804 6.412zM.002 11.576l.42-2.075c1.154-4.103 5.858-5.81 9.094-3.27 1.895 1.489 2.368 3.597 2.275 5.973H1.116C.943 16.447 4.005 19.009 7.92 17.7a4.078 4.078 0 002.582-2.876c.207-.666.548-.78 1.174-.588a5.417 5.417 0 01-2.589 3.957 6.272 6.272 0 01-7.306-.933 6.575 6.575 0 01-1.64-3.858c0-.235-.08-.455-.134-.666A88.33 88.33 0 010 11.577zm1.127-.286h9.654c-.06-3.076-2.001-5.258-4.59-5.278-2.882-.04-4.944 2.094-5.071 5.264z"
+                    />
+                  </svg>
+                </div>
+                <div class="skills__main__row__item">
+                  <h4>MongoDB</h4>
+                  <svg
+                    role="img"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <title>MongoDB icon</title>
+                    <path
+                      d="M17.182 9.518c-1.263-5.56-4.242-7.387-4.562-8.086C12.268.939 11.887 0 11.887 0l-.005.049v.013h-.001a.574.574 0 00-.004.039v.015h-.002l-.002.026v.026h-.003c-.001.008-.001.018-.003.025v.021h-.002c0 .007 0 .015-.002.021v.02h-.002l-.002.032v.002l-.01.05v.008h-.001l-.003.012v.017h-.003v.022h-.005v.018h-.005v.021h-.004v.019h-.004v.017h-.006v.014h-.004v.018h-.004v.014h-.005v.013h-.003v.015h-.004l-.001.004v.01h-.003l-.001.006v.006h-.002a.044.044 0 00-.002.01l-.01.021v.002a.03.03 0 00-.005.007v.008h-.004v.008h-.005v.008h-.003v.01h-.006v.014h-.004v.004h-.004v.008h-.004v.011h-.004v.008h-.006v.011h-.004v.008h-.005v.008h-.003v.01h-.005v.008h-.004v.006h-.004v.008h-.006V.76h-.004v.006h-.005v.008h-.004v.011h-.005v.004h-.003v.008h-.006v.004h-.004v.01h-.004v.004h-.004v.008h-.005v.006h-.003l-.002.004v.004h-.002l-.002.004v.001h-.001a.016.016 0 01-.004.007v.003h-.001l-.012.018v.001l-.01.01v.002l-.003.003v.003h-.002l-.003.003v.001h-.001l-.003.004v.004h-.003l-.002.002v.002h-.002c0 .002-.002.002-.002.003v.003h-.004l-.002.003V.92h-.003v.004h-.004V.93h-.004v.008h-.005V.93h-.005v.004h-.004V.94h-.005v.008h-.005v.004h-.004v.006h-.004v.004h-.004V.97h-.006v.004h-.004V.98h-.005v.004h-.004v.005h-.005v.01h-.002v.004h-.006v.005h-.004v.002h-.004v.004h-.005v.01h-.004v.004h-.005v.004h-.004v.006h-.005v.004h-.005v.004h-.004v.004h-.004v.01h-.004v.005h-.006v.004h-.004v.004h-.005v.006h-.004v.004h-.005v.007h-.004v.004h-.006V1.1h-.002v.004h-.004v.004h-.005v.004h-.004v.006h-.005v.004h-.003l-.001.002v.002h-.002l-.004.004-.004.003v.006h-.004v.005h-.004v.004h-.004v.004h-.003l-.003.003v.003h-.002l-.002.002v.003h-.002c-.005.006-.007.01-.014.016a.366.366 0 00-.051.042l-.022.017v.001h-.001a2.821 2.821 0 01-.05.039v.001l-.073.062V1.34h-.002c-.057.047-.117.1-.186.159V1.5h-.001c-.17.148-.37.338-.595.568l-.015.015-.004.004c-1.36 1.407-3.503 4.339-3.73 9.077-.02.392-.015.773.007 1.144v.009c.109 1.867.695 3.461 1.428 4.756v.001c.292.516.607.985.926 1.405v.001c1.102 1.455 2.227 2.317 2.514 2.526.44 1.023.4 2.779.4 2.779l.644.215s-.131-1.701.053-2.522c.057-.257.192-.476.349-.662a8.38 8.38 0 00.797-.645c.018-.019.028-.036.044-.054 1.52-1.418 4.362-4.91 3.388-10.599z"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <h3>Hosting/Deployment:</h3>
+              <div class="skills__main__row">
+                <div class="skills__main__row__item">
+                  <h4>AWS</h4>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    role="img"
+                    viewBox="0 0 24 24"
+                  >
+                    <title>Amazon AWS icon</title>
+                    <path
+                      d="M6.763 10.036c0 .296.032.535.088.71.064.176.144.368.256.576.04.063.056.127.056.183 0 .08-.048.16-.152.24l-.503.335a.383.383 0 0 1-.208.072c-.08 0-.16-.04-.239-.112a2.47 2.47 0 0 1-.287-.375 6.18 6.18 0 0 1-.248-.471c-.622.734-1.405 1.101-2.347 1.101-.67 0-1.205-.191-1.596-.574-.391-.384-.59-.894-.59-1.533 0-.678.239-1.23.726-1.644.487-.415 1.133-.623 1.955-.623.272 0 .551.024.846.064.296.04.6.104.918.176v-.583c0-.607-.127-1.03-.375-1.277-.255-.248-.686-.367-1.3-.367-.28 0-.568.031-.863.103-.295.072-.583.16-.862.272a2.287 2.287 0 0 1-.28.104.488.488 0 0 1-.127.023c-.112 0-.168-.08-.168-.247v-.391c0-.128.016-.224.056-.28a.597.597 0 0 1 .224-.167c.279-.144.614-.264 1.005-.36a4.84 4.84 0 0 1 1.246-.151c.95 0 1.644.216 2.091.647.439.43.662 1.085.662 1.963v2.586zm-3.24 1.214c.263 0 .534-.048.822-.144.287-.096.543-.271.758-.51.128-.152.224-.32.272-.512.047-.191.08-.423.08-.694v-.335a6.66 6.66 0 0 0-.735-.136 6.02 6.02 0 0 0-.75-.048c-.535 0-.926.104-1.19.32-.263.215-.39.518-.39.917 0 .375.095.655.295.846.191.2.47.296.838.296zm6.41.862c-.144 0-.24-.024-.304-.08-.064-.048-.12-.16-.168-.311L7.586 5.55a1.398 1.398 0 0 1-.072-.32c0-.128.064-.2.191-.2h.783c.151 0 .255.025.31.08.065.048.113.16.16.312l1.342 5.284 1.245-5.284c.04-.16.088-.264.151-.312a.549.549 0 0 1 .32-.08h.638c.152 0 .256.025.32.08.063.048.12.16.151.312l1.261 5.348 1.381-5.348c.048-.16.104-.264.16-.312a.52.52 0 0 1 .311-.08h.743c.127 0 .2.065.2.2 0 .04-.009.08-.017.128a1.137 1.137 0 0 1-.056.2l-1.923 6.17c-.048.16-.104.263-.168.311a.51.51 0 0 1-.303.08h-.687c-.151 0-.255-.024-.32-.08-.063-.056-.119-.16-.15-.32l-1.238-5.148-1.23 5.14c-.04.16-.087.264-.15.32-.065.056-.177.08-.32.08zm10.256.215c-.415 0-.83-.048-1.229-.143-.399-.096-.71-.2-.918-.32-.128-.071-.215-.151-.247-.223a.563.563 0 0 1-.048-.224v-.407c0-.167.064-.247.183-.247.048 0 .096.008.144.024.048.016.12.048.2.08.271.12.566.215.878.279.319.064.63.096.95.096.502 0 .894-.088 1.165-.264a.86.86 0 0 0 .415-.758.777.777 0 0 0-.215-.559c-.144-.151-.416-.287-.807-.415l-1.157-.36c-.583-.183-1.014-.454-1.277-.813a1.902 1.902 0 0 1-.4-1.158c0-.335.073-.63.216-.886.144-.255.335-.479.575-.654.24-.184.51-.32.83-.415.32-.096.655-.136 1.006-.136.175 0 .359.008.535.032.183.024.35.056.518.088.16.04.312.08.455.127.144.048.256.096.336.144a.69.69 0 0 1 .24.2.43.43 0 0 1 .071.263v.375c0 .168-.064.256-.184.256a.83.83 0 0 1-.303-.096 3.652 3.652 0 0 0-1.532-.311c-.455 0-.815.071-1.062.223-.248.152-.375.383-.375.71 0 .224.08.416.24.567.159.152.454.304.877.44l1.134.358c.574.184.99.44 1.237.767.247.327.367.702.367 1.117 0 .343-.072.655-.207.926-.144.272-.336.511-.583.703-.248.2-.543.343-.886.447-.36.111-.734.167-1.142.167zM21.698 16.207c-2.626 1.94-6.442 2.969-9.722 2.969-4.598 0-8.74-1.7-11.87-4.526-.247-.223-.024-.527.272-.351 3.384 1.963 7.559 3.153 11.877 3.153 2.914 0 6.114-.607 9.06-1.852.439-.2.814.287.383.607zM22.792 14.961c-.336-.43-2.22-.207-3.074-.103-.255.032-.295-.192-.063-.36 1.5-1.053 3.967-.75 4.254-.399.287.36-.08 2.826-1.485 4.007-.215.184-.423.088-.327-.151.32-.79 1.03-2.57.695-2.994z"
+                    />
+                  </svg>
+                </div>
+                <div class="skills__main__row__item">
+                  <h4>github-pages</h4>
+                  <svg
+                    role="img"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <title>GitHub icon</title>
+                    <path
+                      d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"
+                    />
+                  </svg>
+                </div>
+                <div class="skills__main__row__item">
+                  <h4>Heroku</h4>
+                  <svg
+                    role="img"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <title>Heroku icon</title>
+                    <path
+                      d="M20.61 0H3.39C2.189 0 1.23.96 1.23 2.16v19.681c0 1.198.959 2.159 2.16 2.159h17.22c1.2 0 2.159-.961 2.159-2.159V2.16C22.77.96 21.811 0 20.61 0zm.96 21.841c0 .539-.421.96-.96.96H3.39c-.54 0-.96-.421-.96-.96V2.16c0-.54.42-.961.96-.961h17.22c.539 0 .96.421.96.961v19.681zM6.63 20.399L9.33 18l-2.7-2.4v4.799zm9.72-9.719c-.479-.48-1.379-1.08-2.879-1.08-1.621 0-3.301.421-4.5.84V3.6h-2.4v10.38l1.68-.78s2.76-1.26 5.16-1.26c1.2 0 1.5.66 1.5 1.26v7.2h2.4v-7.2c.059-.179.059-1.501-.961-2.52zM13.17 7.5h2.4c1.08-1.26 1.62-2.521 1.8-3.9h-2.399c-.241 1.379-.841 2.64-1.801 3.9z"
+                    />
+                  </svg>
+                </div>
+                <div class="skills__main__row__item">
+                  <h4>Netlify</h4>
+                  <svg
+                    role="img"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <title>Netlify icon</title>
+                    <path
+                      d="M17.3877 8.3286l-.0088-.0037c-.005-.002-.01-.0038-.0144-.0082a.0689.0689 0 0 1-.0176-.0582l.4839-2.9581 2.269 2.2696L17.74 8.574a.052.052 0 0 1-.0206.0037H17.71a.0647.0647 0 0 1-.0126-.0106 1.074 1.074 0 0 0-.3097-.2385zm3.291-.1802l2.4262 2.426c.5039.5045.7561.7562.8481 1.0479.0138.0431.025.0863.0338.1308l-5.798-2.4555a.4557.4557 0 0 0-.0093-.0038c-.0232-.0094-.0501-.02-.0501-.0439 0-.0237.0275-.035.0507-.0444l.0075-.0031zm3.2092 4.3833c-.1252.2354-.3693.4795-.7824.8932l-2.7353 2.7347-3.5377-.7367-.0188-.0038c-.0313-.005-.0645-.0107-.0645-.0388a1.0678 1.0678 0 0 0-.41-.7467c-.0144-.0144-.0106-.037-.0063-.0576 0-.003 0-.0063.0013-.0088l.6654-4.0848.0025-.0138c.0038-.0313.0094-.0676.0376-.0676a1.0829 1.0829 0 0 0 .726-.4162c.0056-.0063.0094-.0131.017-.0169.02-.0094.0437 0 .0644.0088l6.0402 2.555zm-4.1467 4.257l-4.498 4.4979.77-4.732.0012-.0063a.083.083 0 0 1 .0038-.0182c.0063-.015.0226-.0213.0382-.0275l.0075-.0031a1.158 1.158 0 0 0 .435-.3236c.015-.0176.0332-.0345.0564-.0376a.0563.0563 0 0 1 .0181 0l3.1672.651zm-5.45 5.4499l-.507.507-5.6052-8.1007a.2654.2654 0 0 0-.0062-.0088c-.0088-.012-.0182-.0238-.0163-.0376.0006-.01.0069-.0188.0138-.0263l.0062-.0081c.017-.025.0313-.05.047-.077l.0125-.0219.0019-.0019c.0087-.015.0169-.0294.0319-.0376.0131-.0063.0313-.0038.0457-.0006l6.2098 1.2807a.1027.1027 0 0 1 .0476.0206c.008.0081.01.017.0119.027a1.0998 1.0998 0 0 0 .6434.7354c.0175.0088.01.0282.002.0488a.149.149 0 0 0-.0095.0282c-.0782.4757-.7492 4.568-.9295 5.6728zm-1.059 1.0584c-.3737.37-.594.5659-.8432.6447a1.2519 1.2519 0 0 1-.7549 0c-.2916-.0926-.5439-.3442-1.0478-.8487l-5.629-5.629 1.4704-2.2802a.0938.0938 0 0 1 .025-.0294c.0157-.0113.0382-.0063.057 0a1.5235 1.5235 0 0 0 1.0253-.052c.0169-.0063.0338-.0106.0469.0013a.119.119 0 0 1 .0175.02l5.6327 8.174zm-8.8175-6.3756L3.1234 15.63l2.55-1.0879a.0526.0526 0 0 1 .0207-.0044c.0213 0 .0338.0213.045.0407a1.8214 1.8214 0 0 0 .0814.1152l.0082.01c.0075.0106.0025.0213-.005.0313l-1.4084 2.1864zm-1.8628-1.8628L.9183 13.4249c-.278-.2779-.4795-.4794-.6197-.6528l4.9674 1.0303a.5258.5258 0 0 0 .0187.003c.0307.005.0645.0107.0645.0395 0 .0313-.037.0457-.0682.0576l-.0144.0063zM.0132 11.932a1.2519 1.2519 0 0 1 .0563-.3098c.0927-.2917.3443-.5434.8488-1.0478l2.0906-2.0906a1361.7196 1361.7196 0 0 0 2.8955 4.1855c.017.0226.0357.0476.0163.0664-.0914.1008-.1828.211-.2473.3305a.1001.1001 0 0 1-.0313.0388c-.008.005-.0169.003-.0262.0013h-.0013l-5.6014-1.175zm3.5553-4.0078l2.811-2.811c.2641.1157 1.2256.522 2.0856.885.651.2754 1.2443.5258 1.4308.6071.0188.0076.0357.015.0439.0338.005.0113.0025.0257 0 .0376a1.2537 1.2537 0 0 0 .3273 1.1442c.0188.0188 0 .0457-.0163.0689l-.0088.0131-2.8542 4.421c-.0075.0124-.0144.023-.0269.0312-.015.0094-.0363.005-.0538.0006a1.4234 1.4234 0 0 0-.34-.0463c-.1026 0-.214.0188-.3266.0395h-.0007c-.0125.0019-.0238.0044-.0338-.0031a.1314.1314 0 0 1-.0281-.032zm3.3787-3.3788l3.6391-3.639c.504-.5039.7562-.7561 1.0478-.8481a1.2519 1.2519 0 0 1 .755 0c.2916.092.5438.3442 1.0477.848l.7887.7888-2.5882 4.0084a.097.097 0 0 1-.0257.03c-.0156.0107-.0375.0063-.0563 0a1.3126 1.3126 0 0 0-1.2018.2316c-.0169.0176-.042.0075-.0632-.0019-.338-.147-2.967-1.258-3.343-1.4177zm7.8278-2.3009l2.3898 2.3898-.5758 3.5665v.0094a.0845.0845 0 0 1-.005.0238c-.0063.0125-.0188.015-.0313.0188a1.1454 1.1454 0 0 0-.343.1709.0964.0964 0 0 0-.0125.0106c-.007.0075-.0138.0144-.025.0157a.0714.0714 0 0 1-.027-.0044l-3.6416-1.5473-.007-.0031c-.0231-.0094-.0506-.0207-.0506-.0445a1.3758 1.3758 0 0 0-.194-.5727c-.0176-.0288-.037-.0588-.022-.0883zm-2.461 5.3868l3.4138 1.446c.0188.0087.0394.0168.0476.0362a.0663.0663 0 0 1 0 .0357.848.848 0 0 0-.0188.1646v.0958c0 .0238-.0244.0338-.047.0432l-.0069.0025c-.5408.231-7.5924 3.238-7.603 3.238-.0107 0-.022 0-.0326-.0107-.0188-.0188 0-.0451.0169-.0689a.4757.4757 0 0 0 .0087-.0125l2.8054-4.344.005-.0074c.0163-.0263.035-.0557.0651-.0557l.0282.0043c.0638.0088.1202.017.1771.017.4257 0 .82-.2072 1.0579-.5615a.1001.1001 0 0 1 .0212-.025c.017-.0126.042-.0063.0614.0024zm-3.9095 5.7492l7.6863-3.278s.0113 0 .022.0106c.0419.042.0776.0701.112.0964l.0169.0107c.0156.0088.0313.0188.0325.035 0 .0063 0 .01-.0013.0157l-.6584 4.0447-.0025.0163c-.0044.0313-.0088.067-.0382.067a1.0822 1.0822 0 0 0-.8594.5301l-.0031.005c-.0088.0144-.017.0282-.0313.0357-.0131.0063-.03.0038-.0438.0006L8.5064 13.706c-.0063-.0013-.0952-.3249-.102-.3255z"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <h3>Version-Control:</h3>
+              <div class="skills__main__row">
+                <div class="skills__main__row__item">
+                  <h4>Git</h4>
+                  <svg
+                    role="img"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <title>Git icon</title>
+                    <path
+                      d="M23.546 10.93L13.067.452c-.604-.603-1.582-.603-2.188 0L8.708 2.627l2.76 2.76c.645-.215 1.379-.07 1.889.441.516.515.658 1.258.438 1.9l2.658 2.66c.645-.223 1.387-.078 1.9.435.721.72.721 1.884 0 2.604-.719.719-1.881.719-2.6 0-.539-.541-.674-1.337-.404-1.996L12.86 8.955v6.525c.176.086.342.203.488.348.713.721.713 1.883 0 2.6-.719.721-1.889.721-2.609 0-.719-.719-.719-1.879 0-2.598.182-.18.387-.316.605-.406V8.835c-.217-.091-.424-.222-.6-.401-.545-.545-.676-1.342-.396-2.009L7.636 3.7.45 10.881c-.6.605-.6 1.584 0 2.189l10.48 10.477c.604.604 1.582.604 2.186 0l10.43-10.43c.605-.603.605-1.582 0-2.187"
+                    />
+                  </svg>
+                </div>
+                <div class="skills__main__row__item">
+                  <h4>GitLab</h4>
+                  <svg
+                    role="img"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <title>GitLab icon</title>
+                    <path
+                      d="M4.845.904c-.435 0-.82.28-.955.692C2.639 5.449 1.246 9.728.07 13.335a1.437 1.437 0 00.522 1.607l11.071 8.045c.2.145.472.144.67-.004l11.073-8.04a1.436 1.436 0 00.522-1.61c-1.285-3.942-2.683-8.256-3.817-11.746a1.004 1.004 0 00-.957-.684.987.987 0 00-.949.69l-2.405 7.408H8.203l-2.41-7.408a.987.987 0 00-.942-.69h-.006zm-.006 1.42l2.173 6.678H2.675zm14.326 0l2.168 6.678h-4.341zm-10.593 7.81h6.862c-1.142 3.52-2.288 7.04-3.434 10.559L8.572 10.135zm-5.514.005h4.321l3.086 9.5zm13.567 0h4.325c-2.467 3.17-4.95 6.328-7.411 9.502 1.028-3.167 2.059-6.334 3.086-9.502zM2.1 10.762l6.977 8.947-7.817-5.682a.305.305 0 01-.112-.341zm19.798 0l.952 2.922a.305.305 0 01-.11.341v.002l-7.82 5.68.026-.035z"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <h3>Unit/Integration Testing:</h3>
+              <div class="skills__main__row">
+                <div class="skills__main__row__item">
+                  <h4>Jasmine</h4>
+                  <svg
+                    role="img"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <title>Jasmine icon</title>
+                    <path
+                      d="M11.591 19.649h.771v-3.786h-.77zm-6.874-5.03l-.238-.733 3.6-1.17.238.735-3.6 1.17m4.645-5.762L7.138 5.796l.624-.453 2.224 3.062-.624.454m5.315.028l-.624-.454 2.225-3.062.624.453-2.225 3.063m4.592 5.78l-3.6-1.17.238-.734 3.6 1.17-.238.733M12 .001C5.383.001 0 5.384 0 11.998 0 18.617 5.383 24 12 24s12-5.382 12-12c0-6.617-5.383-12-12-12zm0 2.43c5.284 0 9.569 4.283 9.569 9.567 0 5.287-4.285 9.573-9.569 9.573-5.286 0-9.57-4.286-9.57-9.573 0-5.284 4.285-9.567 9.57-9.567m1.552 7.96l.575 1.768.747.242 4.736-1.538-.86-2.645-4.736 1.539-.462.635m.337 2.5l-1.504 1.093v.785l2.927 4.03 2.25-1.636-2.927-4.029-.746-.243m-2.275 1.093l-1.504-1.093-.747.243-2.927 4.029 2.25 1.635 2.928-4.029v-.785M9.873 12.16l.574-1.767-.462-.635-4.736-1.54-.86 2.646 4.737 1.54.747-.244m1.198-2.22h1.859l.462-.636v-4.98H10.61v4.98l.461.636"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <h3>Design:</h3>
+              <div class="skills__main__row">
+                <div class="skills__main__row__item">
+                  <h4>Adobe XD</h4>
+                  <svg
+                    role="img"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <title>Adobe XD icon</title>
+                    <path
+                      d="M18.835.3H5.165A5.165 5.165 0 0 0 0 5.465v13.07A5.165 5.165 0 0 0 5.165 23.7h13.67A5.165 5.165 0 0 0 24 18.535V5.465A5.165 5.165 0 0 0 18.835.3zm-6.106 16.491h-2.287c-.16 0-.274-.006-.338-.113-.215-.419-.43-.835-.644-1.248a45.137 45.137 0 0 0-.684-1.264 66.961 66.961 0 0 1-.717-1.305h-.016a52.7 52.7 0 0 1-.668 1.288c-.23.429-.459.856-.684 1.28A54.85 54.85 0 0 1 6 16.693c-.044.097-.119.107-.227.107H3.568c-.043 0-.067.017-.072-.026a.166.166 0 0 1 .024-.113l3.107-5.105L3.6 6.438c-.033-.043-.038-.078-.016-.107a.115.115 0 0 1 .097-.04h2.27a.36.36 0 0 1 .145.024.292.292 0 0 1 .096.089c.193.43.408.859.644 1.288.236.429.475.853.716 1.272.241.419.464.843.668 1.272h.016c.213-.44.43-.869.652-1.288.222-.419.447-.84.676-1.264.231-.425.453-.847.668-1.264a.246.246 0 0 1 .064-.106.239.239 0 0 1 .129-.024h2.109a.093.093 0 0 1 .112.067.093.093 0 0 1-.031.094l.001.004-2.995 4.943 3.204 5.249c.021.037.026.08.016.121-.01.036-.047.012-.112.023zm7.681-.42a8.02 8.02 0 0 1-1.626.483 8.63 8.63 0 0 1-1.547.145 5.006 5.006 0 0 1-2.149-.45 3.421 3.421 0 0 1-1.506-1.361 4.348 4.348 0 0 1-.548-2.278 4.202 4.202 0 0 1 .548-2.109 4.018 4.018 0 0 1 1.595-1.545 5.139 5.139 0 0 1 2.737-.572c.086.005.188.013.306.024V5.536c0-.075.032-.113.097-.113h2.028a.086.086 0 0 1 .097.073.096.096 0 0 1 0 .024v9.517c0 .183.008.381.024.596.016.214.03.407.04.579a.163.163 0 0 1-.096.159zm-2.457-5.812c.09.009.179.025.266.048v4.395a1.634 1.634 0 0 1-.354.064 4.965 4.965 0 0 1-.419.016 2.656 2.656 0 0 1-.83-.129 1.714 1.714 0 0 1-.676-.402 1.973 1.973 0 0 1-.451-.708 2.83 2.83 0 0 1-.169-1.031 2.217 2.217 0 0 1 .33-1.272c.213-.316.504-.571.845-.741.35-.173.736-.262 1.127-.258.111.002.221.007.331.018z"
+                    />
+                  </svg>
+                </div>
+                <div class="skills__main__row__item">
+                  <h4>Adobe Photoshop</h4>
+                  <svg
+                    role="img"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <title>Adobe Photoshop icon</title>
+                    <path
+                      d="M9.85 8.42c-.37-.15-.77-.21-1.18-.2-.26 0-.49 0-.68.01-.2-.01-.34 0-.41.01v3.36c.14.01.27.02.39.02h.53c.39 0 .78-.06 1.15-.18.32-.09.6-.28.82-.53.21-.25.31-.59.31-1.03.01-.31-.07-.62-.23-.89-.17-.26-.41-.46-.7-.57zM19.75.3H4.25C1.9.3 0 2.2 0 4.55v14.899c0 2.35 1.9 4.25 4.25 4.25h15.5c2.35 0 4.25-1.9 4.25-4.25V4.55C24 2.2 22.1.3 19.75.3zm-7.391 11.65c-.399.56-.959.98-1.609 1.22-.68.25-1.43.34-2.25.34-.24 0-.4 0-.5-.01s-.24-.01-.43-.01v3.209c.01.07-.04.131-.11.141H5.52c-.08 0-.12-.041-.12-.131V6.42c0-.07.03-.11.1-.11.17 0 .33 0 .56-.01.24-.01.49-.01.76-.02s.56-.01.87-.02c.31-.01.61-.01.91-.01.82 0 1.5.1 2.06.31.5.17.96.45 1.34.82.32.32.57.71.73 1.14.149.42.229.85.229 1.3.001.86-.199 1.57-.6 2.13zm7.091 3.89c-.28.4-.671.709-1.12.891-.49.209-1.09.318-1.811.318-.459 0-.91-.039-1.359-.129-.35-.061-.7-.17-1.02-.32-.07-.039-.121-.109-.111-.189v-1.74c0-.029.011-.07.041-.09.029-.02.06-.01.09.01.39.23.8.391 1.24.49.379.1.779.15 1.18.15.38 0 .65-.051.83-.141.16-.07.27-.24.27-.42 0-.141-.08-.27-.24-.4-.16-.129-.489-.279-.979-.471-.51-.18-.979-.42-1.42-.719-.31-.221-.569-.51-.761-.85-.159-.32-.239-.67-.229-1.021 0-.43.12-.84.341-1.21.25-.4.619-.72 1.049-.92.469-.239 1.059-.349 1.769-.349.41 0 .83.03 1.24.09.3.04.59.12.86.23.039.01.08.05.1.09.01.04.02.08.02.12v1.63c0 .04-.02.08-.05.1-.09.02-.14.02-.18 0-.3-.16-.62-.27-.96-.34-.37-.08-.74-.13-1.12-.13-.2-.01-.41.02-.601.07-.129.03-.24.1-.31.2-.05.08-.08.18-.08.27s.04.18.101.26c.09.11.209.2.34.27.229.12.47.23.709.33.541.18 1.061.43 1.541.73.33.209.6.49.789.83.16.318.24.67.23 1.029.011.471-.129.94-.389 1.331z"
+                    />
+                  </svg>
+                </div>
+                <div class="skills__main__row__item">
+                  <h4>Figma</h4>
+                  <svg
+                    role="img"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <title>Figma icon</title>
+                    <path
+                      d="M15.852 8.981h-4.588V0h4.588c2.476 0 4.49 2.014 4.49 4.49s-2.014 4.491-4.49 4.491zM12.735 7.51h3.117c1.665 0 3.019-1.355 3.019-3.019s-1.355-3.019-3.019-3.019h-3.117V7.51zm0 1.471H8.148c-2.476 0-4.49-2.014-4.49-4.49S5.672 0 8.148 0h4.588v8.981zm-4.587-7.51c-1.665 0-3.019 1.355-3.019 3.019s1.354 3.02 3.019 3.02h3.117V1.471H8.148zm4.587 15.019H8.148c-2.476 0-4.49-2.014-4.49-4.49s2.014-4.49 4.49-4.49h4.588v8.98zM8.148 8.981c-1.665 0-3.019 1.355-3.019 3.019s1.355 3.019 3.019 3.019h3.117V8.981H8.148zM8.172 24c-2.489 0-4.515-2.014-4.515-4.49s2.014-4.49 4.49-4.49h4.588v4.441c0 2.503-2.047 4.539-4.563 4.539zm-.024-7.51a3.023 3.023 0 0 0-3.019 3.019c0 1.665 1.365 3.019 3.044 3.019 1.705 0 3.093-1.376 3.093-3.068v-2.97H8.148zm7.704 0h-.098c-2.476 0-4.49-2.014-4.49-4.49s2.014-4.49 4.49-4.49h.098c2.476 0 4.49 2.014 4.49 4.49s-2.014 4.49-4.49 4.49zm-.097-7.509c-1.665 0-3.019 1.355-3.019 3.019s1.355 3.019 3.019 3.019h.098c1.665 0 3.019-1.355 3.019-3.019s-1.355-3.019-3.019-3.019h-.098z"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </section>
 
-					<section class="contact main-content-module freelance__card-wrapper__item" id="contact">
-						<h2>Contact Me</h2>
-						<form
-							id="contact__form"
-							class="contact__form"
-							action="http://localhost:3000/api/sendemail"
-							method="post"
-						>
-							<label for="name">Your Name*</label><br />
-							<input class="contact__form__input" type="text" id="name" name="name" /><br />
-							<label for="email">Your Email*</label><br />
-							<input class="contact__form__input" type="email" id="email" name="email" /><br /><br />
-							<label for="message">Your Message*</label><br />
-							<textarea class="contact__form__input" type="text" id="message" name="message"></textarea>
-							<input id="submitMsgBtn" class="contact__form__submit button" type="submit" value="Send" />
-						</form>
-					</section>
+          <section
+            class="contact main-content-module freelance__card-wrapper__item"
+            id="contact"
+          >
+            <h2>Contact Me</h2>
+            <form
+              id="contact__form"
+              class="contact__form"
+              action="http://localhost:3000/api/sendemail"
+              method="post"
+            >
+              <label for="name">Your Name*</label><br />
+              <input
+                class="contact__form__input"
+                type="text"
+                id="name"
+                name="name"
+              /><br />
+              <label for="email">Your Email*</label><br />
+              <input
+                class="contact__form__input"
+                type="email"
+                id="email"
+                name="email"
+              /><br /><br />
+              <label for="message">Your Message*</label><br />
+              <textarea
+                class="contact__form__input"
+                type="text"
+                id="message"
+                name="message"
+              ></textarea>
+              <input
+                id="submitMsgBtn"
+                class="contact__form__submit button"
+                type="submit"
+                value="Send"
+              />
+            </form>
+          </section>
 
-					<footer class="footer">
-						<div class="footer__content">
-							<span class="footer__copyright">©2021 Graeme Parker Smith</span>
+          <footer class="footer">
+            <div class="footer__content">
+              <span class="footer__copyright">©2021 Graeme Parker Smith</span>
 
-							<div class="footer__social">
-								<span class="footer__social__item">
-									<a
-										href="https://github.com/Graeme-Parker-Smith"
-										rel="nofollow noreferrer"
-										aria-label="github"
-									>
-										<svg
-											role="img"
-											viewBox="0 0 24 24"
-											width="32"
-											height="32"
-											xmlns="http://www.w3.org/2000/svg"
-										>
-											<title>GitHub icon</title>
-											<path
-												d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"
-											/>
-										</svg>
-									</a>
-								</span>
-								<span class="footer__social__item">
+              <div class="footer__social">
+                <span class="footer__social__item">
+                  <a
+                    href="https://github.com/Graeme-Parker-Smith"
+                    rel="nofollow noreferrer"
+                    aria-label="github"
+                  >
+                    <svg
+                      role="img"
+                      viewBox="0 0 24 24"
+                      width="32"
+                      height="32"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <title>GitHub icon</title>
+                      <path
+                        d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"
+                      />
+                    </svg>
+                  </a>
+                </span>
+                <!-- <span class="footer__social__item">
 									<a
 										href="https://www.linkedin.com/in/graeme-parker-smith/"
 										rel="nofollow noreferrer"
@@ -684,17 +894,17 @@
 											/>
 										</svg>
 									</a>
-								</span>
-							</div>
-						</div>
-					</footer>
-				</main>
-			</div>
-		</div>
+								</span> -->
+              </div>
+            </div>
+          </footer>
+        </main>
+      </div>
+    </div>
 
-		<style>
-			@import 'fonts/bauhaus93/stylesheet.css';
-		</style>
-		<script type="text/javascript" src="./app/js/script.js"></script>
-	</body>
+    <style>
+      @import "fonts/bauhaus93/stylesheet.css";
+    </style>
+    <script type="text/javascript" src="./app/js/script.js"></script>
+  </body>
 </html>
