@@ -3,10 +3,16 @@
         text-align: center;
     }
     &__card-wrapper {
-        display: grid;
-        grid-template-columns: repeat(auto-fill, max(25%, min(21.75rem, 100vw)));
-        justify-content: center;
-        grid-gap: 2rem;
+        // display: grid;
+        // grid-template-columns: repeat(auto-fill, max(25%, min(21.75rem, 100vw)));
+        // justify-content: center;
+        // grid-gap: 2rem;
+        display: flex;
+        gap: 2rem;
+        flex-direction: column;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        height: 200vh;
         &__item {
             position: relative;
             display: flex;
@@ -39,6 +45,7 @@
                 }
             }
             &__text-wrapper {
+                display: none;
                 text-align: center;
 
                 &__description {
@@ -51,7 +58,7 @@
                 &__live-site-link {
                      max-width: 80%;
                     margin: 2rem auto;
-                    margin-top: auto;
+                    margin-top: 2rem;
                     position: relative;
                     display: block;
                     justify-self: end;

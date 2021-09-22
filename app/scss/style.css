@@ -184,6 +184,29 @@ a {
   background: linear-gradient(to bottom, #0a272b, #0a6062);
 }
 
+img {
+  clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+}
+
+ul.transition {
+  display: flex;
+  position: absolute;
+  z-index: 99;
+  height: 100vh;
+  width: 100%;
+  top: 0;
+  left: 0;
+  margin: 0;
+  pointer-events: none;
+}
+
+ul.transition li {
+  transform: scaleY(0);
+  background: white;
+  width: 20%;
+  list-style-type: none;
+}
+
 @keyframes fadeInRight {
   0% {
     opacity: 0;
@@ -681,10 +704,12 @@ button:hover::before,
   text-align: center;
 }
 .projects__card-wrapper {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, max(25%, min(21.75rem, 100vw)));
-  justify-content: center;
-  grid-gap: 2rem;
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  height: 200vh;
 }
 .projects__card-wrapper__item {
   position: relative;
@@ -715,6 +740,7 @@ button:hover::before,
   border-radius: 5px;
 }
 .projects__card-wrapper__item__text-wrapper {
+  display: none;
   text-align: center;
 }
 .projects__card-wrapper__item__text-wrapper__description {
@@ -725,7 +751,7 @@ button:hover::before,
 .projects__card-wrapper__item__text-wrapper__live-site-link {
   max-width: 80%;
   margin: 2rem auto;
-  margin-top: auto;
+  margin-top: 2rem;
   position: relative;
   display: block;
   justify-self: end;

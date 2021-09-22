@@ -191,3 +191,26 @@ a {
 .page-gradient {
 	background: linear-gradient(to bottom, $darkGreen, $turquoise);
 }
+
+img {
+	clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+}
+
+ul.transition {
+	display: flex;
+	position: absolute;
+	z-index: 99;
+	height: 100vh;
+	width: 100%;
+	top: 0;
+	left: 0;
+	margin: 0;
+	pointer-events: none;
+}
+
+ul.transition li {
+	transform: scaleY(0);
+	background: white;
+	width: 20%;
+	list-style-type: none;
+}
