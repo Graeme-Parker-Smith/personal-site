@@ -58,9 +58,9 @@
         position: relative;
         z-index: 4;
         pointer-events: none;
-        @include breakpoint-up(large) {
-            display: none;
-        }
+        // @include breakpoint-up(large) {
+        //     display: none;
+        // }
         &:hover {
             border: none;
         }

@@ -76,10 +76,12 @@ a {
 .main-content-module {
   margin: 0 auto;
   padding: 0rem 2rem 2rem 2rem;
+  max-width: 1200px;
 }
 .main-content-module--container {
-  flex-grow: 1;
-  padding-left: 30%;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
 }
 @media (max-width: 63.9375em) {
   .main-content-module--container {
@@ -207,6 +209,13 @@ ul.transition li {
   list-style-type: none;
 }
 
+.letter {
+  display: inline-block;
+  line-height: 1em;
+  clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+  transform: translateY(-50px);
+}
+
 @keyframes fadeInRight {
   0% {
     opacity: 0;
@@ -326,11 +335,6 @@ ul.transition li {
   position: relative;
   z-index: 4;
   pointer-events: none;
-}
-@media (min-width: 64em) {
-  .header__logo {
-    display: none;
-  }
 }
 .header__logo:hover {
   border: none;
@@ -535,7 +539,7 @@ button:hover::before,
 
 .hero {
   padding-bottom: 6rem;
-  padding-top: 4.5rem;
+  padding-top: 8.5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -543,7 +547,10 @@ button:hover::before,
 }
 @media (min-width: 64em) {
   .hero--container {
-    display: none;
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
 }
 .hero__names {
@@ -557,17 +564,6 @@ button:hover::before,
   margin-top: 1rem;
   display: block;
   text-align: left;
-  opacity: 0;
-  transform: translateX(-100px);
-}
-.hero__names__name:nth-child(1) {
-  animation: fadeInRight 0.2s ease-out 0s 1 forwards;
-}
-.hero__names__name:nth-child(2) {
-  animation: fadeInRight 0.2s ease-out 0.2s 1 forwards;
-}
-.hero__names__name:nth-child(3) {
-  animation: fadeInRight 0.2s ease-out 0.4s 1 forwards;
 }
 .hero__portrait {
   width: 170px;
@@ -704,12 +700,10 @@ button:hover::before,
   text-align: center;
 }
 .projects__card-wrapper {
-  display: flex;
-  gap: 2rem;
-  flex-direction: column;
-  justify-content: flex-start;
-  flex-wrap: wrap;
-  height: 200vh;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, max(25%, min(21.75rem, 100vw)));
+  justify-content: center;
+  grid-gap: 2rem;
 }
 .projects__card-wrapper__item {
   position: relative;
@@ -751,7 +745,7 @@ button:hover::before,
 .projects__card-wrapper__item__text-wrapper__live-site-link {
   max-width: 80%;
   margin: 2rem auto;
-  margin-top: 2rem;
+  margin-top: auto;
   position: relative;
   display: block;
   justify-self: end;
