@@ -33,6 +33,13 @@
     <meta name="referrer" content="no-referrer-when-downgrade" />
     <meta name="format-detection" content="telephone=no" />
 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Commissioner:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
     <!-- if javascript is enabled, remove "no-js" class from html document -->
     <script>
       document.documentElement.classList.remove("no-js");
@@ -173,8 +180,6 @@
       </header>
       <div class="main-content-module--container">
         <main>
-       
-
           <section class="hero" id="hero">
             <div class="hero--container">
               <h1 class="hero__names">
@@ -206,7 +211,7 @@
           <section class="about main-content-module" id="about">
             <h2 class="about__header">About Me</h2>
             <div class="about__description">
-              <h3 class="about__description__preface">Hi, I'm Graeme</h3>
+              <p class="about__description__preface">Hi, I'm Graeme</p>
               <p class="about__description__content">
                 I work independently with businesses to create web-based
                 solutions, but I am also interested in collaborating with others
@@ -1136,66 +1141,85 @@
     <script type="text/javascript" src="app/js/pageTransition.js"></script>
 
     <script>
-      let textWrapper = document.querySelector('.title-1');
-			// replace all non-space characters in selected div with a span with class of letter containing character
-			textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+      let textWrapper = document.querySelector(".title-1");
+      // replace all non-space characters in selected div with a span with class of letter containing character
+      textWrapper.innerHTML = textWrapper.textContent.replace(
+        /\S/g,
+        "<span class='letter'>$&</span>"
+      );
 
-			let textWrapper2 = document.querySelector('.title-2');
-			textWrapper2.innerHTML = textWrapper2.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+      let textWrapper2 = document.querySelector(".title-2");
+      textWrapper2.innerHTML = textWrapper2.textContent.replace(
+        /\S/g,
+        "<span class='letter'>$&</span>"
+      );
 
-			let textWrapper3 = document.querySelector('.title-3');
-			textWrapper3.innerHTML = textWrapper3.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+      let textWrapper3 = document.querySelector(".title-3");
+      textWrapper3.innerHTML = textWrapper3.textContent.replace(
+        /\S/g,
+        "<span class='letter'>$&</span>"
+      );
 
       let tl = gsap.timeline();
 
-      tl.to('.title-1 .letter', {
-				opacity: 1,
-				y: '0',
-				clipPath: 'polygon(0 0, 100% 0, 100% 100%, 0% 100%)',
-				stagger: '.07',
-			});
-			tl.to(
-				'.title-2 .letter',
-				{ opacity: 1, y: '0', clipPath: 'polygon(0 0, 100% 0, 100% 100%, 0% 100%)', stagger: '.07' },
-				'-=.5'
-			);
-			tl.to(
-				'.title-3 .letter',
-				{ opacity: 1, y: '0', clipPath: 'polygon(0 0, 100% 0, 100% 100%, 0% 100%)', stagger: '.07' },
-				'-=.5'
-			);
+      tl.to(".title-1 .letter", {
+        opacity: 1,
+        y: "0",
+        clipPath: "polygon(0 0, 100% 0, 100% 100%, 0% 100%)",
+        stagger: ".07",
+      });
+      tl.to(
+        ".title-2 .letter",
+        {
+          opacity: 1,
+          y: "0",
+          clipPath: "polygon(0 0, 100% 0, 100% 100%, 0% 100%)",
+          stagger: ".07",
+        },
+        "-=.5"
+      );
+      tl.to(
+        ".title-3 .letter",
+        {
+          opacity: 1,
+          y: "0",
+          clipPath: "polygon(0 0, 100% 0, 100% 100%, 0% 100%)",
+          stagger: ".07",
+        },
+        "-=.5"
+      );
       // tl.from('p', { opacity: 0, y: '-50px' }, '-=.7');
 
-			// tl.to(
-			// 	'.img',
-			// 	{ clipPath: 'polygon(0 0, 100% 0, 100% 100%, 0 100%)', ease: Back.easeOut.config(1.7), duration: 0.75 },
-			// 	'-=.5'
-			// );
+      // tl.to(
+      // 	'.img',
+      // 	{ clipPath: 'polygon(0 0, 100% 0, 100% 100%, 0 100%)', ease: Back.easeOut.config(1.7), duration: 0.75 },
+      // 	'-=.5'
+      // );
 
       // var myAnimation = new hoverEffect({
-			// 	parent: document.querySelector('.img'),
-			// 	intensity: 0.3,
-			// 	image1: 'assets/abstract-1.jpg',
-			// 	image2: 'assets/abstract-2.jpg',
-			// 	displacementImage: 'assets/dis.png',
-			// });
+      // 	parent: document.querySelector('.img'),
+      // 	intensity: 0.3,
+      // 	image1: 'assets/abstract-1.jpg',
+      // 	image2: 'assets/abstract-2.jpg',
+      // 	displacementImage: 'assets/dis.png',
+      // });
 
-			// let title = document.querySelector('.container');
-			// let img = document.querySelector('.img');
-			// let cursorCircle = document.querySelector('.cursor');
+      // let title = document.querySelector('.container');
+      // let img = document.querySelector('.img');
+      // let cursorCircle = document.querySelector('.cursor');
 
-			// let cursor = {
-			// 	x: 0,
-			// 	y: 0,
-			// };
+      // let cursor = {
+      // 	x: 0,
+      // 	y: 0,
+      // };
 
-			// document.addEventListener('mousemove', (e) => {
-			// 	cursor.x = -e.clientX * 0.1;
-			// 	cursor.y = -e.clientY * 0.1;
+      // document.addEventListener('mousemove', (e) => {
+      // 	cursor.x = -e.clientX * 0.1;
+      // 	cursor.y = -e.clientY * 0.1;
 
-			// 	img.style.transform = `translate(${cursor.x}px, ${cursor.y}px)`;
-			// 	cursorCircle.style.transform = `translate(${e.clientX}px, ${e.clientY}px)`;
-			// });
+      // 	img.style.transform = `translate(${cursor.x}px, ${cursor.y}px)`;
+      // 	cursorCircle.style.transform = `translate(${e.clientX}px, ${e.clientY}px)`;
+      // });
     </script>
   </body>
 </html>
