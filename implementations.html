@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+  <head>
+    <title>Graeme Parker Smith -- Web Developer</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="pwa/favicon.ico" />
+    <link rel="apple-touch-icon" href="pwa/apple-touch-icon.png" />
+    <!-- <link rel="manifest" href="pwa/manifest.json" /> -->
+
+    <link rel="stylesheet" href="./app/scss/style.css" />
+    <!-- <link rel="preload" href="./fonts/bauhaus93/stylesheet.css" as="style" /> -->
+    <link
+      rel="preload"
+      href="./fonts/bauhaus93/bauhaus_93-webfont.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#000000" />
+
+    <meta name="author" content="Graeme Parker Smith" />
+    <meta
+      name="description"
+      content="Full-Stack Web Developer for Hire. I create professional websites and apps. Message me for work with design, frontend/backend development, Domain/DNS configuration, web hosting, or database management"
+    />
+    <meta
+      name="keywords"
+      keywords="full stack, web, web developer, developer, programmer, website, app, react, aws, html, css, javascript"
+    />
+    <meta name="robots" content="index,follow" />
+    <meta name="referrer" content="no-referrer-when-downgrade" />
+    <meta name="format-detection" content="telephone=no" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Commissioner:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- if javascript is enabled, remove "no-js" class from html document -->
+    <script>
+      document.documentElement.classList.remove("no-js");
+    </script>
+    <!-- modernizr script to detect webp support -->
+    <script src="./app/js/modernizr.js"></script>
+
+    <!-- service worker script -->
+    <!-- <script type="module">
+			import { Workbox } from 'https://storage.googleapis.com/workbox-cdn/releases/6.0.2/workbox-window.prod.mjs';
+
+			if ('serviceWorker' in navigator) {
+				const wb = new Workbox('/sw.js');
+
+				wb.register();
+			}
+		</script> -->
+  </head>
+  <body data-barba="wrapper">
+    <ul class="transition">
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+
+    <div
+      data-barba="container"
+      data-barba-namespace="home"
+      class="layout-module--container"
+    >
+
+      <header class="header" id="header">
+        <div class="overlay has-fade"></div>
+        <nav class="container container--pall flex flex-jc-sb flex-ai-c">
+          <a href="#header" class="header__logo">
+            <img src="pwa/android-chrome-192x192.png" alt="brand logo" />
+          </a>
+
+          <div
+            id="btnHamburger"
+            href="#"
+            class="header__toggle hide-for-desktop"
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+
+          <div class="header__links hide-for-mobile">
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#freelance">Freelance</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+          </div>
+        </nav>
+        <div class="header__menu has-fade">
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#freelance">Freelance</a>
+          <a href="#skills">Skills</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </header>
+
+      <main class="implementations">
+          <div class="projects">
+              <div class="projects__card-wrapper">
+
+                <div class="projects__card-wrapper__item">
+                    <h3 class="projects__card-wrapper__item__text-wrapper__title">
+                      Photosnap
+                    </h3>
+                    <div class="projects__card-wrapper__item__image-wrapper">
+                      <picture>
+                        <!-- <source
+                          srcset="images/jaded-server-code-cropped.webp"
+                          type="image/webp"
+                        /> -->
+                        <img
+                          src="images/photosnap_screenshot.jpg"
+                          width="200"
+                          height="300"
+                          alt="frontendmentor project thumbnail"
+                        />
+                      </picture>
+                    </div>
+                    <div class="projects__card-wrapper__item__text-wrapper">
+                      <p
+                        class="
+                          projects__card-wrapper__item__text-wrapper__description
+                        "
+                      >
+                        A multi-page marketing site for a photo-sharing app created
+                        as part of a challenge from frontendmentor.io. For this
+                        project I made extensive use of css grid and flexbox, SCSS
+                        syntax for organization, and JavaScript for the mobile menu
+                        and pricing plan toggle
+                      </p>
+                    </div>
+                    <a
+                      href="implementations.html"
+                      class="
+                        button
+                        projects__card-wrapper__item__text-wrapper__live-site-link
+                      "
+                    >
+                      View Details
+                    </a>
+                  </div>
+
+                <div class="projects__card-wrapper__item">
+                    <h3 class="projects__card-wrapper__item__text-wrapper__title">
+                      Galleria Slideshow
+                    </h3>
+                    <div class="projects__card-wrapper__item__image-wrapper">
+                      <picture>
+                        <!-- <source
+                          srcset="images/jaded-server-code-cropped.webp"
+                          type="image/webp"
+                        /> -->
+                        <img
+                          src="images/galleria_screenshot.jpg"
+                          width="200"
+                          height="300"
+                          alt="frontendmentor project thumbnail"
+                        />
+                      </picture>
+                    </div>
+                    <div class="projects__card-wrapper__item__text-wrapper">
+                      <p
+                        class="
+                          projects__card-wrapper__item__text-wrapper__description
+                        "
+                      >
+                        A multi-page marketing site for a photo-sharing app created
+                        as part of a challenge from frontendmentor.io. For this
+                        project I made extensive use of css grid and flexbox, SCSS
+                        syntax for organization, and JavaScript for the mobile menu
+                        and pricing plan toggle
+                      </p>
+                    </div>
+                    <a
+                      href="https://graeme-parker-smith.github.io/galleria-slideshow/"
+                      class="
+                        button
+                        projects__card-wrapper__item__text-wrapper__live-site-link
+                      "
+                    >
+                      View Details
+                    </a>
+                  </div>
+    
+                  <div class="projects__card-wrapper__item">
+                    <h3 class="projects__card-wrapper__item__text-wrapper__title">
+                      Creative Agency
+                    </h3>
+                    <div class="projects__card-wrapper__item__image-wrapper">
+                      <picture>
+                        <!-- <source
+                          srcset="images/jaded-server-code-cropped.webp"
+                          type="image/webp"
+                        /> -->
+                        <img
+                          src="images/creativeAgency_screenshot.jpg"
+                          width="200"
+                          height="300"
+                          alt="frontendmentor project thumbnail"
+                        />
+                      </picture>
+                    </div>
+                    <div class="projects__card-wrapper__item__text-wrapper">
+                      <p
+                        class="
+                          projects__card-wrapper__item__text-wrapper__description
+                        "
+                      >
+                        A multi-page marketing site for a photo-sharing app created
+                        as part of a challenge from frontendmentor.io. For this
+                        project I made extensive use of css grid and flexbox, SCSS
+                        syntax for organization, and JavaScript for the mobile menu
+                        and pricing plan toggle
+                      </p>
+                    </div>
+                    <a
+                      href="https://graeme-parker-smith.github.io/creative-agency-landing-page/"
+                      class="
+                        button
+                        projects__card-wrapper__item__text-wrapper__live-site-link
+                      "
+                    >
+                      Live Site
+                    </a>
+                  </div>
+                  <div class="projects__card-wrapper__item">
+                    <h3 class="projects__card-wrapper__item__text-wrapper__title">
+                      Minimalist Portfolio
+                    </h3>
+                    <div class="projects__card-wrapper__item__image-wrapper">
+                      <picture>
+                        <!-- <source
+                          srcset="images/jaded-server-code-cropped.webp"
+                          type="image/webp"
+                        /> -->
+                        <img
+                          src="images/minimalist_screenshot.jpg"
+                          width="200"
+                          height="300"
+                          alt="frontendmentor project thumbnail"
+                        />
+                      </picture>
+                    </div>
+                    <div class="projects__card-wrapper__item__text-wrapper">
+                      <p
+                        class="
+                          projects__card-wrapper__item__text-wrapper__description
+                        "
+                      >
+                        A multi-page marketing site for a photo-sharing app created
+                        as part of a challenge from frontendmentor.io. For this
+                        project I made extensive use of css grid and flexbox, SCSS
+                        syntax for organization, and JavaScript for the mobile menu
+                        and pricing plan toggle
+                      </p>
+                    </div>
+                    <a
+                      href="https://graeme-parker-smith.github.io/creative-agency-landing-page/"
+                      class="
+                        button
+                        projects__card-wrapper__item__text-wrapper__live-site-link
+                      "
+                    >
+                      Live Site
+                    </a>
+                  </div>
+                  <div class="projects__card-wrapper__item">
+                    <h3 class="projects__card-wrapper__item__text-wrapper__title">
+                      Loopstudios
+                    </h3>
+                    <div class="projects__card-wrapper__item__image-wrapper">
+                      <picture>
+                        <!-- <source
+                          srcset="images/jaded-server-code-cropped.webp"
+                          type="image/webp"
+                        /> -->
+                        <img
+                          src="images/loopstudios_screenshot.jpg"
+                          width="200"
+                          height="300"
+                          alt="frontendmentor project thumbnail"
+                        />
+                      </picture>
+                    </div>
+                    <div class="projects__card-wrapper__item__text-wrapper">
+                      <p
+                        class="
+                          projects__card-wrapper__item__text-wrapper__description
+                        "
+                      >
+                        A multi-page marketing site for a photo-sharing app created
+                        as part of a challenge from frontendmentor.io. For this
+                        project I made extensive use of css grid and flexbox, SCSS
+                        syntax for organization, and JavaScript for the mobile menu
+                        and pricing plan toggle
+                      </p>
+                    </div>
+                    <a
+                      href="https://graeme-parker-smith.github.io/creative-agency-landing-page/"
+                      class="
+                        button
+                        projects__card-wrapper__item__text-wrapper__live-site-link
+                      "
+                    >
+                      Live Site
+                    </a>
+                  </div>
+    
+                  <div class="projects__card-wrapper__item">
+                    <h3 class="projects__card-wrapper__item__text-wrapper__title">
+                      Huddle Landing
+                    </h3>
+                    <div class="projects__card-wrapper__item__image-wrapper">
+                      <picture>
+                        <!-- <source
+                          srcset="images/jaded-server-code-cropped.webp"
+                          type="image/webp"
+                        /> -->
+                        <img
+                          src="images/huddle_screenshot.jpg"
+                          width="200"
+                          height="300"
+                          alt="frontendmentor project thumbnail"
+                        />
+                      </picture>
+                    </div>
+                    <div class="projects__card-wrapper__item__text-wrapper">
+                      <p
+                        class="
+                          projects__card-wrapper__item__text-wrapper__description
+                        "
+                      >
+                        A multi-page marketing site for a photo-sharing app created
+                        as part of a challenge from frontendmentor.io. For this
+                        project I made extensive use of css grid and flexbox, SCSS
+                        syntax for organization, and JavaScript for the mobile menu
+                        and pricing plan toggle
+                      </p>
+                    </div>
+                    <a
+                      href="https://graeme-parker-smith.github.io/creative-agency-landing-page/"
+                      class="
+                        button
+                        projects__card-wrapper__item__text-wrapper__live-site-link
+                      "
+                    >
+                      Live Site
+                    </a>
+                  </div>
+              </div>
+              <footer class="footer">
+                <div class="footer__content">
+                  <span class="footer__copyright">©2021 Graeme Parker Smith</span>
+        
+                  <div class="footer__social">
+                    <span class="footer__social__item">
+                      <a
+                        href="https://github.com/Graeme-Parker-Smith"
+                        rel="nofollow noreferrer"
+                        aria-label="github"
+                      >
+                        <svg
+                          role="img"
+                          viewBox="0 0 24 24"
+                          width="32"
+                          height="32"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <title>GitHub icon</title>
+                          <path
+                            d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"
+                          />
+                        </svg>
+                      </a>
+                    </span>
+                    <span class="footer__social__item">
+                      <a
+                        href="https://www.linkedin.com/in/graeme-parker-smith/"
+                        rel="nofollow noreferrer"
+                        aria-label="LinkedIn"
+                      >
+                        <svg
+                          role="img"
+                          width="32"
+                          height="32"
+                          viewBox="0 0 24 24"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <title>LinkedIn icon</title>
+                          <path
+                            d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"
+                          />
+                        </svg>
+                      </a>
+                    </span>
+                  </div>
+                </div>
+              </footer>
+          </div>
+      </main>
+      
+     
+    </div>
+
+    <style>
+      @import "fonts/bauhaus93/stylesheet.css";
+    </style>
+    <script type="text/javascript" src="./app/js/script.js"></script>
+    <script src="https://unpkg.com/@barba/core"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@barba/core"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/barba.js/0.0.2/barba.js" integrity="sha512-B0OySVvRAfari2sUuR2p6F9IgLANmnAWyXoJAQzqkUpOJDkT2RwcVUtlPaxd2691ZtfaNsPHTRvEgDD82tEdBQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+    <script type="text/javascript" src="app/js/pageTransition.js"></script>
+
+    <script>
+      let textWrapper = document.querySelector(".title-1");
+      // replace all non-space characters in selected div with a span with class of letter containing character
+      textWrapper.innerHTML = textWrapper.textContent.replace(
+        /\S/g,
+        "<span class='letter'>$&</span>"
+      );
+
+      let textWrapper2 = document.querySelector(".title-2");
+      textWrapper2.innerHTML = textWrapper2.textContent.replace(
+        /\S/g,
+        "<span class='letter'>$&</span>"
+      );
+
+      let textWrapper3 = document.querySelector(".title-3");
+      textWrapper3.innerHTML = textWrapper3.textContent.replace(
+        /\S/g,
+        "<span class='letter'>$&</span>"
+      );
+
+      let tl = gsap.timeline();
+
+      tl.to(".title-1 .letter", {
+        opacity: 1,
+        y: "0",
+        clipPath: "polygon(0 0, 100% 0, 100% 100%, 0% 100%)",
+        stagger: ".07",
+      });
+      tl.to(
+        ".title-2 .letter",
+        {
+          opacity: 1,
+          y: "0",
+          clipPath: "polygon(0 0, 100% 0, 100% 100%, 0% 100%)",
+          stagger: ".07",
+        },
+        "-=.5"
+      );
+      tl.to(
+        ".title-3 .letter",
+        {
+          opacity: 1,
+          y: "0",
+          clipPath: "polygon(0 0, 100% 0, 100% 100%, 0% 100%)",
+          stagger: ".07",
+        },
+        "-=.5"
+      );
+      // tl.from('p', { opacity: 0, y: '-50px' }, '-=.7');
+
+      // tl.to(
+      // 	'.img',
+      // 	{ clipPath: 'polygon(0 0, 100% 0, 100% 100%, 0 100%)', ease: Back.easeOut.config(1.7), duration: 0.75 },
+      // 	'-=.5'
+      // );
+
+      // var myAnimation = new hoverEffect({
+      // 	parent: document.querySelector('.img'),
+      // 	intensity: 0.3,
+      // 	image1: 'assets/abstract-1.jpg',
+      // 	image2: 'assets/abstract-2.jpg',
+      // 	displacementImage: 'assets/dis.png',
+      // });
+
+      // let title = document.querySelector('.container');
+      // let img = document.querySelector('.img');
+      // let cursorCircle = document.querySelector('.cursor');
+
+      // let cursor = {
+      // 	x: 0,
+      // 	y: 0,
+      // };
+
+      // document.addEventListener('mousemove', (e) => {
+      // 	cursor.x = -e.clientX * 0.1;
+      // 	cursor.y = -e.clientY * 0.1;
+
+      // 	img.style.transform = `translate(${cursor.x}px, ${cursor.y}px)`;
+      // 	cursorCircle.style.transform = `translate(${e.clientX}px, ${e.clientY}px)`;
+      // });
+    </script>
+  </body>
+</html>

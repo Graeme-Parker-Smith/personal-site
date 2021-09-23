@@ -1,0 +1,13 @@
+.implementations {
+    background: white;
+    width: 100%;
+    .projects__card-wrapper {
+        padding-top: 8rem;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        gap: 2rem;
+        height: 250vh;
+    }
+}

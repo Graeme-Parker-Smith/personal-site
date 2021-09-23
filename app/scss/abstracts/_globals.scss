@@ -21,7 +21,7 @@ body {
 	color: white;
 	color: white;
 	line-height: 1.3;
-	font-family: 'Commissioner', sans-serif;
+	font-family: "Commissioner", sans-serif;
 	@include breakpoint-up(large) {
 		font-size: $font-lg;
 	}
@@ -30,9 +30,12 @@ body {
 	}
 }
 h1,
+h2 {
+	font-family: "bauhaus_93regular";
+}
+h1,
 h2,
 h3 {
-	font-family: "bauhaus_93regular";
 	margin-top: 0;
 	font-weight: 800;
 	line-height: 1.15;

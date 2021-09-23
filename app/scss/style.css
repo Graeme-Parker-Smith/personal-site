@@ -34,9 +34,13 @@ body.noscroll {
 }
 
 h1,
+h2 {
+  font-family: "bauhaus_93regular";
+}
+
+h1,
 h2,
 h3 {
-  font-family: "bauhaus_93regular";
   margin-top: 0;
   font-weight: 800;
   line-height: 1.15;
@@ -420,11 +424,6 @@ ul.transition li {
   background-color: black;
   color: white;
 }
-@media (min-width: 64em) {
-  .footer {
-    display: none;
-  }
-}
 .footer__content {
   margin: 0 auto;
   padding: 1.5rem;
@@ -752,7 +751,6 @@ button:hover::before,
   display: block;
   justify-self: end;
   bottom: 0;
-  width: 50%;
   text-align: center;
 }
 
@@ -845,6 +843,20 @@ button:hover::before,
 }
 .contact__form__submit:hover {
   background: linear-gradient(-45deg, rgba(0, 0, 0, 0.12), rgba(255, 255, 255, 0.15));
+}
+
+.implementations {
+  background: white;
+  width: 100%;
+}
+.implementations .projects__card-wrapper {
+  padding-top: 8rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 2rem;
+  height: 250vh;
 }
 
 /*# sourceMappingURL=style.css.map */
