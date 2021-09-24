@@ -1,13 +1,19 @@
 .implementations {
-    background: white;
+    background: black;
     width: 100%;
     .projects__card-wrapper {
-        padding-top: 8rem;
+        padding-top: 4rem;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
         justify-content: flex-start;
         gap: 2rem;
-        height: 250vh;
+        height: 300vh;
+    }
+
+    .button {
+        display: block;
+        margin-top: 4rem;
+        margin: 0 auto;
     }
 }

@@ -222,6 +222,10 @@ ul.transition li {
   transform: translateY(-50px);
 }
 
+main {
+  margin-top: 75px;
+}
+
 @keyframes fadeInRight {
   0% {
     opacity: 0;
@@ -846,17 +850,22 @@ button:hover::before,
 }
 
 .implementations {
-  background: white;
+  background: black;
   width: 100%;
 }
 .implementations .projects__card-wrapper {
-  padding-top: 8rem;
+  padding-top: 4rem;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: flex-start;
   gap: 2rem;
-  height: 250vh;
+  height: 300vh;
+}
+.implementations .button {
+  display: block;
+  margin-top: 4rem;
+  margin: 0 auto;
 }
 
 /*# sourceMappingURL=style.css.map */
