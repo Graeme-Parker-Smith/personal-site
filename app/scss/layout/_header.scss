@@ -7,13 +7,14 @@
     border-bottom: 4px solid forestGreen;
     // Hamburger Open Styles
     &.open {
-        position: relative;
+        position: absolute;
         z-index: 1;
         .header__links {
             position: relative;
             z-index: 4;
         }
         .header__toggle {
+            
             > span {
                 position: relative;
                 z-index: 4;
@@ -73,7 +74,7 @@
 
     &__toggle {
         // Mobile Menu Toggle
-
+        cursor: pointer;
         > span {
             display: block;
             width: 26px;

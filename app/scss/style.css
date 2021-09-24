@@ -304,7 +304,7 @@ main {
   border-bottom: 4px solid forestGreen;
 }
 .header.open {
-  position: relative;
+  position: absolute;
   z-index: 1;
 }
 .header.open .header__links {
@@ -353,6 +353,9 @@ main {
   height: 2rem;
   width: 2rem;
   border-radius: 25%;
+}
+.header__toggle {
+  cursor: pointer;
 }
 .header__toggle > span {
   display: block;
@@ -750,7 +753,6 @@ button:hover::before,
 .projects__card-wrapper__item__text-wrapper__live-site-link {
   max-width: 80%;
   margin: 2rem auto;
-  margin-top: auto;
   position: relative;
   display: block;
   justify-self: end;
