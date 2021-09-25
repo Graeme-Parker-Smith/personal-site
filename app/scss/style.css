@@ -192,6 +192,10 @@ a {
   background: linear-gradient(to bottom, #0a272b, #0a6062);
 }
 
+.ta-c {
+  text-align: center;
+}
+
 img {
   clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
 }
@@ -515,6 +519,16 @@ main {
   bottom: 0;
 }
 
+.detail__banner {
+  width: 100%;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.detail__banner.blackjack {
+  background-image: url("/images/blackjack_screenshot-splits.jpg");
+}
 .detail h2 {
   margin: 4rem auto 1rem auto;
 }
@@ -528,26 +542,32 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  display: grid;
+  justify-content: center;
+  padding: 1rem;
+  gap: 2rem;
 }
 @media (min-width: 48em) {
   .detail__content {
-    flex-direction: row;
-    align-items: stretch;
+    display: grid;
     justify-content: space-between;
     gap: 2rem;
     grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    grid-auto-flow: dense;
+  }
+  .detail__content .ta-c {
+    text-align: left;
   }
   .detail__content .detail__image {
     grid-column: 1/2;
-    max-width: 300px;
+    max-width: 80%;
+    height: auto;
   }
   .detail__content picture:first-of-type {
     grid-row: 1/3;
   }
   .detail__content .detail__text-block {
     grid-column: 2/3;
-    align-self: center;
     line-height: 2;
   }
 }
