@@ -29,4 +29,9 @@ button,
 	&:hover::before {
 		opacity: 1;
 	}
+
+	&--centered {
+		display: block;
+		margin: 0 auto;
+	}
 }

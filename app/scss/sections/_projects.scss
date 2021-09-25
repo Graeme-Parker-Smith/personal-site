@@ -49,6 +49,21 @@
                     border-radius: 5px;
                 }
             }
+            &__tags-wrapper {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 0.5rem;
+                margin: 1rem;
+                font-size: 1.2rem;
+                justify-content: center;
+                flex-direction: column;
+                height: 100%;
+                .tag {
+                    background: green;
+                    border-radius: 999px;
+                    padding: .5rem 2rem;
+                }
+            }
             &__text-wrapper {
                 display: none;
                 text-align: center;
@@ -62,8 +77,9 @@
 
                 &__live-site-link {
                     max-width: 80%;
+                    min-height: 54px;
                     margin: 2rem auto;
-                    // margin-top: auto;
+                    margin-top: auto;
                     position: relative;
                     display: block;
                     justify-self: end;

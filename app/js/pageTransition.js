@@ -17,10 +17,13 @@ function pageTransition() {
 }
 
 function contentAnimation() {
-
   const tl = gsap.timeline();
-  tl.from('.about', { duration: 1.5, translateY: 50, opacity: 0 })
-  tl.to('img', { clipPath: "polygon(0 0, 100% 0, 100% 100%, 0% 100%)" }, "-=1.1")
+  tl.from(".about", { duration: 1.5, translateY: 50, opacity: 0 });
+  tl.to(
+    "img",
+    { clipPath: "polygon(0 0, 100% 0, 100% 100%, 0% 100%)" },
+    "-=1.1"
+  );
 }
 
 function delay(n) {
@@ -39,9 +42,10 @@ barba.init({
     {
       async leave(data) {
         const done = this.async();
-
         pageTransition();
+
         await delay(1500);
+        window.scrollTo(0, 0);
         done();
       },
 

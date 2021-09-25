@@ -1,6 +1,12 @@
 .implementations {
-    background: black;
+    background-color: #121212;
     width: 100%;
+    text-align: center;
+    padding-top: 8rem;
+    padding-bottom: 0;
+    p {
+        margin: 2rem;
+    }
     .projects__card-wrapper {
         padding-top: 4rem;
         display: flex;
@@ -13,7 +19,7 @@
 
     .button {
         display: block;
-        margin-top: 4rem;
+        margin-top: 6rem;
         margin: 0 auto;
     }
 }
