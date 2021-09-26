@@ -143,27 +143,52 @@
             />
           </picture>
 
-          <p class="detail__text-block">
+          <div class="detail__text-block">
             <strong>Description: </strong>
-            I originally wanted to make a multiplayer game, but to do that, I
+            <!-- I originally wanted to make a multiplayer game, but to do that, I
             knew communicating data between clients in real-time would be
             important, and http requests would not be sufficient for the task.
             So, instead, I decided to try making a chat app first to help give
             myself practice using websockets and real-time communication. I
             eventually used Expo to create the ios and android builds which I
-            then submitted to the Google Play and iOS App Stores
+            then submitted to the Google Play and iOS App Stores -->
+          
+          <p>
+            A full-stack social media app with a variety of features: Full CRUD
+            functionality (you can create, search, filter, edit, and delete user
+            accounts, messages, public chatrooms, private chatrooms, and DMs).
+            The app is composed of 5 main screens: Sign-up, Sign-in, Users,
+            Channels, and the Room screen. Users can upload an image
+            to use as a custom avatar for their user account or any channel they
+            create, as well as send/receive friend requests, receive
+            push-notifications, mark specific channels as "mature", and set an
+            expiration on messages and/or channels so that they will delete
+            themselves after a chosen amount of time!
           </p>
-
+          <p>
+            Additionally, while the user is on the "Channels" screen, they can
+            filter channels by old/new, or the number of messages currently
+            contained
+          </p>
+          <p>
+            Each channel also shows a badge indicating how many users are
+            actively inside that room at any given time. When the user is on the
+            "Room" screen, they can see who is also active in that room, view
+            user profiles, upload image and text messages, invite/kick members
+            (if room is private), and block or report inappropriate content.
+          </p>
+          <p>I eventually used Expo to create the ios and android builds which I then submitted to the app stores</p>
+        </div>
           <img
-          class="detail__image"
-          src="images/jaded-server-code-cropped.jpg"
-          alt="server code"
-        />
+            class="detail__image"
+            src="images/jaded-server-code-cropped.jpg"
+            alt="server code"
+          />
 
           <p class="detail__text-block">
             <strong>Challenges/Obstacles: </strong>
             A major obstacle I faced while working on this app was scalability
-            and performance. My initial implementations for a chatroom would
+            and performance. My initial approach would
             fetch all the messages, and then re-render the entire list whenever
             a new message was added. After sending a few dozen messages, this
             eventually caused some noticeable lag!
@@ -190,9 +215,8 @@
               when the user scrolled to the top of the list.
             </p>
           </div>
-          
-          <img class="detail__image" src="images/user-search.png" alt="" />
 
+          <img class="detail__image" src="images/user-search.png" alt="" />
 
           <div class="detail__text-block">
             <p>

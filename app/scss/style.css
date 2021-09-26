@@ -770,24 +770,26 @@ button--centered,
   width: 100%;
   height: auto;
   border-radius: 5px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 .freelance__card-wrapper__item__text-wrapper {
   text-align: center;
 }
 .freelance__card-wrapper__item__text-wrapper__description {
+  display: none;
   text-align: left;
   font-size: 1.125rem;
   margin: 1.5rem auto;
 }
 .freelance__card-wrapper__item__text-wrapper__live-site-link {
-  max-width: 80%;
   margin: 2rem auto;
   margin-top: auto;
+  margin: auto;
   position: relative;
   display: block;
   justify-self: end;
   bottom: 0;
-  width: 50%;
   text-align: center;
 }
 

@@ -36,12 +36,15 @@
                     width: 100%;
                     height: auto;
                     border-radius: 5px;
+                    margin-top: 2rem;
+                    margin-bottom: 2rem;
                 }
             }
             &__text-wrapper {
                 text-align: center;
 
                 &__description {
+                    display: none;
                     text-align: left;
                     font-size: $font-med;
                     // max-width: 80%;
@@ -49,14 +52,15 @@
                 }
 
                 &__live-site-link {
-                     max-width: 80%;
+                    //  max-width: 80%;
                     margin: 2rem auto;
                     margin-top: auto;
+                    margin: auto;
                     position: relative;
                     display: block;
                     justify-self: end;
                     bottom: 0;
-                    width: 50%;
+                    // width: 50%;
                     text-align: center;
                     // left: -50%;
                     // transform: translateX(-50%);
