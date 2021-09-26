@@ -723,6 +723,9 @@ button--centered,
   background: rgba(0, 0, 0, 0.5);
 }
 
+.about {
+  text-align: left;
+}
 .about__description__preface {
   text-align: left;
   margin-left: -1rem;
