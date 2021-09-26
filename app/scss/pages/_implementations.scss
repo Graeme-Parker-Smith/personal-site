@@ -14,7 +14,13 @@
         flex-wrap: wrap;
         justify-content: flex-start;
         gap: 2rem;
-        height: 300vh;
+        height: 390rem;
+        @include breakpoint-up(medium) {
+            height: 210rem;
+        }
+        @include breakpoint-up(xlarge) {
+            height: 155rem;
+        }
     }
 
     .button {

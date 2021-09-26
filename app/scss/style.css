@@ -521,13 +521,16 @@ main {
 
 .detail__banner {
   width: 100%;
-  height: 400px;
+  height: 40vh;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: 50% 80%;
 }
 .detail__banner.blackjack {
-  background-image: url("/images/blackjack_screenshot-splits.jpg");
+  background-image: url("/images/blackjack_preview_2.gif");
+}
+.detail__banner.jaded {
+  background-image: url("/images/server-code-wide-2.jpg");
 }
 .detail h2 {
   margin: 4rem auto 1rem auto;
@@ -966,7 +969,17 @@ button--centered,
   flex-wrap: wrap;
   justify-content: flex-start;
   gap: 2rem;
-  height: 300vh;
+  height: 390rem;
+}
+@media (min-width: 48em) {
+  .implementations .projects__card-wrapper {
+    height: 210rem;
+  }
+}
+@media (min-width: 77.5em) {
+  .implementations .projects__card-wrapper {
+    height: 155rem;
+  }
 }
 .implementations .button {
   display: block;

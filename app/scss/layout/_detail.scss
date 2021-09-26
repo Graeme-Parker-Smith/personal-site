@@ -1,12 +1,16 @@
 .detail {
     &__banner {
         width: 100%;
-        height: 400px;
+        height: 40vh;
         background-repeat: no-repeat;
         background-size: cover;
-        background-position: center;
+        background-position: 50% 80%;
         &.blackjack {
-            background-image: url("/images/blackjack_screenshot-splits.jpg");
+            background-image: url("/images/blackjack_preview_2.gif");
+        }
+        &.jaded {
+            background-image: url("/images/server-code-wide-2.jpg");
+            // background-position: center;
         }
     }
     h2 {
