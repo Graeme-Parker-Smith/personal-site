@@ -159,6 +159,9 @@ a {
 .flex-ai-c {
   align-items: center;
 }
+.flex-wrap {
+  flex-wrap: wrap;
+}
 
 .grid--2x2 {
   display: grid;
@@ -824,6 +827,8 @@ button--centered,
   width: 100%;
   height: auto;
   border-radius: 5px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 .projects__card-wrapper__item__tags-wrapper {
   display: flex;
@@ -859,6 +864,7 @@ button--centered,
   justify-self: end;
   bottom: 0;
   text-align: center;
+  flex-grow: 1;
 }
 
 .skills {
@@ -969,16 +975,16 @@ button--centered,
   flex-wrap: wrap;
   justify-content: flex-start;
   gap: 2rem;
-  height: 390rem;
+  height: 425rem;
 }
 @media (min-width: 48em) {
   .implementations .projects__card-wrapper {
-    height: 210rem;
+    height: 225rem;
   }
 }
 @media (min-width: 77.5em) {
   .implementations .projects__card-wrapper {
-    height: 155rem;
+    height: 165rem;
   }
 }
 .implementations .button {

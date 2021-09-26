@@ -47,6 +47,8 @@
                     width: 100%;
                     height: auto;
                     border-radius: 5px;
+                    margin-top: 2rem;
+                    margin-bottom: 2rem;
                 }
             }
             &__tags-wrapper {
@@ -86,6 +88,7 @@
                     bottom: 0;
                     // width: 50%;
                     text-align: center;
+                    flex-grow: 1;
                     // left: -50%;
                     // transform: translateX(-50%);
                 }

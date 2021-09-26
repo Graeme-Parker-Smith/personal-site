@@ -14,12 +14,12 @@
         flex-wrap: wrap;
         justify-content: flex-start;
         gap: 2rem;
-        height: 390rem;
+        height: 425rem;
         @include breakpoint-up(medium) {
-            height: 210rem;
+            height: 225rem;
         }
         @include breakpoint-up(xlarge) {
-            height: 155rem;
+            height: 165rem;
         }
     }
 
