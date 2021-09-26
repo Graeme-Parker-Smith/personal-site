@@ -218,7 +218,7 @@ ul.transition {
 
 ul.transition li {
   transform: scaleY(0);
-  background: white;
+  background: forestGreen;
   width: 20%;
   list-style-type: none;
 }
